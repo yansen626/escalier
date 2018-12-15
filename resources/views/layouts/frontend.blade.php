@@ -28,9 +28,10 @@
 
         @yield('content')
         <!-- Footer #1============================================= -->
-        @include('partials.frontend._footer')
+
 
     </div>
+    @include('partials.frontend._footer')
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
