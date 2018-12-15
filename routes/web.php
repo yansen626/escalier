@@ -29,7 +29,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/', 'Admin\AdminController@index')->name('admin.dashboard');
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
-    Route::get('/logout', 'Auth\LoginAdminController@logout')->name('admin.logout');
+    Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
 
     // Contact Message
     Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
