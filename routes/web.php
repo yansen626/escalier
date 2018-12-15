@@ -29,6 +29,10 @@ Route::prefix('admin')->group(function(){
     Route::get('/', 'Admin\AdminController@index')->name('admin.dashboard');
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+    Route::get('/logout', 'Auth\LoginAdminController@logout')->name('admin.logout');
+
+    // Contact Message
+    Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
 
     // Admin User
     Route::get('/admin-users', 'Admin\AdminUserController@index')->name('admin.admin-users.index');
@@ -56,9 +60,6 @@ Route::prefix('admin')->group(function(){
 
     // Currency
     Route::get('/currencies', 'Admin\CurrencyController@index')->name('admin.currencies.index');
-
-    // Contact Message
-    Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
 
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
@@ -103,13 +104,13 @@ Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 Route::view('/send-email', 'auth.send-email');
 
 // Datatables
+Route::get('/datatables-contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
 Route::get('/datatables-admin-users', 'Admin\AdminUserController@getIndex')->name('datatables.admin_users');
 Route::get('/datatables-admin-products', 'Admin\ProductController@getIndex')->name('datatables.admin_products');
 Route::get('/datatables-users', 'Admin\UserController@getIndex')->name('datatables.users');
 Route::get('/datatables-categories', 'Admin\CategoryController@getIndex')->name('datatables.categories');
 Route::get('/datatables-currencies', 'Admin\CurrencyController@getIndex')->name('datatables.currencies');
 Route::get('/datatables-store-addresses', 'Admin\StoreAddressController@getIndex')->name('datatables.store-addresses');
-Route::get('/datatables-contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
 Route::get('/datatables-subscribes', 'Admin\SubscribeController@getIndex')->name('datatables.subscribes');
 Route::get('/datatables-vouchers', 'Admin\VoucherController@getIndex')->name('datatables.vouchers');
 Route::get('/datatables-faqs', 'Admin\FaqController@getIndex')->name('datatables.faqs');

@@ -43,96 +43,9 @@
                     </a>
                 </li>
                 <li class="treeview">
-                    <a href="#">
-                        <i class="icon icon-settings light-green-text s-18 "></i> <span>Data</span>
-                        <i class="icon icon-angle-left s-18 pull-right"></i>
+                    <a href="{{ route('admin.contact-messages.index') }}">
+                        <i class="icon icon-message text-green s-18"></i>Contact Us
                     </a>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.categories.index') }}">
-                                <i class="icon icon-sticky-note text-green"></i>Category
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.currencies.index') }}">
-                                <i class="icon icon-money text-green"></i>Currencies
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.contact-messages.index') }}">
-                                <i class="icon icon-message text-green"></i>Contact Us
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.subscribes.index') }}">
-                                <i class="icon icon-user-circle text-green"></i>Subscribes
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.vouchers.index') }}">
-                                <i class="icon icon-vcard text-green"></i>Vouchers
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.faqs.index') }}">
-                                <i class="icon icon-document text-green"></i>FAQ
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="icon icon-settings light-green-text s-18 "></i> <span>Product</span>
-                        <i class="icon icon-angle-left s-18 pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.product.index') }}">
-                            <i class="icon icon-user-circle text-green"></i>List Product
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ route('admin.product.create') }}">
-                            <i class="icon icon-user-circle text-green"></i>Add New Product
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="icon icon-settings light-green-text s-18 "></i> <span>Setup</span>
-                        <i class="icon icon-angle-left s-18 pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="{{ route('admin.store-address.index') }}">
-                                <i class="icon icon-address-book text-green"></i>Store Addresses
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ route('admin.admin-users.index') }}">
-                                <i class="icon icon-user-circle text-green"></i>Admin Users
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ route('admin.users.index') }}">
-                                <i class="icon icon-users text-green"></i>Users
-                            </a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </section>
