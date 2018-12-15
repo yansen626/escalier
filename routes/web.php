@@ -21,6 +21,8 @@ Auth::routes();
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');
+Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contactUs');
+Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contactUs.save');
 
 // ADMIN ROUTE
 // ====================================================================================================================
