@@ -21,8 +21,14 @@ Auth::routes();
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');
-Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contactUs');
-Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contactUs.save');
+Route::get('/location', 'Frontend\HomeController@location')->name('frontend.location');
+Route::get('/developer', 'Frontend\HomeController@developer')->name('frontend.developer');
+Route::get('/master-plan', 'Frontend\HomeController@planMaster')->name('frontend.plan.master');
+Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.plan.floor');
+Route::get('/unit-plan', 'Frontend\HomeController@planUnit')->name('frontend.plan.unit');
+Route::get('/features', 'Frontend\HomeController@features')->name('frontend.features');
+Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
+Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
 
 // ADMIN ROUTE
 // ====================================================================================================================

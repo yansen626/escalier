@@ -34,6 +34,30 @@ class HomeController extends Controller
         return view('frontend.introduction');
     }
 
+    public function location(){
+        return view('frontend.location');
+    }
+
+    public function developer(){
+        return view('frontend.developer');
+    }
+
+    public function planMaster(){
+        return view('frontend.plan-master');
+    }
+
+    public function planFloor(){
+        return view('frontend.plan-floor');
+    }
+
+    public function planUnit(){
+        return view('frontend.plan-unit');
+    }
+
+    public function features(){
+        return view('frontend.features');
+    }
+
     public function contactUs(){
         return view('frontend.contact-us');
     }

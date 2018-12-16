@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    {{ Form::open(['route'=>['frontend.contactUs.save'],'method' => 'post','id' => 'general-form']) }}
+    {{ Form::open(['route'=>['frontend.contact_us.save'],'method' => 'post','id' => 'general-form']) }}
         <div class="row mb-2">
             <div class="col-lg-6 col-md-6 col-xs-12">
                 <input class="form-control" type="text" name="name" id="name" placeholder="Your Name"/>
