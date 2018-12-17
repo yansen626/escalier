@@ -1,0 +1,49 @@
+.bg-custom-black{
+    background-color: #393939;
+}
+
+.bg-custom-brown{
+    background-color: #654234;
+}
+
+.bg-custom-light-brown{
+    background-color: #a36348;
+}
+
+.text-custom-brown{
+    color: #664234;
+}
+
+.text-custom-light-brown{
+    color: #a36348;
+}
+
+.text-custom-style{
+    font-family: 'ultracondensedsansserifRg';
+    line-height: 1;
+}
+
+.position-custom-bottom-left{
+    position: absolute;
+    left: 0;
+    bottom:0
+}
+
+.position-custom-bottom-right{
+    position: absolute;
+    right: 0;
+    bottom:0
+}
+
+.rotated {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+@font-face {
+    font-family: 'ultracondensedsansserifRg';
+    src: url('../../fonts/ultracondensedsansserif-webfont.woff2') format('woff2'),
+    url('../../fonts/ultracondensedsansserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -15,12 +15,13 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/frontend/heroic-features.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
 
     @yield('styles')
 
 </head>
 
-<body>
+<body style="background: #e6e7e8;">
     <!-- Page Content -->
     <div class="container">
 

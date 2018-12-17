@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="row mb-2" style="margin-top: 6rem;">
+    <div class="row mb-2" style="margin-top: 10em;">
         <div class="col-lg-12 col-md-12 px-1 text-center">
             <h1>INTRODUCTION</h1>
         </div>
@@ -11,13 +11,11 @@
     <div class="row mb-2">
         <div class="col-lg-12 col-md-12 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/introduction/introduction-main-banner.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 500px;">
                 </div>
             </div>
         </div>
@@ -26,13 +24,20 @@
     <div class="row mb-2">
         <div class="col-lg-12 col-md-12 px-1">
             <div class="card">
-                <div class="card-body">
-                    <div class="row mb-2">
-                        <div class="col-lg-5 col-md-5 col-5">
-                            <h1>FIRST AND FOREMOST</h1>
+                <div class="card-body bg-custom-black text-white p-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-4">
+                            <div class="w-100 border-top border-bottom border-white text-custom-style">
+                                <span class="display-4">FIRST</span><br/>
+                                <span class="display-4">AND</span><br/>
+                                <span class="display-4 text-custom-light-brown">F.O.R.</span><span class="display-4">EMOST</span>
+                            </div>
                         </div>
-                        <div class="col-lg-7 col-md-7 col-7">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+                        <div class="col-lg-8 col-md-8 col-8">
+                            <p><b>Pioneers are individuals reaching to secede from the status quo</b></p>
+                            <p>Breaking new ground in the field of "Small Office Home Office" is the latest launch by Triniti Land</p>
+                            <p>True to its entrepreneurial roots and inspired by the ideology of pioneership, F.O.R by Triniti Land is sophisticated yet functional.
+                                Exquisitely designed, merging inspiration and architecture, this is for those who dream of taking humble beginnings to greater levels of success</p>
                         </div>
                     </div>
                 </div>
@@ -41,36 +46,48 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 col-4 px-1">
+        <div class="col-lg-3 col-md-3 col-3 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body p-0">
+                    <div class="w-100" style="background-image: url('{{ asset('images/frontend/introduction/introduction-1.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 400px;">
+                    </div>
+                    <div class="w-100 p-3 bg-custom-black text-center text-white">
+                        <h5>Work in Eminence</h5>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-4 px-1">
+        <div class="col-lg-6 col-md-3 col-6 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body p-0">
+                    <div class="w-100" style="background-image: url('{{ asset('images/frontend/introduction/introduction-2.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 400px;">
+                    </div>
+                    <div class="w-100 p-3 bg-custom-black text-center text-white">
+                        <h5>Powered by Comfort</h5>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-4 px-1">
+        <div class="col-lg-3 col-md-3 col-3 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body p-0">
+                    <div class="w-100" style="background-image: url('{{ asset('images/frontend/introduction/introduction-3.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 400px;">
+                    </div>
+                    <div class="w-100 p-3 bg-custom-black text-center text-white">
+                        <h5>Affluential Living</h5>
+                    </div>
                 </div>
             </div>
         </div>
