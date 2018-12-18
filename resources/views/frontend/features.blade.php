@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="row mb-2" style="margin-top: 6rem;">
+    <div class="row mb-2" style="margin-top: 10em;">
         <div class="col-lg-12 col-md-12 px-1 text-center">
             <h1>FEATURES</h1>
         </div>
@@ -11,20 +11,25 @@
     <div class="row mb-2">
         <div class="col-lg-8 col-md-8 col-8 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>PICTURE HERE</h5>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-1.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 300px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>BUSINESS LOUNGE ON EVERY FLOOR</h5>
+                <div class="card-body bg-custom-black">
+                    <div class="h-300px">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <div class="text-custom-style text-white">
+                                <h1>BUSINESS LOUNGE </h1>
+                                <h1>ON EVERY FLOOR</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,25 +38,21 @@
     <div class="row mb-2">
         <div class="col-lg-6 col-md-6 col-6 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>PICTURE HERE</h5>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-2.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 350px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-6 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>PICTURE HERE</h5>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-3.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 350px;">
                 </div>
             </div>
         </div>
@@ -60,15 +61,17 @@
     <div class="row mb-2">
         <div class="col-lg-6 col-md-6 col-6 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>WINDOW FACADE WITH LOW-E GLASS</h5>
+                <div class="card-body py-2 bg-custom-black text-custom-style text-white text-center">
+                    <h3>WINDOW FACADE WITH</h3>
+                    <h3>LOW-E GLASS</h3>
                 </div>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-6 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h5>FRAME GLASS DOOR WITH SMART LOCK SYSTEM</h5>
+                <div class="card-body py-2 bg-custom-black text-custom-style text-white text-center">
+                    <h3>FRAME GLASS DOOR WITH</h3>
+                    <h3>SMART LOCK SYSTEM</h3>
                 </div>
             </div>
         </div>
@@ -77,34 +80,31 @@
     <div class="row mb-2">
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-4.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-5.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-6.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>
@@ -112,34 +112,31 @@
     <div class="row mb-2">
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-2.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-7.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body">
-                    <h1 class="display-3">PICTURE HERE</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <div class="card-body" style="background-image: url('{{ asset('images/frontend/features/features-8.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 250px;">
                 </div>
             </div>
         </div>

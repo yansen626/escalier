@@ -1,7 +1,7 @@
-@extends('layouts.frontend-grey')
+@extends('layouts.frontend')
 
 @section('content')
-    <div class="row mb-2" style="margin-top: 6rem;">
+    <div class="row mb-4" style="margin-top: 10em;">
         <div class="mapouter col-lg-12 col-md-12">
             <div class="gmap_canvas">
                 <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=brooklyn%20alam%20sutera&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -26,7 +26,7 @@
 
     <div class="row mb-2">
         <div class="col-lg-12 col-md-12">
-            <h1 style="font-stretch: ultra-condensed; font-family: sans-serif; color: #A16247; text-align: center">CONTACT US</h1>
+            <h1 class="text-custom-style text-center text-custom-light-brown">CONTACT US</h1>
         </div>
     </div>
 
@@ -47,8 +47,7 @@
         </div>
         <div class="row mb-2">
             <div class="col-lg-12 col-md-12 col-xs-12">
-                <input type="submit" class="btn col-lg-12 col-md-12 col-xs-12" style="background-color: #A16247;
-                color: white; font-weight: 800; border-radius: 0;" value="Send a Message"/>
+                <input type="submit" class="btn col-lg-12 col-md-12 col-xs-12 bg-custom-light-brown text-white font-weight-bold" style="border-radius: 0;" value="Send a Message"/>
             </div>
         </div>
     {{ Form::close() }}

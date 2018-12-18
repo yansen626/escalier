@@ -40,6 +40,88 @@
     transform: rotate(-180deg);
 }
 
+.bw-3{
+    border-width: 3px !important;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.h-300px{
+    height: 300px;
+}
+
+.for-mt-10{
+    margin-top: 6em;
+}
+
+.logo-responsive{
+    height: 50px;
+}
+
+.main-banner-responsive-long{
+    height: 200px;
+}
+
+.main-banner-responsive-short{
+    height: 200px;
+}
+
+.image-general-responsive{
+    height: 200px;
+}
+
+.h1{
+    font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+    .for-mt-10{
+        margin-top: 10em;
+    }
+
+    .logo-responsive{
+        height: 100px;
+    }
+
+    .main-banner-responsive-long{
+        height: inherit;
+        min-height: 200px;
+    }
+
+    .main-banner-responsive-short{
+        height: 200px;
+    }
+
+    .image-general-responsive{
+        height: 200px;
+    }
+
+    .h1{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-responsive{
+        height: 100px;
+    }
+
+    .image-general-responsive{
+        height: 400px;
+    }
+
+    .main-banner-responsive-long{
+        height: inherit;
+        min-height: 500px;
+    }
+
+    .main-banner-responsive-short{
+        height: 200px;
+    }
+}
+
 @font-face {
     font-family: 'ultracondensedsansserifRg';
     src: url('../../fonts/ultracondensedsansserif-webfont.woff2') format('woff2'),

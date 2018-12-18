@@ -8,10 +8,10 @@
         {{--<a href="#" class="btn btn-primary btn-lg">Call to action!</a>--}}
     {{--</header>--}}
 
-    <div class="row mb-2" style="margin-top: 10em;">
-        <div class="col-lg-9 col-md-9 px-1">
+    <div class="row mb-2 for-mt-10">
+        <div class="col-lg-9 col-md-9 px-md-1 px-lg-1 mb-2 mb-sm-0">
             <div class="card">
-                <div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
+                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 px-1">
+        <div class="col-lg-3 col-md-3 px-md-1">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
@@ -57,7 +57,7 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-9 col-md-9 px-1">
+        <div class="col-lg-9 col-md-9 px-md-1 px-lg-1">
             <div class="card">
                 <div class="card-body bg-custom-black text-white p-5">
                     <div class="row">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 px-1">
+        <div class="col-lg-3 col-md-3 px-md-1 px-lg-1">
             <div class="card">
                 <div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-2.jpg') }}');
                         background-repeat: no-repeat;
@@ -102,11 +102,11 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-6 col-md-6 px-1">
+        <div class="col-lg-6 col-md-6 px-md-1 px-lg-1">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-4 pr-1">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-5 pr-1">
                             <div class="card">
                                 <div class="card-body bg-custom-brown">
                                     <div style="height: 200px;">
@@ -119,12 +119,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-8 pl-1">
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-7 pl-1">
                             <div class="card">
-                                <div class="card-body text-right">
-                                    <div class="text-custom-style font-weight-bold">
-                                        <span class="display-4">ABOUT</span><br/>
-                                        <span class="display-4 text-custom-light-brown">DEVELOPER</span>
+                                <div class="card-body text-right pl-0 pl-sm-2">
+                                    <div class="text-custom-style">
+                                        <span class="h1 font-weight-bold">ABOUT</span><br/>
+                                        <span class="h1 text-custom-light-brown font-weight-bold">DEVELOPER</span>
                                     </div>
                                     <hr class="d-inline-flex flex-row-reverse w-50 border-dark"/>
                                     <p>Finely Crafted By Triniti Land</p>
@@ -137,12 +137,12 @@
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12">
                     <div class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 pr-1">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-8 pr-1">
                             <div class="card">
-                                <div class="card-body text-right bg-custom-black">
-                                    <div class="text-custom-style font-weight-bold">
-                                        <span class="display-4 text-white">PRIME</span><br/>
-                                        <span class="display-4 text-custom-light-brown">LOCATION</span>
+                                <div class="card-body text-right bg-custom-black pl-0 pl-sm-2">
+                                    <div class="text-custom-style">
+                                        <span class="h1 text-white font-weight-bold">PRIME</span><br/>
+                                        <span class="h1 text-custom-light-brown font-weight-bold">LOCATION</span>
                                     </div>
                                     <hr class="d-inline-flex flex-row-reverse w-50 border-white"/>
                                     <p class="text-white">Strategically placed<br/>in a mature location</p>
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 pl-1">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4 pl-1">
                             <div class="card">
                                 <div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-3.jpg') }}');
                                         background-repeat: no-repeat;
@@ -175,7 +175,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 px-1">
+        <div class="col-lg-6 col-md-6 px-md-1 px-lg-1">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
