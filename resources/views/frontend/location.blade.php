@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <div class="row mb-2" style="margin-top: 10em;">
+    <div class="row mb-2 for-mt-10">
         <div class="col-lg-12 col-md-12 px-1 text-center">
-            <h1>INTRODUCTION</h1>
+            <h1>LOCATION</h1>
         </div>
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 px-1">
+        <div class="col-lg-4 col-md-4 px-md-1 mb-2 mb-sm-0">
             <div class="card">
                 <div class="card-body bg-custom-black">
                     <div class="text-custom-style font-weight-bold">
@@ -21,29 +21,28 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-8 col-md-8 px-1">
+        <div class="col-lg-8 col-md-8 px-md-1">
             <div class="card">
-                <div class="card-body" style="background-image: url('{{ asset('images/frontend/location/location-map-banner.jpg') }}');
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: cover;
-                        height: 550px;">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 px-1">
-            <div class="card">
-                <div class="card-body" style="background-image: url('{{ asset('images/frontend/location/location-1.jpg') }}');
+                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/location/location-map-banner.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
                 </div>
             </div>
         </div>
-        <div class="col-lg-8 col-md-8 px-1">
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-lg-4 col-md-4 px-md-1 mb-2 mb-sm-0">
+            <div class="card">
+                <div class="card-body main-banner-responsive-short" style="background-image: url('{{ asset('images/frontend/location/location-1.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-8 px-md-1">
             <div class="card">
                 <div class="card-body bg-custom-light-brown text-white p-5">
                     <div class="row">
@@ -94,7 +93,7 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 col-12 px-1">
+        <div class="col-lg-4 col-md-4 col-12 px-md-1 mb-2 mb-sm-0">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="card">
@@ -110,8 +109,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-6 pr-1">
                     <div class="card">
-                        <div class="card-body bg-custom-black p-4">
-                            <div class="text-custom-style p-2">
+                        <div class="card-body bg-custom-black p-3">
+                            <div class="text-custom-style p-1">
                                 <span class="h1 text-white font-weight-bold">23</span><br/>
                                 <span class="h1 text-custom-light-brown font-weight-normal">HOSPITAL</span>
                             </div>
@@ -124,13 +123,13 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;
-                                height: 177px;">
+                                height: 169px;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 px-1">
+        <div class="col-lg-4 col-md-4 px-md-1 mb-2 mb-sm-0">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="card">
@@ -138,7 +137,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;
-                                height: 200px;">
+                                height: 220px;">
                         </div>
                     </div>
                 </div>
@@ -146,8 +145,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="card">
-                        <div class="card-body bg-custom-black p-4">
-                            <div class="text-custom-style p-2">
+                        <div class="card-body bg-custom-black p-3">
+                            <div class="text-custom-style p-1">
                                 <span class="h1 text-white font-weight-bold">55 </span>
                                 <span class="h1 text-custom-light-brown font-weight-normal">SHOPPING CENTERS</span>
                             </div>
@@ -156,12 +155,12 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 px-1">
+        <div class="col-lg-4 col-md-4 px-md-1">
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="card">
-                        <div class="card-body bg-custom-black p-4">
-                            <div class="text-custom-style p-2">
+                        <div class="card-body bg-custom-black p-3">
+                            <div class="text-custom-style p-1">
                                 <span class="h1 text-white font-weight-bold">27 </span>
                                 <span class="h1 text-custom-light-brown font-weight-normal">SCHOOLS</span>
                             </div>
@@ -176,7 +175,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;
-                                height: 200px;">
+                                height: 220px;">
                         </div>
                     </div>
                 </div>

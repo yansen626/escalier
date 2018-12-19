@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="js" lang="en">
 
 <head>
 
@@ -14,6 +14,7 @@
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="{{ asset('css/frontend/heroic-features.css')}}" rel="stylesheet">
     <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
 
@@ -22,6 +23,8 @@
 </head>
 
 <body style="background: #e6e7e8;">
+    {{--<div id="preloader"></div>--}}
+
     <!-- Page Content -->
     <div class="container">
 
@@ -38,6 +41,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script>
+        $(window).on('load', function(){
+            // $('#preloader').delay(100).fadeOut();
+        });
+
+    </script>
     @yield('scripts')
 
 </body>

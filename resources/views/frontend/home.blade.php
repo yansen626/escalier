@@ -9,7 +9,7 @@
     {{--</header>--}}
 
     <div class="row mb-2 for-mt-10">
-        <div class="col-lg-9 col-md-9 px-md-1 px-lg-1 mb-2 mb-sm-0">
+        <div class="col-lg-9 col-md-9 px-md-1 mb-2 mb-sm-0">
             <div class="card">
                 <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
                         background-repeat: no-repeat;

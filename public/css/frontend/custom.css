@@ -1,3 +1,17 @@
+#preloader { position: fixed; left: 0; top: 0; z-index: 1050; width: 100%; height: 100%; overflow: visible; background: #fff url('../../images/frontend/ripple.gif') no-repeat center center; }
+
+body{
+    font-family: 'Akkurat Pro';
+}
+
+.navbar{
+    font-family: 'Akkurat Pro' !important;
+}
+
+.footer-logo-responsive{
+    height: 50px;
+}
+
 .bg-custom-black{
     background-color: #393939;
 }
@@ -85,6 +99,10 @@
         height: 100px;
     }
 
+    .footer-logo-responsive{
+        height: 50px;
+    }
+
     .main-banner-responsive-long{
         height: inherit;
         min-height: 200px;
@@ -99,13 +117,17 @@
     }
 
     .h1{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
 
 @media (min-width: 768px) {
     .logo-responsive{
         height: 100px;
+    }
+
+    .footer-logo-responsive{
+        height: 75px;
     }
 
     .image-general-responsive{
@@ -126,6 +148,14 @@
     font-family: 'ultracondensedsansserifRg';
     src: url('../../fonts/ultracondensedsansserif-webfont.woff2') format('woff2'),
     url('../../fonts/ultracondensedsansserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akkurat Pro';
+    src: url('../../fonts/AkkuratPro-Regular.woff2') format('woff2'),
+    url('../../fonts/AkkuratPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
