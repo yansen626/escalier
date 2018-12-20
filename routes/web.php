@@ -29,12 +29,13 @@ Route::get('/unit-plan', 'Frontend\HomeController@planUnit')->name('frontend.pla
 Route::get('/features', 'Frontend\HomeController@features')->name('frontend.features');
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
 Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
+Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 
 // ADMIN ROUTE
 // ====================================================================================================================
 
 Route::prefix('admin')->group(function(){
-    Route::get('/', 'Admin\AdminController@index')->name('admin.dashboard');
+    Route::get('/', 'Admin\ContactMessageController@index')->name('admin.dashboard');
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');

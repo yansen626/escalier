@@ -8,6 +8,7 @@ use App\Models\Subscribe;
 use App\Transformer\SubscribeTransformer;
 use Carbon\Carbon;
 use Maatwebsite\Excel\Facades\Excel;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
 
@@ -55,15 +56,27 @@ class SubscribeController extends Controller
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        try{
+            $now = Carbon::now('Asia/Jakarta');
+            $email = $request->input('email');
+            $name = $request->input('name');
+
+            if(!empty($email) && !empty($name)){
+                $newSubscribe = Subscribe::create([
+                    'email'    => $email,
+                    'name'      => $name,
+                    'created_at'         => $now->toDateTimeString()
+                ]);
+            }
+
+            return Response::json(array('success' => 'VALID'));
+        }
+        catch(\Exception $ex){
+            return Response::json(array('errors' => 'INVALID' . $request->input('id')));
+        }
+
     }
 
     /**

@@ -5,6 +5,7 @@
     @yield('head_and_title')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
@@ -44,12 +45,18 @@
 
         $('#subscription_form').on('submit', function(e) {
             e.preventDefault();
+            var name = $('#subscribe_name').val();
+            var email = $('#subscribe_email').val();
+            // alert(name);
+
             $.ajax({
-                url: '',
                 type: 'POST',
+                url: '{{ route('frontend.subscribe.save') }}',
+                datatype : "application/json",
                 data: {
-                    name: $('#subscribe_name'),
-                    email: $('#subscribe_email')
+                    '_token': '{{ csrf_token() }}',
+                    'name': name,
+                    'email': email
                 }, // no need to stringify
                 success: function (result) {
                     $('#subscribe_success_message').slideDown(500);
