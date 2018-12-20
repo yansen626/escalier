@@ -8,15 +8,15 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse mr-5" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto ml-4">
+            <ul class="navbar-nav ml-auto ml-4 text-custom-style">
                 <li class="nav-item mr-3 pr-3">
                     <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h5 {{ Route::currentRouteName() == 'frontend.introduction' ? 'active' : '' }}" href="{{ route('frontend.introduction') }}">Introduction
+                        <a class="nav-link pb-0 pl-0 pr-5 h3 {{ Route::currentRouteName() == 'frontend.introduction' ? 'active' : '' }}" href="{{ route('frontend.introduction') }}">Introduction
                             {{--<span class="sr-only">(current)</span>--}}
                         </a>
                     </div>
                     <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h5 {{ Route::currentRouteName() == 'frontend.location' ? 'active' : '' }}" href="{{ route('frontend.location') }}">Location</a>
+                        <a class="nav-link pb-0 pl-0 pr-5 h3 {{ Route::currentRouteName() == 'frontend.location' ? 'active' : '' }}" href="{{ route('frontend.location') }}">Location</a>
                     </div>
 
 
@@ -26,22 +26,22 @@
                         @if(Route::currentRouteName() == 'frontend.plan.master' ||
                         Route::currentRouteName() == 'frontend.plan.floor' ||
                         Route::currentRouteName() == 'frontend.plan.unit')
-                            <a class="nav-link pb-0 pl-0 pr-5 h5 active" href="{{ route('frontend.plan.master') }}">Plans</a>
+                            <a class="nav-link pb-0 pl-0 pr-5 h3 active" href="{{ route('frontend.plan.master') }}">Plans</a>
                         @else
-                            <a class="nav-link pb-0 pl-0 pr-5 h5" href="{{ route('frontend.plan.master') }}">Plans</a>
+                            <a class="nav-link pb-0 pl-0 pr-5 h3" href="{{ route('frontend.plan.master') }}">Plans</a>
                         @endif
 
                     </div>
                     <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h5 {{ Route::currentRouteName() == 'frontend.developer' ? 'active' : '' }}" href="{{ route('frontend.developer') }}">Developer</a>
+                        <a class="nav-link pb-0 pl-0 pr-5 h3 {{ Route::currentRouteName() == 'frontend.developer' ? 'active' : '' }}" href="{{ route('frontend.developer') }}">Developer</a>
                     </div>
                 </li>
                 <li class="nav-item mr-3 pr-3">
                     <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h5 {{ Route::currentRouteName() == 'frontend.features' ? 'active' : '' }}" href="{{ route('frontend.features') }}">Features</a>
+                        <a class="nav-link pb-0 pl-0 pr-5 h3 {{ Route::currentRouteName() == 'frontend.features' ? 'active' : '' }}" href="{{ route('frontend.features') }}">Features</a>
                     </div>
                     <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h5 {{ Route::currentRouteName() == 'frontend.contact_us' ? 'active' : '' }}" href="{{ route('frontend.contact_us') }}">Contact</a>
+                        <a class="nav-link pb-0 pl-0 pr-5 h3 {{ Route::currentRouteName() == 'frontend.contact_us' ? 'active' : '' }}" href="{{ route('frontend.contact_us') }}">Contact</a>
                     </div>
                 </li>
             </ul>

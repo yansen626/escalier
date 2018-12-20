@@ -12,7 +12,7 @@
 
     <div class="row mb-2 for-mt-10">
         <div class="col-lg-12 col-md-12 px-md-1 text-center">
-            <h1>INTRODUCTION</h1>
+            <h1 class="text-custom-style text-custom-light-brown display-2">INTRODUCTION</h1>
         </div>
     </div>
 

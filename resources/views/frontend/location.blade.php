@@ -12,20 +12,22 @@
 
     <div class="row mb-2 for-mt-10">
         <div class="col-lg-12 col-md-12 px-1 text-center">
-            <h1>LOCATION</h1>
+            <h1 class="text-custom-style text-custom-light-brown display-2">LOCATION</h1>
         </div>
     </div>
 
     <div class="row mb-2">
         <div class="col-lg-4 col-md-4 px-md-1 mb-2 mb-sm-0">
             <div class="card">
-                <div class="card-body bg-custom-black">
-                    <div class="text-custom-style font-weight-bold">
-                        <span class="display-4 text-white">PRIME</span><br/>
-                        <span class="display-4 text-custom-light-brown">LOCATION</span>
+                <div class="card-body bg-custom-black location-image-responsive">
+                    <div class="box h-100 d-flex justify-content-center flex-column">
+                        <div class="text-custom-style font-weight-bold">
+                            <span class="display-4 text-white">PRIME</span><br/>
+                            <span class="display-4 text-custom-light-brown">LOCATION</span>
+                        </div>
+                        <hr class="d-inline-flex border-white w-75 ml-0"/>
+                        <p class="text-white">F.O.R is a strategically placed in south tangerang's promising Gading Serpong district, putting you within an easy reach of your needs</p>
                     </div>
-                    <hr class="d-inline-flex w-75 border-white"/>
-                    <p class="text-white">F.O.R is a strategically placed in south tangerang's promising Gading Serpong district, putting you within an easy reach of your needs</p>
                 </div>
             </div>
         </div>

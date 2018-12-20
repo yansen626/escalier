@@ -9,7 +9,14 @@
 @endsection
 
 @section('content')
-    <div class="row mb-4 for-mt-10">
+
+    <div class="row mb-2 for-mt-10">
+        <div class="col-lg-12 col-md-12 px-1 text-center">
+            <h1 class="text-custom-style text-custom-light-brown display-2">CONTACT US</h1>
+        </div>
+    </div>
+
+    <div class="row mb-4">
         <div class="mapouter col-lg-12 col-md-12">
             <div class="gmap_canvas">
                 <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=brooklyn%20alam%20sutera&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
