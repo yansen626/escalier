@@ -38,11 +38,6 @@
             </div>
             <ul class="sidebar-menu">
                 <li class="treeview">
-                    <a href="{{ route('admin.dashboard') }}">
-                    <i class="icon icon-sailing-boat-water purple-text s-18"></i><span>Dashboard</span>
-                    </a>
-                </li>
-                <li class="treeview">
                     <a href="{{ route('admin.contact-messages.index') }}">
                         <i class="icon icon-message text-green s-18"></i>Contact Us
                     </a>

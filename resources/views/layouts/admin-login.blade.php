@@ -83,18 +83,20 @@
 <div id="app">
     <div class="page parallel">
         <div class="d-flex row">
-            <div class="col-md-3 white">
+            <div class="col-md-3 col-0">
+
+            </div>
+            <div class="col-md-6 white">
                 <div class="p-5 mt-5">
-                    <img src="{{ asset('img/basic/logo.png') }}" alt=""/>
+                    <img src="{{ asset('images/frontend/logo-transparent.png') }}" alt=""/>
                 </div>
                 <div class="p-5">
                     @yield('content')
 
                 </div>
             </div>
-            <div class="col-md-9  height-full blue accent-3 align-self-center text-center" data-bg-repeat="false"
-                 data-bg-possition="center"
-                 style="background: url('{{asset('img/icon/icon-plane.png')}}') #FFEFE4">
+            <div class="col-md-3 col-0">
+
             </div>
         </div>
     </div>
