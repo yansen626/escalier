@@ -86,6 +86,18 @@ body{
     height: 200px;
 }
 
+.location-image-responsive{
+    height: 300px;
+}
+
+.developer-image-responsive{
+    height: 500px;
+}
+
+.feature-image-responsive{
+    height: 100px;
+}
+
 .h1{
     font-size: 2.5rem;
 }
@@ -141,6 +153,18 @@ body{
 
     .main-banner-responsive-short{
         height: 200px;
+    }
+
+    .location-image-responsive{
+        height: 570px;
+    }
+
+    .developer-image-responsive{
+        height: inherit;
+    }
+
+    .feature-image-responsive{
+        height:250px;
     }
 }
 

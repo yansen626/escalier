@@ -1,7 +1,15 @@
 @extends('layouts.frontend')
 
+@section('head_and_title')
+    <meta name="description" content="Contact data of F.O.R">
+    <meta name="author" content="PT. Generasi Muda Gigih">
+    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
+    <title>F.O.R - Contact Us</title>
+@endsection
+
 @section('content')
-    <div class="row mb-4" style="margin-top: 10em;">
+    <div class="row mb-4 for-mt-10">
         <div class="mapouter col-lg-12 col-md-12">
             <div class="gmap_canvas">
                 <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=brooklyn%20alam%20sutera&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -32,7 +40,7 @@
 
     {{ Form::open(['route'=>['frontend.contact_us.save'],'method' => 'post','id' => 'general-form']) }}
         <div class="row mb-2">
-            <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-xs-12 mb-2 mb-md-0">
                 <input class="form-control" type="text" name="name" id="name" placeholder="Your Name"/>
             </div>
             <div class="col-lg-6 col-md-6 col-xs-12">

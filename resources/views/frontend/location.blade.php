@@ -1,5 +1,13 @@
 @extends('layouts.frontend')
 
+@section('head_and_title')
+    <meta name="description" content="Location of F.O.R office">
+    <meta name="author" content="PT. Generasi Muda Gigih">
+    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
+    <title>F.O.R - Location</title>
+@endsection
+
 @section('content')
 
     <div class="row mb-2 for-mt-10">
@@ -23,7 +31,7 @@
         </div>
         <div class="col-lg-8 col-md-8 px-md-1">
             <div class="card">
-                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/location/location-map-banner.jpg') }}');
+                <div class="card-body location-image-responsive" style="background-image: url('{{ asset('images/frontend/location/location-map-banner.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -33,7 +41,7 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 px-md-1 mb-2 mb-sm-0">
+        <div class="col-lg-4 col-md-4 px-md-1 col-12 mb-2 mb-sm-0 d-none d-md-block">
             <div class="card">
                 <div class="card-body main-banner-responsive-short" style="background-image: url('{{ asset('images/frontend/location/location-1.jpg') }}');
                         background-repeat: no-repeat;
@@ -42,48 +50,41 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-8 col-md-8 px-md-1">
+        <div class="col-lg-8 col-md-8 col-12 px-md-1">
             <div class="card">
-                <div class="card-body bg-custom-light-brown text-white p-5">
+                <div class="card-body bg-custom-brown text-white p-5">
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-3 pr-1">
-                            <div style="height: 150px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                    <h5 class="rotated">LEGENDS</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-5 col-5 px-1">
-                            <dl class="row">
-                                <dt class="col-sm-3">A</dt>
-                                <dd class="col-sm-9">Summarecon Mall Serpong</dd>
+                        <div class="col-lg-6 col-md-6 col-12 px-1">
+                            <dl class="row mb-0 mb-md-2">
+                                <dt class="col-3 text-right">A</dt>
+                                <dd class="col-9">Summarecon Mall Serpong</dd>
 
-                                <dt class="col-sm-3">B</dt>
-                                <dd class="col-sm-9">OMNI Hospital</dd>
+                                <dt class="col-3 text-right">B</dt>
+                                <dd class="col-9">OMNI Hospital</dd>
 
-                                <dt class="col-sm-3">C</dt>
-                                <dd class="col-sm-9">Mercure Hotel</dd>
+                                <dt class="col-3 text-right">C</dt>
+                                <dd class="col-9">Mercure Hotel</dd>
 
-                                <dt class="col-sm-3">D</dt>
-                                <dd class="col-sm-9">Living World Mall</dd>
+                                <dt class="col-3 text-right">D</dt>
+                                <dd class="col-9">Living World Mall</dd>
 
-                                <dt class="col-sm-3">E</dt>
-                                <dd class="col-sm-9">St. Laurensia School</dd>
+                                <dt class="col-3 text-right">E</dt>
+                                <dd class="col-9">St. Laurensia School</dd>
                             </dl>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-4 pl-1">
+                        <div class="col-lg-6 col-md-6 col-12 pl-1">
                             <dl class="row">
-                                <dt class="col-sm-3">F</dt>
-                                <dd class="col-sm-9">Pet Kingdom</dd>
+                                <dt class="col-3 text-right">F</dt>
+                                <dd class="col-9">Pet Kingdom</dd>
 
-                                <dt class="col-sm-3">G</dt>
-                                <dd class="col-sm-9">Binus University</dd>
+                                <dt class="col-3 text-right">G</dt>
+                                <dd class="col-9">Binus University</dd>
 
-                                <dt class="col-sm-3">H</dt>
-                                <dd class="col-sm-9">Mall @ Alam Sutera</dd>
+                                <dt class="col-3 text-right">H</dt>
+                                <dd class="col-9">Mall @ Alam Sutera</dd>
 
-                                <dt class="col-sm-3">I</dt>
-                                <dd class="col-sm-9">IKEA</dd>
+                                <dt class="col-3 text-right">I</dt>
+                                <dd class="col-9">IKEA</dd>
                             </dl>
                         </div>
                     </div>

@@ -1,5 +1,13 @@
 @extends('layouts.frontend')
 
+@section('head_and_title')
+    <meta name="description" content="Property developer">
+    <meta name="author" content="PT. Generasi Muda Gigih">
+    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
+    <title>F.O.R - Developer</title>
+@endsection
+
 @section('content')
 
     <div class="row mb-2 for-mt-10">
@@ -9,7 +17,7 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-12 col-md-12 px-1">
+        <div class="col-lg-12 col-md-12 px-md-1">
             <div class="card">
                 <div class="card-body main-banner-responsive-short" style="background-image: url('{{ asset('images/frontend/developer/developer-main-banner.jpg') }}');
                         background-repeat: no-repeat;
@@ -21,12 +29,12 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-7 col-md-7 col-7 px-1">
+        <div class="col-lg-7 col-md-7 col-12 px-md-1">
             <div class="card">
                 <div class="card-body bg-custom-black">
                     <div class="row mb-2">
                         <div class="col-lg-5 col-md-5 col-12">
-                            <div class="text-custom-style font-weight-bold pt-5">
+                            <div class="text-custom-style font-weight-bold pb-2 pb-md-0">
                                 <span class="h1 text-white">FINELY CRAFTED<br/>BY</span>
                                 <span class="h1 text-custom-light-brown">TRINITI LAND</span>
                             </div>
@@ -42,9 +50,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-5 px-1">
+        <div class="col-lg-5 col-md-5 col-12 px-md-1">
             <div class="card">
-                <div class="card-body" style="background-image: url('{{ asset('images/frontend/developer/developer-1.jpg') }}');
+                <div class="card-body developer-image-responsive" style="background-image: url('{{ asset('images/frontend/developer/developer-1.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -54,16 +62,16 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-4 col-md-4 col-4 px-1">
+        <div class="col-lg-4 col-md-4 col-12 px-md-1">
             <div class="card">
-                <div class="card-body" style="background-image: url('{{ asset('images/frontend/developer/developer-2.jpg') }}');
+                <div class="card-body developer-image-responsive" style="background-image: url('{{ asset('images/frontend/developer/developer-2.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
                 </div>
             </div>
         </div>
-        <div class="col-lg-8 col-md-8 col-8 px-1">
+        <div class="col-lg-8 col-md-8 col-12 px-md-1">
             <div class="card">
                 <div class="card-body px-5 pt-4">
                     <div class="row mb-5">
@@ -81,19 +89,19 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-12">
-                                    <ul class="list-unstyled border-left bw-3 border-dark pl-3 font-weight-bold">
+                                    <ul class="list-unstyled border-left bw-2 border-dark pl-3 font-weight-bold">
                                         <li>Brooklyn Apartment</li>
                                         <li>Springwood Residence</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
-                                    <ul class="list-unstyled border-left bw-3 border-dark pl-3 font-weight-bold">
+                                    <ul class="list-unstyled border-left bw-2 border-dark pl-3 font-weight-bold">
                                         <li>The Smith</li>
                                         <li>Yukata Suites</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
-                                    <ul class="list-unstyled border-left bw-3 border-dark pl-3 font-weight-bold">
+                                    <ul class="list-unstyled border-left bw-2 border-dark pl-3 font-weight-bold">
                                         <li>Collins Boulevard</li>
                                         <li>Marc's Boulevard</li>
                                     </ul>

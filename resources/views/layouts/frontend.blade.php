@@ -2,13 +2,9 @@
 <html class="js" lang="en">
 
 <head>
-
+    @yield('head_and_title')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>F.O.R - Facilitated Office Residence</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
@@ -44,6 +40,21 @@
     <script>
         $(window).on('load', function(){
             // $('#preloader').delay(100).fadeOut();
+        });
+
+        $('#subscription_form').on('submit', function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: '',
+                type: 'POST',
+                data: {
+                    name: $('#subscribe_name'),
+                    email: $('#subscribe_email')
+                }, // no need to stringify
+                success: function (result) {
+                    $('#subscribe_success_message').slideDown(500);
+                }
+            });
         });
 
     </script>

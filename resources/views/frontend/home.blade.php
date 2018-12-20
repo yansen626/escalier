@@ -1,5 +1,13 @@
 @extends('layouts.frontend')
 
+@section('head_and_title')
+    <meta name="description" content="Home Page">
+    <meta name="author" content="PT. Generasi Muda Gigih">
+    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
+    <title>F.O.R - Facilitated Office Residence</title>
+@endsection
+
 @section('content')
     <!-- Jumbotron Header -->
     {{--<header class="jumbotron my-4">--}}
@@ -11,11 +19,22 @@
     <div class="row mb-2 for-mt-10">
         <div class="col-lg-9 col-md-9 px-md-1 mb-2 mb-sm-0">
             <div class="card">
-                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
+                <div id="slide_1" class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
-                        background-size: cover">
-
+                        background-size: cover;">
+                </div>
+                <div id="slide_2" class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-video.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: none;">
+                </div>
+                <div id="slide_3" class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: none;">
                 </div>
             </div>
         </div>
@@ -24,7 +43,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="card-body bg-custom-black text-white">
-                            <h5>Facede Design</h5><br/>
+                            <a class="h5 switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="1">Facade Design</a><br/><br/>
                             <hr class="d-inline-flex w-50 border-white"/>
                             <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
                         </div>
@@ -35,7 +54,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5>Grand Launching</h5><br/>
+                            <a class="h5 switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="2">Grand Launching</a><br/><br/>
                             <hr class="d-inline-flex w-50 border-dark"/>
                             <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
                         </div>
@@ -46,7 +65,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="card-body bg-custom-brown text-white">
-                            <h5>New Payment Method</h5><br/>
+                            <a class="h5 switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="3">New Payment Metho</a><br/><br/>
                             <hr class="d-inline-flex w-50 border-white"/>
                             <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
                         </div>
@@ -63,9 +82,9 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="w-100 border-top border-bottom border-white text-custom-style">
-                                <span class="display-4">FIRST</span><br/>
-                                <span class="display-4">AND</span><br/>
-                                <span class="display-4 text-custom-light-brown">F.O.R.</span><span class="display-4">EMOST</span>
+                                <span class="h1">FIRST</span><br/>
+                                <span class="h1">AND</span><br/>
+                                <span class="h1 text-custom-light-brown">F.O.R.</span><span class="h1">EMOST</span>
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-12">
@@ -183,7 +202,7 @@
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;
-                                height: 370px;">
+                                height: 340px;">
                         </div>
                     </div>
                 </div>
@@ -230,4 +249,18 @@
         </div>
     </div>
     <!-- /.row -->
+@endsection
+
+@section('scripts')
+    <script>
+        $(document).on("click", '.switch-slide', function (e){
+            var slideIdx = $(this).data('slide');
+
+            $('#slide_1').hide();
+            $('#slide_2').hide();
+            $('#slide_3').hide();
+
+            $('#slide_' + slideIdx).show(500);
+        });
+    </script>
 @endsection

@@ -1,5 +1,13 @@
 @extends('layouts.frontend')
 
+@section('head_and_title')
+    <meta name="description" content="Introduction">
+    <meta name="author" content="PT. Generasi Muda Gigih">
+    <meta name="keywords" content="Property, Office, Residence, Apartment, House">
+
+    <title>F.O.R - Introduction</title>
+@endsection
+
 @section('content')
 
     <div class="row mb-2 for-mt-10">
@@ -27,9 +35,9 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-12 mb-2 mb-sm-0">
                             <div class="w-100 border-top border-bottom border-white text-custom-style">
-                                <span class="display-4">FIRST</span><br/>
-                                <span class="display-4">AND</span><br/>
-                                <span class="display-4 text-custom-light-brown">F.O.R.</span><span class="display-4">EMOST</span>
+                                <span class="h1">FIRST</span><br/>
+                                <span class="h1">AND</span><br/>
+                                <span class="h1 text-custom-light-brown">F.O.R.</span><span class="h1">EMOST</span>
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-12">
