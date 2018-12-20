@@ -11,6 +11,7 @@
             </div>
             <div class="col-md-6 col-12 text-center">
                 <form id="subscription_form">
+                    <input type="hidden" id="csrf_token" name="_token" value="{{ csrf_token() }}">
                     <div class="row mb-2">
                         <div class="col-12">
                             <input class="form-control text-center" type="text" name="subscribe_name" id="subscribe_name" placeholder="Your Name" required/>
