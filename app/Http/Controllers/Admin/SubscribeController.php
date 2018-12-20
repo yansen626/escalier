@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Excel\SubscribeExport;
 use App\Http\Controllers\Controller;
-
 use App\Models\Subscribe;
 use App\Transformer\SubscribeTransformer;
+use Carbon\Carbon;
+use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
 
@@ -37,6 +39,10 @@ class SubscribeController extends Controller
     public function index()
     {
         return view('admin.subscribe.index');
+    }
+
+    public function download(){
+        return Excel::download(new SubscribeExport(), 'subscribers.xlsx');
     }
 
     /**

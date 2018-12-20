@@ -42,6 +42,11 @@
                         <i class="icon icon-message text-green s-18"></i>Contact Us
                     </a>
                 </li>
+                <li class="treeview">
+                    <a href="{{ route('admin.subscribes.index') }}">
+                        <i class="icon icon-message text-green s-18"></i>Subscribers
+                    </a>
+                </li>
             </ul>
         </section>
     </aside>

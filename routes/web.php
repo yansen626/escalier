@@ -71,6 +71,8 @@ Route::prefix('admin')->group(function(){
 
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
+    Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
+
 
     // Store Address
     Route::get('/store-address', 'Admin\StoreAddressController@index')->name('admin.store-address.index');
