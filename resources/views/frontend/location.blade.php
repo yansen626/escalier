@@ -56,35 +56,53 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12 px-1">
                             <dl class="row mb-0 mb-md-2">
-                                <dt class="col-3 text-right">A</dt>
-                                <dd class="col-9">Summarecon Mall Serpong</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-a.png') }}" height="22"  alt="huruf-a"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Summarecon Mall Serpong</dd>
 
-                                <dt class="col-3 text-right">B</dt>
-                                <dd class="col-9">OMNI Hospital</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-b.png') }}" height="22"  alt="huruf-b"/>
+                                </dt>
+                                <dd class="col-9 pl-1">OMNI Hospital</dd>
 
-                                <dt class="col-3 text-right">C</dt>
-                                <dd class="col-9">Mercure Hotel</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-c.png') }}" height="22"  alt="huruf-c"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Mercure Hotel</dd>
 
-                                <dt class="col-3 text-right">D</dt>
-                                <dd class="col-9">Living World Mall</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-d.png') }}" height="22"  alt="huruf-d"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Living World Mall</dd>
 
-                                <dt class="col-3 text-right">E</dt>
-                                <dd class="col-9">St. Laurensia School</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-e.png') }}" height="22"  alt="huruf-e"/>
+                                </dt>
+                                <dd class="col-9 pl-1">St. Laurensia School</dd>
                             </dl>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12 pl-1">
                             <dl class="row">
-                                <dt class="col-3 text-right">F</dt>
-                                <dd class="col-9">Pet Kingdom</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-f.png') }}" height="22"  alt="huruf-f"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Pet Kingdom</dd>
 
-                                <dt class="col-3 text-right">G</dt>
-                                <dd class="col-9">Binus University</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-g.png') }}" height="22"  alt="huruf-g"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Binus University</dd>
 
-                                <dt class="col-3 text-right">H</dt>
-                                <dd class="col-9">Mall @ Alam Sutera</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-h.png') }}" height="22"  alt="huruf-h"/>
+                                </dt>
+                                <dd class="col-9 pl-1">Mall @ Alam Sutera</dd>
 
-                                <dt class="col-3 text-right">I</dt>
-                                <dd class="col-9">IKEA</dd>
+                                <dt class="col-3 text-right">
+                                    <img src="{{ asset('images/frontend/huruf/huruf-i.png') }}" height="22"  alt="huruf-i"/>
+                                </dt>
+                                <dd class="col-9 pl-1">IKEA</dd>
                             </dl>
                         </div>
                     </div>
