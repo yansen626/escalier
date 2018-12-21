@@ -74,6 +74,10 @@ body{
     height: 50px;
 }
 
+.home-banner-responsive{
+    height: 200px;
+}
+
 .main-banner-responsive-long{
     height: 200px;
 }
@@ -96,6 +100,10 @@ body{
 
 .feature-image-responsive{
     height: 100px;
+}
+
+.home-width-responsive{
+    width: 100%;
 }
 
 .h1{
@@ -128,6 +136,10 @@ body{
         height: 200px;
     }
 
+    .home-width-responsive{
+        width: 70%;
+    }
+
     .h1{
         font-size: 2.7rem;
     }
@@ -144,6 +156,11 @@ body{
 
     .image-general-responsive{
         height: 400px;
+    }
+
+    .home-banner-responsive{
+        height: inherit;
+        min-height: 580px;
     }
 
     .main-banner-responsive-long{
