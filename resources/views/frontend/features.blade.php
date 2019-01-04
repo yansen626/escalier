@@ -19,7 +19,7 @@
     <div class="row mb-2">
         <div class="col-lg-8 col-md-8 col-12 px-md-1 mb-2 mb-md-0">
             <div class="card">
-                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/features/features-1.jpg') }}');
+                <div class="card-body feature-main-banner-responsive" style="background-image: url('{{ asset('images/frontend/features/features-1.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -29,7 +29,7 @@
         <div class="col-lg-4 col-md-4 col-12 px-md-1">
             <div class="card">
                 <div class="card-body bg-custom-black">
-                    <div class="h-300px">
+                    <div class="feature-main-banner-responsive">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
                             <div class="text-custom-style text-white">
                                 <h1>BUSINESS LOUNGE </h1>

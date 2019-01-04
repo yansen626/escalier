@@ -98,8 +98,16 @@ body{
     height: 500px;
 }
 
+.feature-main-banner-responsive{
+    height: 180px;
+}
+
 .feature-image-responsive{
     height: 100px;
+}
+
+.master-plan-banner-responsive{
+    height: 220px;
 }
 
 .home-width-responsive{
@@ -182,6 +190,43 @@ body{
 
     .feature-image-responsive{
         height:250px;
+    }
+
+    .master-plan-banner-responsive{
+        height: inherit;
+        min-height: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-banner-responsive{
+        height: inherit;
+        min-height: 605px;
+    }
+
+    .feature-main-banner-responsive{
+        height: 250px;
+    }
+
+    .master-plan-banner-responsive{
+        height: inherit;
+        min-height: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-banner-responsive{
+        height: inherit;
+        min-height: 580px;
+    }
+
+    .feature-main-banner-responsive{
+        height: 300px;
+    }
+
+    .master-plan-banner-responsive{
+        height: inherit;
+        min-height: 700px;
     }
 }
 

@@ -18,8 +18,7 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>MASTER</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>PLACEMENT</h1>
                                 </div>
                             </div>
                         </div>
@@ -34,8 +33,7 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>FLOOR</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>FLOOR PLAN</h1>
                                 </div>
                             </div>
                         </div>
@@ -50,8 +48,7 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>UNIT</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>UNIT PLAN</h1>
                                 </div>
                             </div>
                         </div>
@@ -62,15 +59,9 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-lg-12 col-md-12 col-12 p-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        </div>
-    </div>
-
-    <div class="row mb-2">
         <div class="col-lg-12 col-md-12 col-12 px-md-1">
             <div class="card">
-                <div class="card-body main-banner-responsive-long" style="background-image: url('{{ asset('images/frontend/plan-master/plan-master-1.jpg') }}');
+                <div class="card-body master-plan-banner-responsive" style="background-image: url('{{ asset('images/frontend/plan-master/plan-master-1.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">

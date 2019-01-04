@@ -18,8 +18,7 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>MASTER</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>PLACEMENT</h1>
                                 </div>
                             </div>
                         </div>
@@ -34,8 +33,7 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>FLOOR</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>FLOOR PLAN</h1>
                                 </div>
                             </div>
                         </div>
@@ -50,20 +48,13 @@
                         <div class="h-100px">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
                                 <div class="text-custom-style text-white">
-                                    <h1>UNIT</h1>
-                                    <h1>PLAN</h1>
+                                    <h1>UNIT PLAN</h1>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row mb-2 text-justify">
-        <div class="col-lg-12 col-md-12 col-12 px-3 py-2 p-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
         </div>
     </div>
 
