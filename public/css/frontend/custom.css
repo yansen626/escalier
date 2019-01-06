@@ -110,6 +110,10 @@ body{
     height: 220px;
 }
 
+.floor-plan-banner-responsive{
+    height: 250px;
+}
+
 .home-width-responsive{
     width: 100%;
 }
@@ -212,6 +216,10 @@ body{
         height: inherit;
         min-height: 550px;
     }
+
+    .floor-plan-banner-responsive{
+        height: 600px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -227,6 +235,10 @@ body{
     .master-plan-banner-responsive{
         height: inherit;
         min-height: 700px;
+    }
+
+    .floor-plan-banner-responsive{
+        height: 690px;
     }
 }
 
