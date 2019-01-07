@@ -70,17 +70,17 @@
         </div>
     </div>
 
-    <div class="row mb-2 text-justify">
-        <div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        </div>
-    </div>
+    {{--<div class="row mb-2 text-justify">--}}
+        {{--<div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">--}}
+            {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>--}}
+        {{--</div>--}}
+        {{--<div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">--}}
+            {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>--}}
+        {{--</div>--}}
+        {{--<div class="col-lg-4 col-md-4 col-12 px-3 py-2 p-md-4">--}}
+            {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 
 
     <!-- /.row -->
