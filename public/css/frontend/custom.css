@@ -114,6 +114,10 @@ body{
     height: 250px;
 }
 
+.unit-plan-blueprint-responsive{
+    height: 300px;
+}
+
 .home-width-responsive{
     width: 100%;
 }
@@ -121,6 +125,10 @@ body{
 .h1{
     font-size: 2.5rem;
 }
+
+#plan-menu h1{
+     font-size: 1.7rem !important;
+ }
 
 @media (min-width: 576px) {
     .for-mt-10{
@@ -199,6 +207,14 @@ body{
     .master-plan-banner-responsive{
         height: inherit;
         min-height: 500px;
+    }
+
+    .unit-plan-blueprint-responsive{
+        height: 400px;
+    }
+
+    #plan-menu h1{
+        font-size: 2.5rem !important;
     }
 }
 

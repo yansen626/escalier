@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <div class="row mb-2 for-mt-10">
+    <div class="row mb-2 for-mt-10" id="plan-menu">
         <div class="col-lg-4 col-md-4 col-4 pr-1 pl-md-1">
             <div class="card">
                 <div class="card-body bg-custom-light-brown p-2 p-md-3">
