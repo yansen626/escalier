@@ -1,50 +1,210 @@
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
-    <div class="container">
-        <a class="navbar-brand" href="{{ route('home') }}">
-            <img src="{{ asset('images/frontend/logo-transparent.png') }}" class="mb-lg-0 mb-md-0 mb-sm-0 mb-3 logo-responsive" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mr-5" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto ml-4">
-                <li class="nav-item mr-3 pr-3">
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h4 {{ Route::currentRouteName() == 'frontend.introduction' ? 'active' : '' }}" href="{{ route('frontend.introduction') }}">Introduction
-                            {{--<span class="sr-only">(current)</span>--}}
+<!-- Header -->
+<header class="header-v3">
+    <!-- Header desktop -->
+    <nav class="container-header-desktop">
+
+        <div class="wrap-menu-desktop">
+            <div class="limiter-menu-desktop container">
+
+                <!-- Menu desktop -->
+                <div class="menu-desktop">
+                    <ul class="main-menu respon-sub-menu left">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Homepage v1</a></li>
+                                <li><a href="home-02.html">Homepage v2</a></li>
+                                <li><a href="home-03.html">Homepage v3</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="services-list.html">Services</a>
+                            <ul class="sub-menu">
+                                <li><a href="services-list.html">Services List</a></li>
+                                <li>
+                                    <a href="#">Services Detail</a>
+
+                                    <ul class="sub-menu">
+                                        <li><a href="services-detail-01.html">Services Detail v1</a></li>
+                                        <li><a href="services-detail-02.html">Services Detail v2</a></li>
+                                        <li><a href="services-detail-03.html">Services Detail v3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Logo desktop -->
+                    <a class="logo-v2" href="index.html"><img src="{{ asset('images/frontend/vendor/icons/logo-01.png') }}" alt="LOGO"></a>
+
+                    <ul class="main-menu respon-sub-menu right">
+                        <li>
+                            <a href="news-grid.html">News</a>
+                            <ul class="sub-menu">
+                                <li><a href="news-grid.html">News Grid</a></li>
+                                <li><a href="news-list.html">News List</a></li>
+                                <li><a href="news-detail.html">News Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="projects-grid.html">Projects</a>
+                            <ul class="sub-menu">
+                                <li><a href="projects-grid.html">Projects Grid</a></li>
+                                <li>
+                                    <a href="#">Projects Detail</a>
+
+                                    <ul class="sub-menu">
+                                        <li><a href="projects-detail-01.html">Projects Detail v1</a></li>
+                                        <li><a href="projects-detail-02.html">Projects Detail v2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Mobile -->
+    <nav class="container-header-mobile">
+        <div class="wrap-header-mobile">
+            <!-- Logo moblie -->
+            <div class="logo-mobile">
+                <a href="index.html"><img src="{{ asset('images/frontend/vendor/icons/logo-01.png') }}" alt="LOGO"></a>
+            </div>
+
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+            </div>
+        </div>
+
+        <div class="menu-mobile">
+            <ul class="top-bar-m p-l-20 p-tb-8">
+                <li>
+                    <div class="t1-s-1 cl-5 p-tb-3">
+							<span class="fs-16 m-r-6">
+								<i class="fa fa-home" aria-hidden="true"></i>
+							</span>
+                        <span>379 5Th Ave New York, Nyc 10018</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="t1-s-1 cl-5 p-tb-3">
+							<span class="fs-16 m-r-6">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+							</span>
+                        <span>(+1) 96 716 6879</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="t1-s-1 cl-5 p-tb-3">
+							<span class="fs-16 m-r-6">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+							</span>
+                        <span>Mon-Sat 09:00 am - 17:00 pm/Sunday CLOSE</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                            <i class="fa fa-facebook-official"></i>
                         </a>
-                    </div>
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h4 {{ Route::currentRouteName() == 'frontend.location' ? 'active' : '' }}" href="{{ route('frontend.location') }}">Location</a>
-                    </div>
 
+                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                            <i class="fa fa-twitter"></i>
+                        </a>
 
-                </li>
-                <li class="nav-item mr-3 pr-3">
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        @if(Route::currentRouteName() == 'frontend.plan.master' ||
-                        Route::currentRouteName() == 'frontend.plan.floor' ||
-                        Route::currentRouteName() == 'frontend.plan.unit')
-                            <a class="nav-link pb-0 pl-0 pr-5 h4 active" href="{{ route('frontend.plan.master') }}">Plans</a>
-                        @else
-                            <a class="nav-link pb-0 pl-0 pr-5 h4" href="{{ route('frontend.plan.master') }}">Plans</a>
-                        @endif
+                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
 
-                    </div>
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h4 {{ Route::currentRouteName() == 'frontend.developer' ? 'active' : '' }}" href="{{ route('frontend.developer') }}">Developer</a>
-                    </div>
-                </li>
-                <li class="nav-item mr-3 pr-3">
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h4 {{ Route::currentRouteName() == 'frontend.features' ? 'active' : '' }}" href="{{ route('frontend.features') }}">Features</a>
-                    </div>
-                    <div class="w-100 py-2 border-bottom border-dark">
-                        <a class="nav-link pb-0 pl-0 pr-5 h4 {{ Route::currentRouteName() == 'frontend.contact_us' ? 'active' : '' }}" href="{{ route('frontend.contact_us') }}">Contact</a>
+                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
                     </div>
                 </li>
             </ul>
+
+            <ul class="main-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                    <ul class="sub-menu">
+                        <li><a href="index.html">Homepage v1</a></li>
+                        <li><a href="home-02.html">Homepage v2</a></li>
+                        <li><a href="home-03.html">Homepage v3</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="services-list.html">Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="services-list.html">Services List</a></li>
+                        <li>
+                            <a href="#">Services Detail</a>
+
+                            <ul class="sub-menu">
+                                <li><a href="services-detail-01.html">Services Detail v1</a></li>
+                                <li><a href="services-detail-02.html">Services Detail v2</a></li>
+                                <li><a href="services-detail-03.html">Services Detail v3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="news-grid.html">News</a>
+                    <ul class="sub-menu">
+                        <li><a href="news-grid.html">News Grid</a></li>
+                        <li><a href="news-list.html">News List</a></li>
+                        <li><a href="news-detail.html">News Detail</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="projects-grid.html">Projects</a>
+                    <ul class="sub-menu">
+                        <li><a href="projects-grid.html">Projects Grid</a></li>
+                        <li>
+                            <a href="#">Projects Detail</a>
+
+                            <ul class="sub-menu">
+                                <li><a href="projects-detail-01.html">Projects Detail v1</a></li>
+                                <li><a href="projects-detail-02.html">Projects Detail v2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+            </ul>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>

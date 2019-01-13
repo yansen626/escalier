@@ -7,37 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="{{ asset('css/frontend/heroic-features.css')}}" rel="stylesheet">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/animate/animate.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/css-hamburgers/hamburgers.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/animsition/css/animsition.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/revolution/css/layers.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/revolution/css/navigation.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/revolution/css/settings.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/select2/select2.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick/slick.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/MagnificPopup/magnific-popup.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/util.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/main.css') }}">
+    <!--===============================================================================================-->
     <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
 
     @yield('styles')
 
 </head>
 
-<body style="background: #e6e7e8;">
+<body class="animsition">
     {{--<div id="preloader"></div>--}}
 
-    <!-- Page Content -->
-    <div class="container">
+    @include('partials.frontend._header')
 
-        @include('partials.frontend._header')
+    @yield('content')
 
-        @yield('content')
-        <!-- Footer #1============================================= -->
-
-
-    </div>
     @include('partials.frontend._footer')
-    <!-- /.container -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/animsition/js/animsition.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/bootstrap/js/popper.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script src="{{ asset('vendor/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script src="{{ asset('js/frontend/revo-custom.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/select2/select2.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/parallax100/parallax100.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/waypoint/jquery.waypoints.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/countterup/jquery.counterup.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/slick/slick.min.js') }}"></script>
+    <script src="{{ asset('js/frontend/slick-custom.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/MagnificPopup/jquery.magnific-popup.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('js/frontend/main.js') }}"></script>
+
     <script>
         $(window).on('load', function(){
             // $('#preloader').delay(100).fadeOut();
