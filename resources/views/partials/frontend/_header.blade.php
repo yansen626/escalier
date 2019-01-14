@@ -2,12 +2,12 @@
 <header class="header-v3">
     <!-- Header desktop -->
     <nav class="container-header-desktop">
-
+        <!-- Logo desktop -->
         <div class="wrap-menu-desktop">
             <div class="limiter-menu-desktop container">
-
+                <a class="logo-v2" href="{{ route('home') }}" style="margin-top: -100px"><img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO"></a>
                 <!-- Menu desktop -->
-                <div class="menu-desktop">
+                <div class="menu-desktop" style="position: absolute;">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
                             <a href="index.html">Home</a>
@@ -38,9 +38,6 @@
                             </ul>
                         </li>
                     </ul>
-
-                    <!-- Logo desktop -->
-                    <a class="logo-v2" href="index.html"><img src="{{ asset('images/frontend/vendor/icons/logo-01.png') }}" alt="LOGO"></a>
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
@@ -81,7 +78,7 @@
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="index.html"><img src="{{ asset('images/frontend/vendor/icons/logo-01.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO"></a>
             </div>
 
 

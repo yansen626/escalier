@@ -1,12 +1,12 @@
 <!-- Footer -->
 <footer>
-    <div class="parallax100 kit-overlay1 p-t-35 p-b-15" style="background-image: url('{{ asset('images/frontend/vendor/bg-03.jpg') }}');">
+    <div class="parallax100 p-t-35 p-b-15 bg-1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e p-b-6 m-b-18">
                         <a href="#">
-                            <img class="max-s-full" src="{{ asset('images/frontend/vendor/icons/logo-02.png') }}" alt="IMG">
+                            <img class="max-s-full" src="{{ asset('images/marc/about/Marcs Website components-19.png') }}" alt="IMG" style="max-width: 200px;">
                         </a>
                     </div>
 
