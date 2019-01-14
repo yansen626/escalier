@@ -35,6 +35,11 @@ class HomeController extends Controller
         return view('frontend.about');
     }
 
+    public function masterplan()
+    {
+        return view('frontend.masterplan');
+    }
+
     public function introduction(){
         return view('frontend.introduction');
     }
