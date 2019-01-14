@@ -5,7 +5,9 @@
         <!-- Logo desktop -->
         <div class="wrap-menu-desktop">
             <div class="limiter-menu-desktop container">
-                <a class="logo-v2" href="{{ route('home') }}" style="margin-top: -100px"><img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO"></a>
+                <a href="{{ route('home') }}" style="margin-top: -100px">
+                    <img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO" height="50" >
+                </a>
                 <!-- Menu desktop -->
                 <div class="menu-desktop" style="position: absolute;">
                     <ul class="main-menu respon-sub-menu left">
