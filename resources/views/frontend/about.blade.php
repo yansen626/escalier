@@ -10,30 +10,80 @@
 
 @section('styles')
     <style type="text/css">
-        .centered {
-            position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            min-width: 300px;
-        }
 
-        .mycontent-left {
-            border-right: 1px solid #333;
-            height: 297px;
-        }
-
-        .mycontent-right {
-            border-left: 1px solid #333;
-            height: 100%;
-        }
-
-        @media (max-width: 768px) {
+        @media (max-width: 576px) {
             .mycontent-left {
                 border-right: none;
             }
             .mycontent-right {
-                border-left: 0px;
+                border-left: none;
+            }
+            .centered {
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .mycontent-left {
+                border-right: none;
+            }
+            .mycontent-right {
+                border-left: none;
+            }
+
+            .centered {
+                position: absolute;
+                top: 80%;
+                left: 70%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (max-width: 992px) {
+        }
+
+        @media (min-width: 1024px) {
+            .mycontent-left {
+                border-right: 1px solid #333;
+                height: 345px;
+            }
+
+            .mycontent-right {
+                border-left: 1px solid #333;
+                height: 100%;
+            }
+
+            .centered {
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .centered {
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+
+            .mycontent-left {
+                border-right: 1px solid #333;
+                height: 297px;
+            }
+
+            .mycontent-right {
+                border-left: 1px solid #333;
+                height: 100%;
             }
         }
     </style>
@@ -104,7 +154,7 @@
     <section class="bg-0 p-t-40 p-b-30">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
                             <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
@@ -120,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
                             <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
@@ -136,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
                             <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
@@ -166,7 +216,7 @@
     <section class="bg-0 p-t-40 p-b-30">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-6 col-lg-4 mycontent-left">
+                <div class="col-sm-4 col-md-4 col-lg-4 mycontent-left">
                     <div class="flex-col-c-c pos-relative">
                         <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
                             "This is the home you will proud to
@@ -187,7 +237,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative">
                         <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
                             "This is the place you will love to stay.
@@ -208,7 +258,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4 mycontent-right">
+                <div class="col-sm-4 col-md-4 col-lg-4 mycontent-right">
                     <div class="flex-col-c-c pos-relative">
                         <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
                             "This is the home where you choose to
