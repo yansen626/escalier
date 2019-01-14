@@ -12,35 +12,30 @@
     <style type="text/css">
 
         @media (max-width: 576px) {
-            .mycontent-left {
-                border-right: none;
+            .map-img{
+                background-size: 96% 100%;
+                min-height: 150px;
             }
-            .mycontent-right {
-                border-left: none;
+
+            .min-img{
+                background-size: 96% 100%;
+                min-height: 150px;
             }
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
+
+            .build-img{
+                background-size: contain;
+                min-height: 150px;
+            }
+
+            .header-img{
+                background-size: 100% 100%;
+                min-height: 50px;
             }
         }
 
         @media (min-width: 768px) {
-            .mycontent-left {
-                border-right: none;
-            }
-            .mycontent-right {
-                border-left: none;
-            }
-
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 70%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
+            .map-img{
+                background-size:contain;
             }
         }
 
@@ -48,42 +43,46 @@
         }
 
         @media (min-width: 1024px) {
-            .mycontent-left {
-                border-right: 1px solid #333;
-                height: 345px;
+            .map-img{
+                height: 515px;
+                background-size:contain;
             }
 
-            .mycontent-right {
-                border-left: 1px solid #333;
-                height: 100%;
+            .min-img{
+                background-size: 684px 400px;
+                min-height: 400px;
             }
 
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
+            .build-img{
+                background-size: 684px 400px;
+                min-height: 400px;
+            }
+
+            .header-img{
+                background-size: 100% 100%;
+                min-height: 200px;
             }
         }
 
         @media (min-width: 1200px) {
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
+            .map-img{
+                height: 952px;
+                background-size:contain;
             }
 
-            .mycontent-left {
-                border-right: 1px solid #333;
-                height: 297px;
+            .min-img{
+                height: 647px;
+                background-size:contain;
             }
 
-            .mycontent-right {
-                border-left: 1px solid #333;
-                height: 100%;
+            .build-img{
+                height: 558px;
+                background-size:contain;
+            }
+
+            .header-img{
+                background-size: 100% 100%;
+                min-height: 350px;
             }
         }
     </style>
@@ -93,7 +92,7 @@
 
     <!-- About -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3" style="background-image: url('{{ asset('images/frontend/vendor/other-03.jpg') }}'); min-height: 400px;"></div>
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-35.jpg') }}');"></div>
     </section>
 
     <!-- Why chosse us -->
@@ -108,46 +107,46 @@
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-20">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-1"></div>
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+        <div class="col-lg-2"></div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
         <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3" style="background-image: url('{{ asset('images/frontend/vendor/other-01.jpg') }}');"></div>
+        <div class="col-lg-10 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
         <div class="col-lg-1"></div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-20">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-1"></div>
-    </section>
-
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3" style="background-image: url('{{ asset('images/frontend/vendor/other-01.jpg') }}');"></div>
-        <div class="col-lg-1"></div>
-    </section>
-
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-20">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-1"></div>
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+        <div class="col-lg-2"></div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
         <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3" style="background-image: url('{{ asset('images/frontend/vendor/other-01.jpg') }}');"></div>
+        <div class="col-lg-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
         <div class="col-lg-1"></div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-20">
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+        <div class="col-lg-2"></div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
         <div class="col-lg-1"></div>
-        <div class="col-lg-10 bg-3" style="width: 100%; height: 2px;"></div>
+        <div class="col-lg-10 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
         <div class="col-lg-1"></div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+        <div class="col-lg-2"></div>
     </section>
 @endsection
 

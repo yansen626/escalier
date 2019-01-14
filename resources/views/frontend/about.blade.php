@@ -25,6 +25,9 @@
                 transform: translate(-50%, -50%);
                 min-width: 300px;
             }
+            .header-img{
+                min-height: 150px;
+            }
         }
 
         @media (min-width: 768px) {
@@ -65,6 +68,10 @@
                 transform: translate(-50%, -50%);
                 min-width: 300px;
             }
+
+            .header-img{
+                min-height: 300px;
+            }
         }
 
         @media (min-width: 1200px) {
@@ -85,6 +92,10 @@
                 border-left: 1px solid #333;
                 height: 100%;
             }
+
+            .header-img{
+                min-height: 400px;
+            }
         }
     </style>
 @endsection
@@ -93,7 +104,7 @@
 
     <!-- About -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3" style="background-image: url('{{ asset('images/frontend/vendor/other-03.jpg') }}'); min-height: 400px;"></div>
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/about/Marcs Website components-15.jpg') }}');"></div>
     </section>
 
     <!-- Why chosse us -->
@@ -157,7 +168,7 @@
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
+                            <img src="{{ asset('images/marc/about/Marcs Website components-16.jpg') }}" alt="IMG">
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
@@ -173,7 +184,7 @@
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
+                            <img src="{{ asset('images/marc/about/Marcs Website components-17.jpg') }}" alt="IMG">
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
@@ -189,7 +200,7 @@
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
                         <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/frontend/vendor/product-02.jpg') }}" alt="IMG">
+                            <img src="{{ asset('images/marc/about/Marcs Website components-18.jpg') }}" alt="IMG">
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
