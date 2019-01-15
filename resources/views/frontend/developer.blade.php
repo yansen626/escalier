@@ -149,93 +149,55 @@
 
     <section class="bg-1 p-t-60 p-b-40">
         <div class="container">
-            <div class="row cl-0" style="font-weight: bold;">
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    DEVELOPED PROJECTS
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-                <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    FUTURE DEVELOPMENT
-                </div>
-            </div>
-            <div class="row cl-0" style="font-weight: bold;">
-                <div class="col-lg-3">
-                    -
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-                <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-                <div class="col-lg-3">
-                    -
-                </div>
-            </div>
-            <div class="row cl-0" style="font-weight: bold;">
-                <div class="col-lg-3">
+            <div class="row cl-0">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>DEVELOPED PROJECTS</b> <br/>
+                    -<br/>
                     JAKARTA & TANGERANG
                 </div>
                 <div class="col-lg-3 col-sm-12 col-xs-12"></div>
                 <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>FUTURE DEVELOPMENT</b><br/>
+                    -<br/>
                     BATAM
                 </div>
             </div>
 
-            <div class="row cl-0" style="font-weight: bold;">
-                <div class="col-lg-3">
-                    Ubud Village
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    Brooklyn
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    Yukata Suites
-                </div>
-                <div class="col-lg-3">
-                    Collins Boulevard
-                </div>
-            </div>
-
             <div class="row cl-0">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Ubud Village</b><br/>
                     Project Value 180 Billion
                 </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Brooklyn</b><br/>
                     Project Value 1.2 Trillion
                 </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Yukata Suites</b><br/>
                     Project Value 900 Billion
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Collins Boulevard</b><br/>
                     Project Value 5 Trillion
                 </div>
             </div>
 
-            <div class="row cl-0" style="margin-top: 20px; font-weight: bold;">
-                <div class="col-lg-3">
-                    Marc's Boulevard
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    Melrose Place
-                </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
-                    Springwood Residence
-                </div>
-                <div class="col-lg-3">
-                    The Smith
-                </div>
-            </div>
-
-            <div class="row cl-0">
-                <div class="col-lg-3">
+            <div class="row cl-0" style="margin-top: 20px;">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Marc's Boulevard</b><br/>
                     Project Value 5 Trillion
                 </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Melrose Place</b><br/>
                     Project Value 50 Billion
                 </div>
-                <div class="col-lg-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>Springwood Residence</b><br/>
                     Project Value 900 Billion
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
+                    <b>The Smith</b><br/>
                     Project Value 1 Trillion
                 </div>
             </div>
