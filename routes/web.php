@@ -20,6 +20,7 @@ Auth::routes();
 // FRONTEND ROUTE
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
+Route::get('/district', 'Frontend\HomeController@district')->name('district');
 Route::get('/about', 'Frontend\HomeController@about')->name('about');
 Route::get('/masterplan', 'Frontend\HomeController@masterplan')->name('masterplan');
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');

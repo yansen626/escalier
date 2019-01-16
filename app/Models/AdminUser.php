@@ -2,12 +2,11 @@
 
 /**
  * Created by Reliese Model.
- * Date: Thu, 06 Dec 2018 06:52:28 +0000.
+ * Date: Mon, 14 Jan 2019 07:21:02 +0000.
  */
 
 namespace App\Models;
 
-use Illuminate\Foundation\Auth\User as Authenticatable;
 use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
@@ -21,25 +20,24 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property string $email
  * @property string $password
  * @property string $language
+ * @property int $status_id
  * @property string $image_path
  * @property string $remember_token
  * @property \Carbon\Carbon $email_verified_at
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
- * @property int $status_id
  * 
- * @property \App\Models\Role $role
  * @property \App\Models\Status $status
+ * @property \App\Models\Role $role
  *
  * @package App\Models
  */
-class AdminUser extends Authenticatable
+class AdminUser extends Eloquent
 {
-    protected $guard = 'admin';
-
 	protected $casts = [
 		'is_super_admin' => 'int',
-		'role_id' => 'int'
+		'role_id' => 'int',
+		'status_id' => 'int'
 	];
 
 	protected $dates = [
@@ -59,16 +57,16 @@ class AdminUser extends Authenticatable
 		'email',
 		'password',
 		'language',
+		'status_id',
 		'image_path',
 		'remember_token',
-		'email_verified_at',
-        'status_id'
+		'email_verified_at'
 	];
 
-    public function status()
-    {
-        return $this->belongsTo(\App\Models\Status::class);
-    }
+	public function status()
+	{
+		return $this->belongsTo(\App\Models\Status::class);
+	}
 
 	public function role()
 	{

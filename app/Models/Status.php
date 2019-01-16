@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Fri, 07 Dec 2018 08:44:47 +0000.
+ * Date: Mon, 14 Jan 2019 07:21:02 +0000.
  */
 
 namespace App\Models;
@@ -15,7 +15,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property int $id
  * @property string $description
  * 
- * @property \Illuminate\Database\Eloquent\Collection $users
+ * @property \Illuminate\Database\Eloquent\Collection $admin_users
  *
  * @package App\Models
  */
@@ -27,8 +27,8 @@ class Status extends Eloquent
 		'description'
 	];
 
-	public function users()
+	public function admin_users()
 	{
-		return $this->hasMany(\App\Models\User::class);
+		return $this->hasMany(\App\Models\AdminUser::class);
 	}
 }

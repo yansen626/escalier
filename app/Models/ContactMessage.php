@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Wed, 12 Dec 2018 03:08:39 +0000.
+ * Date: Mon, 14 Jan 2019 07:21:02 +0000.
  */
 
 namespace App\Models;
@@ -27,7 +27,6 @@ class ContactMessage extends Eloquent
 	protected $fillable = [
 		'name',
 		'email',
-		'message',
-        'created_at'
+		'message'
 	];
 }
