@@ -12,62 +12,29 @@
                 <div class="menu-desktop" style="position: absolute;">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="index.html">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Homepage v1</a></li>
-                                <li><a href="home-02.html">Homepage v2</a></li>
-                                <li><a href="home-03.html">Homepage v3</a></li>
-                            </ul>
+                            <a href="{{ route('about') }}">ABOUT</a>
                         </li>
 
                         <li>
-                            <a href="about.html">About Us</a>
+                            <a href="{{ route('about') }}">DISTRICT</a>
                         </li>
 
                         <li>
-                            <a href="services-list.html">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="services-list.html">Services List</a></li>
-                                <li>
-                                    <a href="#">Services Detail</a>
-
-                                    <ul class="sub-menu">
-                                        <li><a href="services-detail-01.html">Services Detail v1</a></li>
-                                        <li><a href="services-detail-02.html">Services Detail v2</a></li>
-                                        <li><a href="services-detail-03.html">Services Detail v3</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <a href="{{ route('developer') }}">DEVELOPER</a>
                         </li>
                     </ul>
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="news-grid.html">News</a>
-                            <ul class="sub-menu">
-                                <li><a href="news-grid.html">News Grid</a></li>
-                                <li><a href="news-list.html">News List</a></li>
-                                <li><a href="news-detail.html">News Detail</a></li>
-                            </ul>
+                            <a href="{{ route('masterplan') }}">MASTERPLAN</a>
                         </li>
 
                         <li>
-                            <a href="projects-grid.html">Projects</a>
-                            <ul class="sub-menu">
-                                <li><a href="projects-grid.html">Projects Grid</a></li>
-                                <li>
-                                    <a href="#">Projects Detail</a>
-
-                                    <ul class="sub-menu">
-                                        <li><a href="projects-detail-01.html">Projects Detail v1</a></li>
-                                        <li><a href="projects-detail-02.html">Projects Detail v2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <a href="{{ route('masterplan') }}">PARTNERS</a>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact us</a>
+                            <a href="{{ route('masterplan') }}">CONTACT</a>
                         </li>
                     </ul>
                 </div>
