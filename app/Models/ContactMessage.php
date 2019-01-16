@@ -2,7 +2,7 @@
 
 /**
  * Created by Reliese Model.
- * Date: Mon, 14 Jan 2019 07:21:02 +0000.
+ * Date: Wed, 16 Jan 2019 09:00:13 +0000.
  */
 
 namespace App\Models;
@@ -15,6 +15,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property int $id
  * @property string $name
  * @property string $email
+ * @property string $subject
  * @property string $message
  * @property \Carbon\Carbon $created_at
  *
@@ -22,11 +23,12 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  */
 class ContactMessage extends Eloquent
 {
-	public $timestamps = false;
 
 	protected $fillable = [
 		'name',
 		'email',
-		'message'
+		'subject',
+		'message',
+		'created_at'
 	];
 }

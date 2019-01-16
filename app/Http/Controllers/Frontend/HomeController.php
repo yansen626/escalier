@@ -78,14 +78,16 @@ class HomeController extends Controller
     }
 
     public function saveContactUs(Request $request){
+//        dd(Carbon::now('Asia/Jakarta')->toDateTimeString());
         $data = ContactMessage::create([
             'name'          => $request->input('name'),
             'email'         => $request->input('email'),
+            'subject'         => $request->input('subject'),
             'message'       => $request->input('message'),
-            'created_at'    => Carbon::now('Asia/Jakarta')
+            'created_at'    => Carbon::now('Asia/Jakarta')->toDateTimeString()
         ]);
 
         Session::flash('success', 'Thank you for Contacting us!');
-        return redirect()->route('frontend.contactUs');
+        return redirect()->route('contact_us');
     }
 }

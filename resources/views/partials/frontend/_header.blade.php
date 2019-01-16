@@ -16,7 +16,7 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('about') }}">DISTRICT</a>
+                            <a href="{{ route('district') }}">DISTRICT</a>
                         </li>
 
                         <li>
@@ -34,7 +34,7 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('masterplan') }}">CONTACT</a>
+                            <a href="{{ route('contact_us') }}">CONTACT</a>
                         </li>
                     </ul>
                 </div>

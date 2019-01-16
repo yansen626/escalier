@@ -1,64 +1,126 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Contact data of F.O.R">
+    <meta name="description" content="Home Page">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>F.O.R - Contact Us</title>
+    <title>MARCS BOULEVARD</title>
 @endsection
 
 @section('content')
 
-    <div class="row mb-2 for-mt-10">
-        <div class="col-lg-12 col-md-12 px-1 text-center">
-            <h1 class="text-custom-style text-custom-light-brown display-2">CONTACT US</h1>
-        </div>
-    </div>
+    <!-- About -->
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/contact/Marcs Website components-51.jpg') }}');"></div>
+    </section>
 
-    @if(\Illuminate\Support\Facades\Session::has('success'))
-        <div class="row mb-2">
-            <div class="col-lg-12 col-md-12">
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>{{ \Illuminate\Support\Facades\Session::get('success') }}</strong>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <section class="bg-0 p-t-95 p-b-40">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-6 p-b-60">
+                    <div class="p-l-30 p-l-0-sr767">
+                        <h3 class="t1-b-1 cl-3 m-b-11">
+                            SEND US A MESSAGE
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-6 p-b-60">
+                    @if(\Illuminate\Support\Facades\Session::has('success'))
+                        <div class="row mb-2">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong>{{ \Illuminate\Support\Facades\Session::get('success') }}</strong>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+                    {{ Form::open(['route'=>['contact_us.save'],'method' => 'post','id' => 'contact-form', 'class'=>'validate-form']) }}
+
+                        <div class="m-b-15 validate-input" data-validate = "Name is required">
+                            <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Your Name">
+                        </div>
+
+                        <div class="m-b-15 validate-input" data-validate = "Valid email is: ex@abc.xyz">
+                            <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="email" placeholder="Your Email">
+                        </div>
+
+                        <div class="m-b-15 validate-input" data-validate = "Subject is required">
+                            <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="subject" placeholder="Subject">
+                        </div>
+
+                        <div class="m-b-30 validate-input" data-validate = "Message is required">
+                            <textarea class="size-a-14 t1-m-2 plh-6 cl-6 p-rl-20 p-tb-13 bo-1-rad-4 bcl-12 focus-in1" name="msg" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button class="btn btn-dark">
+                            Send
+                        </button>
+                    {{ Form::close() }}
                 </div>
             </div>
         </div>
-    @endif
+    </section>
 
-    {{ Form::open(['route'=>['frontend.contact_us.save'],'method' => 'post','id' => 'general-form']) }}
-        <div class="row mb-2">
-            <div class="col-lg-6 col-md-6 col-xs-12 mb-2 mb-md-0">
-                <input class="form-control" type="text" name="name" id="name" placeholder="Your Name"/>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xs-12">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Your Email"/>
-            </div>
-        </div>
-
-        <div class="row mb-2">
-            <div class="col-lg-12 col-md-12 col-xs-12">
-                <textarea class="form-control" id="message" placeholder="Your Message" name="message" rows="7"></textarea>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-lg-12 col-md-12 col-xs-12">
-                <input type="submit" class="btn col-lg-12 col-md-12 col-xs-12 bg-custom-light-brown text-white font-weight-bold" style="border-radius: 0;" value="Send a Message"/>
-            </div>
-        </div>
-    {{ Form::close() }}
 @endsection
 
 @section('styles')
-    <style>
-        .form-control { border-radius: 0; }
-        .form-control::-webkit-input-placeholder { color: #d9d9d9; }  /* WebKit, Blink, Edge */
-        .form-control:-moz-placeholder { color: #d9d9d9; }  /* Mozilla Firefox 4 to 18 */
-        .form-control::-moz-placeholder { color: #d9d9d9; }  /* Mozilla Firefox 19+ */
-        .form-control:-ms-input-placeholder { color: #d9d9d9; }  /* Internet Explorer 10-11 */
-        .form-control::-ms-input-placeholder { color: #d9d9d9; }  /* Microsoft Edge */
+    <style type="text/css">
+        .btn-dark{
+            border-radius: 30%;
+        }
+        @media (max-width: 576px) {
+            .centered {
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            .centered {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (max-width: 992px) {
+        }
+
+        @media (min-width: 1024px) {
+
+            .centered {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .centered {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 300px;
+            }
+        }
     </style>
+@endsection
+
+@section('scripts')
+    <script>
+    </script>
 @endsection

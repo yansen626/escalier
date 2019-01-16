@@ -30,8 +30,8 @@ Route::get('/master-plan', 'Frontend\HomeController@planMaster')->name('frontend
 Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.plan.floor');
 Route::get('/unit-plan', 'Frontend\HomeController@planUnit')->name('frontend.plan.unit');
 Route::get('/features', 'Frontend\HomeController@features')->name('frontend.features');
-Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
-Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
+Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('contact_us');
+Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('contact_us.save');
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 
 // ADMIN ROUTE
