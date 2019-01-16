@@ -20,18 +20,19 @@ Auth::routes();
 // FRONTEND ROUTE
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
-Route::get('/district', 'Frontend\HomeController@district')->name('district');
-Route::get('/about', 'Frontend\HomeController@about')->name('about');
-Route::get('/masterplan', 'Frontend\HomeController@masterplan')->name('masterplan');
+Route::get('/district', 'Frontend\HomeController@district')->name('frontend.district');
+Route::get('/about', 'Frontend\HomeController@about')->name('frontend.about');
+Route::get('/masterplan', 'Frontend\HomeController@masterplan')->name('frontend.masterplan');
 Route::get('/introduction', 'Frontend\HomeController@introduction')->name('frontend.introduction');
 Route::get('/location', 'Frontend\HomeController@location')->name('frontend.location');
-Route::get('/developer', 'Frontend\HomeController@developer')->name('developer');
+Route::get('/developer', 'Frontend\HomeController@developer')->name('frontend.developer');
 Route::get('/master-plan', 'Frontend\HomeController@planMaster')->name('frontend.plan.master');
+Route::get('/partners', 'Frontend\HomeController@partners')->name('frontend.partners');
 Route::get('/floor-plan', 'Frontend\HomeController@planFloor')->name('frontend.plan.floor');
 Route::get('/unit-plan', 'Frontend\HomeController@planUnit')->name('frontend.plan.unit');
 Route::get('/features', 'Frontend\HomeController@features')->name('frontend.features');
-Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('contact_us');
-Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('contact_us.save');
+Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
+Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 
 // ADMIN ROUTE

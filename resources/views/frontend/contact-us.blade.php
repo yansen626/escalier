@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     @endif
-                    {{ Form::open(['route'=>['contact_us.save'],'method' => 'post','id' => 'contact-form', 'class'=>'validate-form']) }}
+                    {{ Form::open(['route'=>['frontend.contact_us.save'],'method' => 'post','id' => 'contact-form', 'class'=>'validate-form']) }}
 
                         <div class="m-b-15 validate-input" data-validate = "Name is required">
                             <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Your Name">

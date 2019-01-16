@@ -12,29 +12,29 @@
                 <div class="menu-desktop" style="position: absolute;">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="{{ route('about') }}">ABOUT</a>
+                            <a href="{{ route('frontend.about') }}">ABOUT</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('district') }}">DISTRICT</a>
+                            <a href="{{ route('frontend.district') }}">DISTRICT</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('developer') }}">DEVELOPER</a>
+                            <a href="{{ route('frontend.developer') }}">DEVELOPER</a>
                         </li>
                     </ul>
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{ route('masterplan') }}">MASTERPLAN</a>
+                            <a href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('masterplan') }}">PARTNERS</a>
+                            <a href="{{ route('frontend.partners') }}">PARTNERS</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('contact_us') }}">CONTACT</a>
+                            <a href="{{ route('frontend.contact_us') }}">CONTACT</a>
                         </li>
                     </ul>
                 </div>
