@@ -351,7 +351,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-18.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #353334;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 50 m Lap Pool
                             </div>
@@ -363,7 +363,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-19.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #1d342a;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Basketball Court
                             </div>
@@ -375,7 +375,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-20.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #353334;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Clubhouse
                             </div>
@@ -387,7 +387,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-21.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #1d342a;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Kid’s Pool
                             </div>
@@ -405,7 +405,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-22.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #353334;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Playground
                             </div>
@@ -417,7 +417,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-23.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #1d342a;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Barbeque Pit
                             </div>
@@ -429,7 +429,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-24.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #353334;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Outdoor Gym
                             </div>
@@ -441,7 +441,7 @@
                     <div class="flex-col-c-c pos-relative">
                         <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-25.jpg') }}')"></div>
 
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1" style="background-color: #1d342a;">
                             <div class="size-a-29 t1-s-5 cl-0 four-box">
                                 Yoga Space
                             </div>
