@@ -10,23 +10,16 @@
 
 @section('styles')
     <style type="text/css">
-
         @media (max-width: 576px) {
-            .mycontent-left {
-                border-right: none;
-            }
-            .mycontent-right {
-                border-left: none;
-            }
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
-            }
-            .header-img{
+            .header-top-img{
                 min-height: 150px;
+            }
+
+            .header-img{
+                min-height: 350px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 100%;
             }
 
             .left-menu{
@@ -55,21 +48,6 @@
                 border-bottom: 1px solid #333;
             }
 
-            .mycontent-left {
-                border-right: none;
-            }
-            .mycontent-right {
-                border-left: none;
-            }
-
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 70%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
-            }
-
             .left-menu{
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
@@ -91,26 +69,18 @@
         }
 
         @media (min-width: 1024px) {
-            .mycontent-left {
-                border-right: 1px solid #333;
-                height: 345px;
-            }
-
-            .mycontent-right {
-                border-left: 1px solid #333;
+            .header-top-img{
+                min-height: 350px;
+                background-size: 100%;
+                background-repeat: no-repeat;
                 height: 100%;
             }
 
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
-            }
-
             .header-img{
-                min-height: 300px;
+                min-height: 350px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 100%;
             }
 
             .left-menu{
@@ -139,6 +109,17 @@
                 border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
             }
+
+            .four-box{
+                height: 100px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 90px;
+            }
+
+            .tab-nav{
+                border: 1px solid #333;
+            }
         }
 
         @media (min-width: 1200px) {
@@ -154,22 +135,10 @@
                 border-bottom: 1px solid #333;
             }
 
-            .centered {
-                position: absolute;
-                top: 80%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                min-width: 300px;
-            }
-
-            .mycontent-left {
-                border-right: 1px solid #333;
-                height: 297px;
-            }
-
-            .mycontent-right {
-                border-left: 1px solid #333;
-                height: 100%;
+            .four-box{
+                text-align: center;
+                vertical-align: middle;
+                line-height: 90px;
             }
 
             .header-img{
@@ -205,7 +174,7 @@
 
     <!-- About -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-13.jpg') }}');"></div>
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-13.jpg') }}');"></div>
     </section>
 
     <section class="bg-0 p-t-40 p-b-10">
@@ -232,7 +201,7 @@
         <div class="container">
             <!-- Title section -->
             <div class="row">
-                <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <div class="flex-col-c-c p-b-20 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <h3 class="t1-s-2 cl-3 txt-center m-b-11">Condovilla</h3>
                     <h1 class="t1-m-4 cl-3 txt-center m-b-11">THE PLANS</h1>
                 </div>
@@ -246,24 +215,24 @@
             <div class="row">
                 <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <!-- Tab02 -->
-                    <div class="tab02 p-t-20">
+                    <div class="tab02 p-t-20 text-center">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
+                            <li class="nav-item col-md-4 p-0 tab-nav">
                                 <a class="nav-link active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item col-md-4 p-0 tab-nav">
                                 <a class="nav-link" data-toggle="tab" href="#floorplan" role="tab">FLOOR PLAN</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item col-md-4 p-0 tab-nav">
                                 <a class="nav-link" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
                             </li>
                         </ul>
 
                         <!-- Tab panes -->
-                        <div class="tab-content">
+                        <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">
                             <!-- - -->
                             <div class="tab-pane fade show active" id="siteplan" role="tabpanel">
                                 <div class="p-rl-30 p-t-25 p-b-35">
@@ -341,60 +310,6 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-40 p-b-30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
-                        <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/marc/about/Marcs Website components-16.jpg') }}" alt="IMG">
-                        </div>
-
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
-                                THE PRIDE
-                                <br/>
-                                WORTH ACHIEVING.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
-                        <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/marc/about/Marcs Website components-17.jpg') }}" alt="IMG">
-                        </div>
-
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
-                                THE HOME
-                                <br/>
-                                WORTH LOVING.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="flex-col-c-c pos-relative" data-sale="Sale" data-new="New">
-                        <div class="hov-img0 of-hidden w-full m-b-20">
-                            <img src="{{ asset('images/marc/about/Marcs Website components-18.jpg') }}" alt="IMG">
-                        </div>
-
-                        <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
-                                THE MARC
-                                <br/>
-                                WORTH LIVING.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="bg-0 p-t-0 p-b-20">
         <div class="container">
             <div class="flex-col-c-c p-b-20">
@@ -403,70 +318,79 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-40 p-b-30">
+    <section class="bg-0 p-t-0 p-b-10">
+        <div class="container">
+            <!-- Title section -->
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-16.jpg') }}" height="100%" width="100%" alt="header"/>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-17.jpg') }}" height="100%" width="100%" alt="header"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-0 p-t-40 p-b-0">
+        <div class="container">
+            <!-- Title section -->
+            <div class="row">
+                <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Condovilla</h3>
+                    <h1 class="t1-m-4 cl-3 txt-center m-b-11">FACILITIES</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-0 p-t-0 p-b-30">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-4 col-lg-4 mycontent-left">
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
-                            "This is the home you will proud to
-                            own. This will be your pride."
-                        </div>
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-18.jpg') }}')"></div>
 
-                        <div class="p-rl-5 t1-s-2 cl-1 m-l-10 p-t-20">
-                            Wrapped around the dashingly designed facade
-                            are finely crafted living spaces and seamless blend
-                            of sleekly developed residences, retail, amenities
-                            and green open spaces. The highly sought-after
-                            location, along with its remarkable landmark
-                            architecture, lead Marc's Boulevard by Triniti Land
-                            to be a grand and exceptional living surrounding.
-                            Presenting a livable stage where those beautiful
-                            stories of yours will be made alive.
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                50 m Lap Pool
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
-                            "This is the place you will love to stay.
-                            This will be the home you love."
-                        </div>
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-19.jpg') }}')"></div>
 
-                        <div class="p-rl-5 t1-s-2 cl-1 m-l-10 p-t-20">
-                            Find your most idealized expectation of a fulfilling
-                            life being satisfied in Marc's Boulevard by Triniti
-                            Land. Peaceful elegance by the green hues of
-                            nature mingles well with it's modern and
-                            aesthetically-pleasing design. Featuring extensive
-                            forms of life-enhancing facilities and communal
-                            space, Marc's Boulevard provides countless
-                            meaningful experiences and add a pleasing touch
-                            to every story you live in.
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Basketball Court
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-md-4 col-lg-4 mycontent-right">
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
-                            "This is the home where you choose to
-                            live. This is the Marc."
-                        </div>
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-20.jpg') }}')"></div>
 
-                        <div class="p-rl-5 t1-s-2 cl-1 m-l-10 p-t-20">
-                            The fully integrated mixed-use development of
-                            Marc's Boulevard presents an utmost convenience
-                            to all its residents. Whether it be picking up your
-                            daughter from her first day of school or rewarding
-                            yourself at that newly opened flagship stores,
-                            nothing is far from your door. Initiated by an
-                            award-winning developer, Triniti Land, Each of
-                            these five unique districts of perfection are
-                            thoughtfully planned with a single-minded
-                            dedication to the highest standards of quality
-                            living spaces and life fulfillment.
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Clubhouse
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-md-0">
+                    <div class="flex-col-c-c pos-relative">
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-21.jpg') }}')"></div>
+
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Kid’s Pool
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -474,10 +398,56 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-20">
+    <section class="bg-0 p-t-20 p-b-30">
         <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
+                    <div class="flex-col-c-c pos-relative">
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-22.jpg') }}')"></div>
+
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Playground
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
+                    <div class="flex-col-c-c pos-relative">
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-23.jpg') }}')"></div>
+
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Barbeque Pit
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 mb-5 mb-md-0">
+                    <div class="flex-col-c-c pos-relative">
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-24.jpg') }}')"></div>
+
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Outdoor Gym
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="flex-col-c-c pos-relative">
+                        <div class="hov-img0 w-full col-md-12 header-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-25.jpg') }}')"></div>
+
+                        <div class="w-full z-index-100 p-all-10 pointer-e-none col-md-12 bg-1">
+                            <div class="size-a-29 t1-s-5 cl-0 four-box">
+                                Yoga Space
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

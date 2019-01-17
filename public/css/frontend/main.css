@@ -1285,12 +1285,11 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
 
 .tab02 .nav-link.active {
   background-color: #fff;
-  color: #16a086;
   border-color: #d0d0d0 #d0d0d0 #fff;
+  border-bottom: 2px solid #333;
 }
 
 .tab02 .nav-link:hover {
-  color: #16a086;
   border-color: #d0d0d0;
 }
 
