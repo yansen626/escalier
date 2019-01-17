@@ -5,7 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>MARCS BOULEVARD</title>
+    <title>PAUL MARC - PAUL PLACE</title>
 @endsection
 
 @section('content')

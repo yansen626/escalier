@@ -1,6 +1,11 @@
 .gold{
     color: #d1ac60 !important;
 }
+
+.white{
+    color: #fff;
+}
+
 .bottom-line-white{
     border-bottom: 1px solid #ffffff;
 }
