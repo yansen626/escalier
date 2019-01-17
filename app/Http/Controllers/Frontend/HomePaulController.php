@@ -8,8 +8,12 @@ use Illuminate\Http\Request;
 
 class HomePaulController extends Controller
 {
-    public function projects()
+    public function prives()
     {
         return view('frontend.paul.project-prive');
+    }
+    public function lanes()
+    {
+        return view('frontend.paul.project-lane');
     }
 }

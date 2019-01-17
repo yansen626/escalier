@@ -36,7 +36,8 @@ Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('front
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 
 // FRONTEND PAUL
-Route::get('/paul/project', 'Frontend\HomePaulController@projects')->name('frontend.paul.projects');
+Route::get('/paul/prives', 'Frontend\HomePaulController@prives')->name('frontend.paul.prives');
+Route::get('/paul/lanes', 'Frontend\HomePaulController@lanes')->name('frontend.paul.lanes');
 
 // ADMIN ROUTE
 // ====================================================================================================================
