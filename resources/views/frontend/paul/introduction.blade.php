@@ -23,10 +23,8 @@
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
                             <h1 class="t1-b-1 white custom-font-2">PURPOSE BUILT LEGACY</h1>
-                            <br/>
-                            <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
-                            <br/>
-                            <span class="t1-m-1 white custom-font-2">"A legacy one desires</span><b4/>
+                            <hr class="border-white mx-auto my-md-4" style="width: 50px; border-width: 2px;"/>
+                            <span class="t1-m-1 white custom-font-2">"A legacy one desires</span>
                             <span class="t1-m-1 white custom-font-2">to be passed down to the loved ones."</span>
                         </div>
                     </div>
