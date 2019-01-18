@@ -10,11 +10,11 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
-                            <a href="{{ route('frontend.paul.introduction') }}">INTRODUCTION</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.paul.introduction') }}">INTRODUCTION</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.paul.lanes') }}">PROJECTS</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.paul.lanes') }}">PROJECTS</a>
                         </li>
                     </ul>
 
@@ -25,11 +25,11 @@
 
                     <ul class="main-menu respon-sub-menu right">
                         <li>
-                            <a href="{{ route('home') }}">MARC'S BOULEVARD</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">MARC'S BOULEVARD</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}">CONTACT</a>
                         </li>
                     </ul>
                 </div>

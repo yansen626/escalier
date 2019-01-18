@@ -12,15 +12,15 @@
 
                     <div>
                         <p class="t1-s-2 cl-13 p-b-9">
-                            PT PURI TRINITI BATAM
+                            <span class="custom-font-1">PT PURI TRINITI BATAM</span>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
-                            Marketing Office
+                        <h4 class="t1-m-3 cl-0">
+                            <span class="custom-font-2" style="font-size: 20px;">Marketing Office</span>
                         </h4>
                     </div>
 
@@ -37,8 +37,8 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
-                            Triniti Land HQ
+                        <h4 class="t1-m-3 cl-0">
+                            <span class="custom-font-2" style="font-size: 20px;">Triniti Land HQ</span>
                         </h4>
                     </div>
 
@@ -55,8 +55,8 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e m-b-18">
-                        <h4 class="t1-m-3 text-uppercase cl-0">
-                            Contact
+                        <h4 class="t1-m-3 cl-0">
+                            <span class="custom-font-2" style="font-size: 20px;">Contact</span>
                         </h4>
                     </div>
 

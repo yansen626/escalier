@@ -22,12 +22,12 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <h1 class="t1-b-1 white">BEGIN YOUR CHAPTER</h1>
+                            <h1 class="t1-b-1 white custom-font-2">BEGIN YOUR CHAPTER</h1>
                             <br/>
                             <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
                             <br/>
-                            <span class="t1-m-1 white">"This is not only a home. This Home is a witness to</span><b4/>
-                            <span class="t1-m-1 white">those who live their story."</span>
+                            <span class="t1-m-1 white custom-font-2">"This is not only a home. This Home is a witness to</span><b4/>
+                            <span class="t1-m-1 white custom-font-2">those who live their story."</span>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="col-md-6 col-12">
                     <div class="row mb-md-5 mb-3 mt-md-5">
                         <div class="col-12 text-center">
-                            <h1 class="t1-b-1">INTRODUCING</h1>
+                            <h1 class="t1-b-1 custom-font-1 text-dark">INTRODUCING</h1>
                         </div>
                     </div>
                     <div class="row mb-md-5 mb-3">
@@ -74,7 +74,7 @@
             <!--  -->
             <div class="row justify-content-center mb-4">
                 <div class="col-12 text-center">
-                    <h1 class="t1-m-1" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
+                    <h1 class="t1-m-1 custom-font-1" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -97,9 +97,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Dean Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Dean Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Grant Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Grant Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -123,9 +123,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Will Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -136,9 +136,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Glenn Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
             <!--  -->
             <div class="row justify-content-center mb-4">
                 <div class="col-md-6 col-12 text-center text-md-right">
-                    <span class="t1-m-1 text-dark">FINELY CRAFTED BY</span>
+                    <span class="t1-m-1 text-dark custom-font-1">FINELY CRAFTED BY</span>
                 </div>
                 <div class="col-md-6 col-12 text-center text-md-left">
                     <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}" height="45">
@@ -177,8 +177,8 @@
             </div>
             <div class="row justify-content-center mb-4">
                 <div class="col-12 text-center">
-                    <span class="t1-b-1 text-dark">CRAFTING NEW </span>
-                    <span class="t1-b-1 gold">HORIZON</span>
+                    <span class="t1-b-1 text-dark custom-font-2">CRAFTING NEW </span>
+                    <span class="t1-b-1 gold custom-font-2">HORIZON</span>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -248,12 +248,17 @@
                 height: 600px;
             }
 
+            .img-paulmarc-responsive{
+                height: 200px;
+                width: auto;
+            }
+
             .img-trinity-responsive{
                 margin-top: -28px;
             }
 
             .btn-paulmarc-more .w-25{
-                width: 25%;
+                width: 25% !important;
             }
 
             .t1-b-1{

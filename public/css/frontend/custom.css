@@ -10,6 +10,20 @@
     border-bottom: 1px solid #ffffff;
 }
 
+.custom-font-1{
+    font-family: 'atsackersgothicregular', sans-serif !important;
+}
+
+.custom-font-2{
+    font-family: 'chapazaregular', sans-serif !important;
+}
+
+.menu-font-style{
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #000 !important;
+}
+
 @media (max-width: 576px) {
     /* Footer */
     .mobile-center{
@@ -43,4 +57,22 @@
 }
 
 @media (min-width: 1200px) {
+}
+
+@font-face {
+    font-family: 'atsackersgothicregular';
+    src: url('../../fonts/at_sackers_gothic_medium-webfont.woff2') format('woff2'),
+    url('../../fonts/at_sackers_gothic_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chapazaregular';
+    src: url('../../fonts/chapaza-webfont.woff2') format('woff2'),
+    url('../../fonts/chapaza-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
