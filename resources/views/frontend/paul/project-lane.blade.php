@@ -130,25 +130,8 @@
                                     <div class="container">
                                         <!-- Title section -->
                                         <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="100%" width="100%" alt="header"/>
-                                            </div>
-                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
-                                                    Paul & Prive <br/>
-                                                    <b style="font-size: 40px;">SITE PLAN</b>
-                                                </h3>
-                                                <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-50">
-                                                    Total Land Area <b>14,000 sqm</b>
-                                                </h5>
-                                                <div class="row" style="font-size: 10px; width: 59%;">
-                                                    <div class="col-md-6 tab-left">
-                                                        Total Unit <b>239 units</b>
-                                                    </div>
-                                                    <div class="col-md-6 tab-right">
-                                                        Total Parking <b>240 lots</b>
-                                                    </div>
-                                                </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane - Floor Plan.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
