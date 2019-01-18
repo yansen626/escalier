@@ -169,7 +169,7 @@
             <!--  -->
             <div class="row justify-content-center mb-4">
                 <div class="col-md-6 col-12 text-center text-md-right">
-                    <span class="t1-m-1 text-dark custom-font-1">FINELY CRAFTED BY</span>
+                    <span class="text-dark custom-font-1" style="font-size: 13px;">FINELY CRAFTED BY</span>
                 </div>
                 <div class="col-md-6 col-12 text-center text-md-left">
                     <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}" height="45">

@@ -22,12 +22,12 @@
                             background-position: center;
                             background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <h1 class="t1-b-1 white">PURPOSE BUILT LEGACY</h1>
+                            <h1 class="t1-b-1 white custom-font-2">PURPOSE BUILT LEGACY</h1>
                             <br/>
                             <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
                             <br/>
-                            <span class="t1-m-1 white">"A legacy one desires</span><b4/>
-                            <span class="t1-m-1 white">to be passed down to the loved ones."</span>
+                            <span class="t1-m-1 white custom-font-2">"A legacy one desires</span><b4/>
+                            <span class="t1-m-1 white custom-font-2">to be passed down to the loved ones."</span>
                         </div>
                     </div>
                 </div>
@@ -88,8 +88,8 @@
             <hr class="border-dark my-4" style="border-width: 2px;"/>
             <div class="row">
                 <div class="col-md-4 col-12 text-center text-dark px-4 mb-3 mb-md-0">
-                    <h1 class="t1-b-1">Embodiment</h1>
-                    <h1 class="t1-b-1">of Serenity</h1>
+                    <h1 class="t1-b-1 custom-font-2">Embodiment</h1>
+                    <h1 class="t1-b-1 custom-font-2">of Serenity</h1>
                     <br/>
                     <p>
                         Imagine a place surrounded by greenery, chimed to the
@@ -101,8 +101,8 @@
                     </p>
                 </div>
                 <div class="col-md-4 col-12 text-center text-dark px-4 mb-3 mb-md-0">
-                    <h1 class="t1-b-1">Spacious</h1>
-                    <h1 class="t1-b-1">Comfort</h1>
+                    <h1 class="t1-b-1 custom-font-2">Spacious</h1>
+                    <h1 class="t1-b-1 custom-font-2">Comfort</h1>
                     <br/>
                     <p>
                         Designed with the intention to create your personal
@@ -115,8 +115,8 @@
                     </p>
                 </div>
                 <div class="col-md-4 col-12 text-center text-dark px-4">
-                    <h1 class="t1-b-1">Lively</h1>
-                    <h1 class="t1-b-1">Splendor</h1>
+                    <h1 class="t1-b-1 custom-font-2">Lively</h1>
+                    <h1 class="t1-b-1 custom-font-2">Splendor</h1>
                     <br/>
                     <p>
                         Within the Paul Marc district, Triniti Land also offers

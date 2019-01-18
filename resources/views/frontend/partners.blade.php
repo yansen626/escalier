@@ -33,7 +33,7 @@
             <!--  -->
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h1 class="t1-b-1 text-dark">WHO WE WORK WITH</h1>
+                    <h1 class="t1-b-1 text-dark custom-font-2">WHO WE WORK WITH</h1>
                 </div>
             </div>
             <div class="d-md-block d-none">
@@ -99,14 +99,14 @@
                             <div class="col-md-6 col-12 text-center">
                                 <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
                                 <p class="text-left">
-                                    <span>Miami World Center - Paramount Tower</span><br/>
+                                    <span class="custom-font-2">Miami World Center - Paramount Tower</span><br/>
                                     <span>Florida</span>
                                 </p>
                             </div>
                             <div class="col-md-6 col-12 text-center">
                                 <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
                                 <p class="text-left">
-                                    <span>Marina Bay and Greater Southern Waterfront</span><br/>
+                                    <span class="custom-font-2">Marina Bay and Greater Southern Waterfront</span><br/>
                                     <span>Singapore</span>
                                 </p>
                             </div>
@@ -117,7 +117,7 @@
                                 <img src="{{ asset('images/marc/partners/partners-4.jpg') }}" class="w-75">
                             </div>
                             <div class="col-md-7 col-12">
-                                <h1 class="t1-m-1">Marc’s Boulevard - Master Planner Message</h1>
+                                <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Master Planner Message</h1>
                                 <br/>
                                 <p>
                                     Aiming to elevate the quality and character of Batam City, Marc’s
@@ -134,7 +134,7 @@
                                     expansion of a bustling urban center.
                                 </p>
                                 <br/>
-                                <h1 class="t1-m-1">Sacha Schwarzkopf</h1>
+                                <h1 class="t1-m-1 custom-font-2">Sacha Schwarzkopf</h1>
                                 <p>Director of Urban Design, AECOM Indonesia</p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                                 <img src="{{ asset('images/marc/partners/partners-5.jpg') }}" class="w-75">
                             </div>
                             <div class="col-md-7 col-12">
-                                <h1 class="t1-m-1">Marc’s Boulevard - Architect Message</h1>
+                                <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Architect Message</h1>
                                 <br/>
                                 <p>
                                     Marc’s Boulevard focused to be next Batam’s destination landmark
@@ -168,7 +168,7 @@
                                     an invisible boundary between the buildings and the nature.
                                 </p>
                                 <br/>
-                                <h1 class="t1-m-1">Raval Kapusta</h1>
+                                <h1 class="t1-m-1 custom-font-2">Raval Kapusta</h1>
                                 <p>Founding Director, OOZN Design</p>
                             </div>
                         </div>
