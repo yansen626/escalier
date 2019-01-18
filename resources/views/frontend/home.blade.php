@@ -13,15 +13,22 @@
     <!-- Banner -->
     <section class="m-b-50">
 
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <!--  -->
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-12">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/home-1.jpg') }}');
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/marc/home/home-1.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 550px;">
+                            background-size: cover;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <h1 class="t1-b-1 white">BEGIN YOUR CHAPTER</h1>
+                            <br/>
+                            <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;"/>
+                            <br/>
+                            <span class="t1-m-1 white">"This is not only a home. This Home is a witness to</span><b4/>
+                            <span class="t1-m-1 white">those who live their story."</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,32 +36,31 @@
     </section>
 
     <!-- Paul Marc -->
-    <section class="m-b-100">
+    <section class="m-b-50">
         <div class="container">
             <!--  -->
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-12">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/home-2.jpg') }}');
+            <div class="row">
+                <div class="col-md-6 col-12 mb-md-0 mb-3">
+                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-2.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 600px;">
+                            background-size: cover;">
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <div class="row mb-5 mt-md-5">
+                    <div class="row mb-md-5 mb-3 mt-md-5">
                         <div class="col-12 text-center">
                             <h1 class="t1-b-1">INTRODUCING</h1>
                         </div>
                     </div>
-                    <div class="row mb-5">
+                    <div class="row mb-md-5 mb-3">
                         <div class="col-12 text-center">
-                            <img src="{{ asset('images/marc/home/home-3.png') }}" height="200">
+                            <img class="img-paulmarc-responsive" src="{{ asset('images/marc/home/home-3.png') }}">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <a href="#" class="btn btn-dark w-25 p-4 t1-m-1" style="border-radius: 30px;">MORE</a>
+                        <div class="col-12 text-center btn-paulmarc-more">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-25 p-4 t1-m-1" style="border-radius: 30px;">MORE</a>
                         </div>
                     </div>
                 </div>
@@ -63,8 +69,8 @@
     </section>
 
     <!-- Within Marc's Boulevard -->
-    <section>
-        <div class="container-fluid px-0 py-5 bg-1">
+    <section class="mb-md-0 mb-4">
+        <div class="container-fluid py-md-5 py-3 bg-1">
             <!--  -->
             <div class="row justify-content-center mb-4">
                 <div class="col-12 text-center">
@@ -72,8 +78,8 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-1"></div>
-                <div class="col-2 px-1">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-6 px-md-1 mb-md-0 mb-3">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -84,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -97,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -110,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -123,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -136,22 +142,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1"></div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </section>
 
     <section class="m-b-50">
 
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <!--  -->
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/home-4.jpg') }}');
+                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-4.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 600px;">
+                            background-size: cover;">
                     </div>
                 </div>
             </div>
@@ -167,7 +172,7 @@
                     <span class="t1-m-1 text-dark">FINELY CRAFTED BY</span>
                 </div>
                 <div class="col-md-6 col-12 text-center text-md-left">
-                    <img src="{{ asset('images/marc/home/home-5.png') }}" height="45" style="margin-top: -28px;">
+                    <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}" height="45">
                 </div>
             </div>
             <div class="row justify-content-center mb-4">
@@ -199,7 +204,71 @@
 
 @endsection
 
-@section('scripts')
-    <script>
-    </script>
+@section('styles')
+    <style>
+        .img-banner-responsive{
+            height: 220px;
+        }
+
+        .img-house-responsive{
+            height: 200px;
+        }
+
+        .img-paulmarc-responsive{
+            height: 100px;
+            width: auto;
+        }
+
+        .img-trinity-responsive{
+            margin-top: 0;
+        }
+
+        .btn-paulmarc-more .w-25{
+            width: 75% !important;
+        }
+
+        .t1-b-1{
+            font-size: 24px;
+        }
+
+        .m-b-50{
+            margin-bottom: 25px;
+        }
+
+        @media (min-width: 576px) {
+
+        }
+
+        @media (min-width: 768px) {
+            .img-banner-responsive{
+                height: 550px;
+            }
+
+            .img-house-responsive{
+                height: 600px;
+            }
+
+            .img-trinity-responsive{
+                margin-top: -28px;
+            }
+
+            .btn-paulmarc-more .w-25{
+                width: 25%;
+            }
+
+            .t1-b-1{
+                font-size: 36px;
+            }
+
+            .m-b-50{
+                margin-bottom: 50px;
+            }
+        }
+
+        @media (min-width: 992px) {
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
 @endsection

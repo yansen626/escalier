@@ -3,11 +3,11 @@
     <div class="parallax100 p-t-35 p-b-15 bg-1">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-5 col-lg-5 p-b-20 p-r-5 txt-right mobile-center mobile-p-b-0">
+                <div class="col-sm-12 col-md-5 col-lg-5 p-b-20 p-r-5 txt-right mobile-center pb-0">
                     <span class="t1-m-1 text-light">Part of</span>
                 </div>
                 <div class="col-sm-12 col-md-7 col-lg-7 p-b-20 p-l-0 txt-left mobile-center mobile-p-t-0">
-                    <img src="{{ asset('images/paulmarc/introduction/Marcs Website (Paul) components-36.png') }}" height="20" style="margin-top: -5px;">
+                    <img src="{{ asset('images/paulmarc/marc-boulevard-logo.png') }}" height="20" style="margin-top: -5px;">
                 </div>
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">

@@ -13,15 +13,14 @@
     <!-- Banner -->
     <section class="m-b-50">
 
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <!--  -->
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-1.jpg') }}');
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-1.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 550px;">
+                            background-size: cover;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
                             <h1 class="t1-b-1 white">PURPOSE BUILT LEGACY</h1>
                             <br/>
@@ -65,33 +64,30 @@
             <hr class="border-dark mb-4" style="border-width: 2px;"/>
             <div class="row">
                 <div class="col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-2.jpg') }}');
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-2.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 300px;">
+                            background-size: cover;">
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-3.jpg') }}');
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-3.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 300px;">
+                            background-size: cover;">
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-4.jpg') }}');
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-4.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 300px;">
+                            background-size: cover;">
                     </div>
                 </div>
             </div>
             <hr class="border-dark my-4" style="border-width: 2px;"/>
             <div class="row">
-                <div class="col-4 text-center text-dark px-4">
+                <div class="col-md-4 col-12 text-center text-dark px-4 mb-3 mb-md-0">
                     <h1 class="t1-b-1">Embodiment</h1>
                     <h1 class="t1-b-1">of Serenity</h1>
                     <br/>
@@ -104,7 +100,7 @@
                         luscious landscape, creating an eco-paradise
                     </p>
                 </div>
-                <div class="col-4 text-center text-dark px-4">
+                <div class="col-md-4 col-12 text-center text-dark px-4 mb-3 mb-md-0">
                     <h1 class="t1-b-1">Spacious</h1>
                     <h1 class="t1-b-1">Comfort</h1>
                     <br/>
@@ -118,7 +114,7 @@
                         your everyday escapade.
                     </p>
                 </div>
-                <div class="col-4 text-center text-dark px-4">
+                <div class="col-md-4 col-12 text-center text-dark px-4">
                     <h1 class="t1-b-1">Lively</h1>
                     <h1 class="t1-b-1">Splendor</h1>
                     <br/>
@@ -139,15 +135,14 @@
 
     <!-- Map -->
     <section>
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <!--  -->
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-12">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');
+                    <div class="w-100 img-map-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
-                            background-size: cover;
-                            height: 650px;">
+                            background-size: cover;">
                     </div>
                 </div>
             </div>
@@ -156,7 +151,58 @@
 
 @endsection
 
-@section('scripts')
-    <script>
-    </script>
+@section('styles')
+    <style>
+        .img-banner-responsive{
+            height: 200px;
+        }
+
+        .img-map-responsive{
+            height: 220px;
+        }
+
+        .img-plant-responsive{
+            height: 100px;
+        }
+
+        .t1-b-1{
+            font-size: 24px;
+        }
+
+        .m-b-50{
+            margin-bottom: 25px;
+        }
+
+        @media (min-width: 576px) {
+
+        }
+
+        @media (min-width: 768px) {
+            .img-banner-responsive{
+                height: 550px;
+            }
+
+            .img-plant-responsive{
+                height: 300px;
+            }
+
+            .img-map-responsive{
+                height: 650px;
+            }
+
+            .t1-b-1{
+                font-size: 36px;
+            }
+
+            .m-b-50{
+                margin-bottom: 50px;
+            }
+        }
+
+        @media (min-width: 992px) {
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
 @endsection
