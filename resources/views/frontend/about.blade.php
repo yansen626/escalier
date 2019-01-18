@@ -112,15 +112,13 @@
         <div class="container">
             <!-- Title section -->
             <div class="flex-col-c-c p-b-50">
-                <h3 class="t1-b-1 cl-3 txt-center m-b-11">
+                <h3 class="t1-b-1 cl-3 txt-center m-b-11 custom-font-2">
                     BEGIN YOUR CHAPTER
                 </h3>
-                <h5 class="t1-s-2 cl-3 txt-center m-b-11">
-                    <b>
+                <h5 class="t1-s-2 cl-3 txt-center m-b-11 custom-font-2" style="font-weight: 500;">
                     "This is not only a home. This Home is a witness to
                     <br/>
                     those who live their story."
-                    </b>
                 </h5>
             </div>
         </div>
@@ -172,7 +170,7 @@
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
+                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered custom-font-2">
                                 THE PRIDE
                                 <br/>
                                 WORTH ACHIEVING.
@@ -188,7 +186,7 @@
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
+                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered custom-font-2">
                                 THE HOME
                                 <br/>
                                 WORTH LOVING.
@@ -204,7 +202,7 @@
                         </div>
 
                         <div class="w-full z-index-100 p-all-10 pointer-e-none">
-                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered">
+                            <div class="size-a-29 p-rl-5 borad-5 t1-m-5 cl-0 text-uppercase m-l-10 centered custom-font-2">
                                 THE MARC
                                 <br/>
                                 WORTH LIVING.
@@ -229,7 +227,7 @@
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-4 col-lg-4 mycontent-left">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
+                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10 custom-font-2" style="font-weight: 600;">
                             "This is the home you will proud to
                             own. This will be your pride."
                         </div>
@@ -250,7 +248,7 @@
 
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
+                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10 custom-font-2" style="font-weight: 600;">
                             "This is the place you will love to stay.
                             This will be the home you love."
                         </div>
@@ -271,7 +269,7 @@
 
                 <div class="col-sm-4 col-md-4 col-lg-4 mycontent-right">
                     <div class="flex-col-c-c pos-relative">
-                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10">
+                        <div class="p-rl-5 borad-5 t1-s-4 cl-1 m-l-10 custom-font-2" style="font-weight: 600;">
                             "This is the home where you choose to
                             live. This is the Marc."
                         </div>

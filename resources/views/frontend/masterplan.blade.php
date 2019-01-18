@@ -100,7 +100,7 @@
         <div class="container">
             <!-- Title section -->
             <div class="flex-col-c-c p-b-30">
-                <h3 class="t1-b-1 cl-3 txt-center m-b-11">
+                <h3 class="t1-b-1 cl-3 txt-center m-b-11 custom-font-2">
                     MASTERPLAN
                 </h3>
             </div>

@@ -112,16 +112,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3 class="t1-b-1 cl-0 txt-left m-b-11">
+                    <h3 class="t1-b-1 cl-0 txt-left m-b-11 custom-font-2">
                         CRAFTING
                     </h3>
-                    <h3 class="t1-b-1 cl-0 txt-left m-b-11">
+                    <h3 class="t1-b-1 cl-0 txt-left m-b-11 custom-font-2">
                         NEW <span style="color: gold;">HORIZON</span>
                     </h3>
                 </div>
                 <div class="col-lg-8">
                     <img class="p-b-10" src="{{ asset('images/marc/developer/Marcs Website components-33.png') }}" width="200" alt="img_title"/>
-                    <p class="cl-0" style="text-align: justify">
+                    <p class="cl-0" style="text-align: justify; font-weight: 300;">
                         Initiated in 2009, PT Perintis Triniti Properti (Triniti Property Group) commenced its journey with its first
                         5-hectare land development project, Ubud Village, by the golden hands of the Founders, Septian Starlin,
                         Matius Jusuf, Bong Chandra, and Yohanes L. Andayaprana. Developments of iconic projects began since
@@ -164,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="row cl-0">
+            <div class="row cl-0 p-t-20">
                 <div class="col-lg-3 col-sm-12 col-xs-12 text-center text-sm-center text-md-left">
                     <b>Ubud Village</b><br/>
                     Project Value 180 Billion

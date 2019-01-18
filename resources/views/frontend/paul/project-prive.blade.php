@@ -46,7 +46,7 @@
                     <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-14.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Paul Marc Condovilla</h3>
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-11 custom-font-2" style="font-weight: 500;">Paul Marc Condovilla</h3>
                     <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-10.png') }}" height="50" alt="header"/>
                     <h5 class="t1-s-2 cl-3 txt-center m-b-11">
                         Prestigious and inviting, Paul & Prive is the ideal Condovilla to be sought after.
@@ -62,9 +62,9 @@
         <div class="container">
             <!-- Title section -->
             <div class="row">
-                <div class="flex-col-c-c p-b-20 col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Condovilla</h3>
-                    <h1 class="t1-m-4 cl-3 txt-center m-b-11">THE PLANS</h1>
+                <div class="flex-col-c-c p-b-0 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-0 custom-font-2" style="font-weight: 500;">Condovilla</h3>
+                    <h1 class="t1-m-4 cl-3 txt-center m-b-0 custom-font-2" style="font-size: 40px;">THE PLANS</h1>
                 </div>
             </div>
         </div>
@@ -178,13 +178,13 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-40 p-b-0">
+    <section class="bg-0 p-t-40 p-b-20">
         <div class="container">
             <!-- Title section -->
             <div class="row">
-                <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Condovilla</h3>
-                    <h1 class="t1-m-4 cl-3 txt-center m-b-11">FACILITIES</h1>
+                <div class="flex-col-c-c p-b-0 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-0 custom-font-2" style="font-weight: 500;">Condovilla</h3>
+                    <h1 class="t1-m-4 cl-3 txt-center m-b-0 custom-font-2" style="font-size: 40px;">FACILITIES</h1>
                 </div>
             </div>
         </div>
