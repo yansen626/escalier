@@ -20,7 +20,7 @@
             <!--  -->
             <div class="row justify-content-center mb-4">
                 <div class="col-12 text-center">
-                    <h1 class="t1-b-1" style="color:#000000;">WITHIN MARC'S BOULEVARD</h1>
+                    <h1 class="t1-b-1 custom-font-2" style="color:#000000;">WITHIN MARC'S BOULEVARD</h1>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -43,9 +43,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Dean Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Dean Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -56,9 +56,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Grant Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Grant Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -69,9 +69,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Will Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,9 @@
                             background-size: cover;
                             height: 480px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white">Glenn Marc</span>
+                            <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
                             <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-m-1 text-white">#COMINGSOON</span>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
                         </div>
                     </div>
                 </div>

@@ -45,9 +45,9 @@
                     <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-33.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 ">Paul Marc Shophouse</h3>
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-50 p-t-50 custom-font-2">Paul Marc Shophouse</h3>
                     <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-34.png') }}" height="50" alt="header"/>
-                    <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 ">
+                    <h5 class="t1-s-1 cl-3 txt-center m-b-11 p-t-50">
                         Purposefully built on the thriving city of Batam in a fully-integrated development
                         of Marc's Boulevard, Paul Lane Shophouses offers a highly promising and
                         accessible location for an excellent business and investment potential.
@@ -62,8 +62,8 @@
             <!-- Title section -->
             <div class="row">
                 <div class="flex-col-c-c p-b-20 col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Shophouse</h3>
-                    <h1 class="t1-m-4 cl-3 txt-center m-b-11">THE PLANS</h1>
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-11 custom-font-2">Shophouse</h3>
+                    <h1 class="t1-m-4 cl-3 txt-center m-b-11 custom-font-2">THE PLANS</h1>
                 </div>
             </div>
         </div>
@@ -79,15 +79,15 @@
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
+                                <a class="nav-link custom-font-1 active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link" data-toggle="tab" href="#floorplan" role="tab">FLOOR PLAN</a>
+                                <a class="nav-link custom-font-1" data-toggle="tab" href="#floorplan" role="tab">FLOOR PLAN</a>
                             </li>
 
-                            <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
+                            <li class="nav-item col-md-4 p-0 tab-nav ">
+                                <a class="nav-link custom-font-1" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
                             </li>
                         </ul>
 
@@ -103,7 +103,7 @@
                                                 <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul)-11.jpg') }}" height="100%" width="100%" alt="header"/>
                                             </div>
                                             <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
+                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 custom-font-2">
                                                     Paul Lane <br/>
                                                     <b style="font-size: 40px;">SITE PLAN</b>
                                                 </h3>
@@ -167,7 +167,7 @@
                                             <div class="flex-col-c-c col-md-6 col-lg-6 col-xs-12 txt-left">
 
                                                 <div class="row bottom-line responsive-width">
-                                                    <h3 class="t1-s-2 cl-3 m-b-11 p-t-20 p-l-5">
+                                                    <h3 class="t1-s-2 cl-3 m-b-11 p-t-20 p-l-5 custom-font-2">
                                                         Paul Lane <br/>
                                                         <b style="font-size: 40px;">UNIT PLAN</b>
                                                     </h3>
