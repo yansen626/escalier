@@ -24,7 +24,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/select2/select2.min.css') }}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick/slick.css') }}">
+    {{--<link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick/slick.css') }}">--}}
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/MagnificPopup/magnific-popup.css') }}">
     <!--===============================================================================================-->
@@ -76,8 +76,8 @@
     <!--===============================================================================================-->
     <script src="{{ asset('vendor/countterup/jquery.counterup.min.js') }}"></script>
     <!--===============================================================================================-->
-    <script src="{{ asset('vendor/slick/slick.min.js') }}"></script>
-    <script src="{{ asset('js/frontend/slick-custom.js') }}"></script>
+    {{--<script src="{{ asset('vendor/slick/slick.min.js') }}"></script>--}}
+    {{--<script src="{{ asset('js/frontend/slick-custom.js') }}"></script>--}}
     <!--===============================================================================================-->
     <script src="{{ asset('vendor/MagnificPopup/jquery.magnific-popup.min.js') }}"></script>
     <!--===============================================================================================-->

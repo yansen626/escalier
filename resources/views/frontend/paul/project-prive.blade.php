@@ -74,21 +74,21 @@
         <div class="container">
             <!-- Title section -->
             <div class="row">
-                <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <!-- Tab02 -->
-                    <div class="tab02 p-t-20 text-center">
+                    <div class="p-t-20 text-center">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
+                                <a class="nav-link active text-dark" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link" data-toggle="tab" href="#floorplan" role="tab">FLOOR PLAN</a>
+                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
+                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
                             </li>
                         </ul>
 
@@ -126,31 +126,16 @@
                             </div>
 
                             <!-- - -->
-                            <div class="tab-pane fade" id="floorplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-25 p-b-35">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="100%" width="100%" alt="header"/>
-                                            </div>
-                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
-                                                    Paul & Prive <br/>
-                                                    <b style="font-size: 40px;">SITE PLAN</b>
-                                                </h3>
-                                                <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-50">
-                                                    Total Land Area <b>14,000 sqm</b>
-                                                </h5>
-                                                <div class="row" style="font-size: 10px; width: 59%;">
-                                                    <div class="col-md-6 tab-left">
-                                                        Total Unit <b>239 units</b>
-                                                    </div>
-                                                    <div class="col-md-6 tab-right">
-                                                        Total Parking <b>240 lots</b>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <div class="tab-pane" id="floorplan" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-12 pt-4">
+                                        <div class="floor-slider">
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -315,6 +300,9 @@
 @endsection
 
 @section('styles')
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
     <style type="text/css">
         @media (max-width: 576px) {
             .header-top-img{
@@ -455,6 +443,24 @@
 @endsection
 
 @section('scripts')
-    <script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+
+        $(".floor-slider").slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+
+        $('#tabFloor').on('show.bs.tab', function (e) {
+            $('.floor-slider').slick('refresh');
+
+        })
+
+        $("#tabFloor").click(function(){
+            $('.floor-slider').slick('refresh');
+        });
     </script>
 @endsection
