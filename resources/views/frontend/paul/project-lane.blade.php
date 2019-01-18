@@ -45,9 +45,9 @@
                     <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-33.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                    <h3 class="t1-s-2 cl-3 txt-center m-b-11">Paul Marc Shophouse</h3>
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 ">Paul Marc Shophouse</h3>
                     <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-34.png') }}" height="50" alt="header"/>
-                    <h5 class="t1-s-2 cl-3 txt-center m-b-11">
+                    <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 ">
                         Purposefully built on the thriving city of Batam in a fully-integrated development
                         of Marc's Boulevard, Paul Lane Shophouses offers a highly promising and
                         accessible location for an excellent business and investment potential.

@@ -24,8 +24,8 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-1"></div>
-                <div class="col-2 px-1">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-6 px-md-1 p-t-20">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 p-t-20">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 p-t-20">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 p-t-20">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-6 p-t-20">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1"></div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </section>
