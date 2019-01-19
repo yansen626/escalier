@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
-    <div class="parallax100 p-t-35 p-b-15 bg-1">
-        <div class="container">
+    <div class="parallax100 pt-3 pt-md-5 p-b-15 bg-1">
+        <div class="container p-5 p-md-2">
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e p-b-6 m-b-18">
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
+                <div class="col-sm-8 col-md-5 col-lg-3 p-b-10">
                     <div class="size-h-1 flex-s-e m-b-18">
                         <h4 class="t1-m-3 cl-0">
                             <span class="custom-font-2" style="font-size: 20px;">Contact</span>
@@ -63,8 +63,8 @@
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
-                               (+62) 300 666 88
-                                info@trinitiland.com
+                               (+62) 300 666 88<br/>
+                                info@trinitiland.com<br/>
                                 www.trinitiland.com
                             </span>
                         </li>

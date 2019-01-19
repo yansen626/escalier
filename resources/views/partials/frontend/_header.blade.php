@@ -44,6 +44,9 @@
 
     <!-- Header Mobile -->
     <nav class="container-header-mobile">
+        <div class="w-100 bg-custom-dark" style="height: 50px;">
+
+        </div>
         <div class="wrap-header-mobile">
             <!-- Logo moblie -->
             <div class="logo-mobile">

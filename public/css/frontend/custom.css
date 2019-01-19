@@ -6,6 +6,14 @@
     color: #fff;
 }
 
+.bg-custom-dark{
+    background-color: #666666;
+}
+
+.wrap-header-mobile{
+    background-color: #fff !important;
+}
+
 .bottom-line-white{
     border-bottom: 1px solid #ffffff;
 }
