@@ -202,8 +202,8 @@
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-12 mb-4">
-                    <div class="slider-within px-4">
+                <div class="col-12 px-4 mb-4">
+                    <div class="slider-within mx-2">
                         <div class="px-1">
                             <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
                                     background-repeat: no-repeat;
@@ -436,7 +436,7 @@
             slidesToShow: 2,
             slidesToScroll: 2,
             variableWidth: true,
-            arrows: false
+            arrows: true
         });
     </script>
 @endsection
