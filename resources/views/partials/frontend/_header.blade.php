@@ -113,29 +113,29 @@
                 {{--</li>--}}
             {{--</ul>--}}
 
-            <ul class="main-menu" style="background-color: #fff !important;">
+            <ul class="main-menu" style="background-color: #000 !important;">
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.about') }}">ABOUT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.about') }}">ABOUT</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.district') }}">DISTRICT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.district') }}">DISTRICT</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.developer') }}">DEVELOPER</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.developer') }}">DEVELOPER</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.partners') }}">PARTNERS</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.partners') }}">PARTNERS</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact_us') }}">CONTACT</a>
                 </li>
             </ul>
         </div>

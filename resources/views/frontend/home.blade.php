@@ -315,15 +315,16 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-6 col-12 text-justify">
+                <div class="col-md-6 col-12 text-center text-md-left">
                     <p>Initiated in 2009, PT Perintis Triniti Properti (Triniti Property Group) commenced its
                         journey with its first 5-hectare land development project, Ubud Village, by the golden
                         hands of the Founders, Septian Starlin, Matius Jusuf, Bong Chandra, and Yohanes L.
                         Andayaprana. Developments of iconic projects began since 2014 untill 2017,
                         introducing thoughtful lands namely Brooklyn, Springwood Residence, Yukata Suites,
                         The Smith, and Collins Boulevard. Four of its five properties were booked up to 90%,</p>
+                    <br/>
                 </div>
-                <div class="col-md-6 col-12 text-justify">
+                <div class="col-md-6 col-12 text-center text-md-left">
                     <p>gaining more than hundreds million US$ revenue in no time. The success brought Triniti
                         Property Group emerged with a new face named Triniti Land, while launching its Rp 5
                         trillion worth Superblock Project, Collins Boulevard, in 2018. Reaching its 9th year of
