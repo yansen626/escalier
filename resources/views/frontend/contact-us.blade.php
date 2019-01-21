@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-6 p-b-60">
-                    <div class="p-l-30 p-l-0-sr767">
+                    <div class="p-l-0 text-sm-center text-center">
                         <h3 class="t1-b-1 cl-3 m-b-11">
                             SEND US A MESSAGE
                         </h1>
