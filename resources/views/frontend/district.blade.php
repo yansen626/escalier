@@ -15,7 +15,8 @@
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/districts/Marcs Website components-21.jpg') }}');"></div>
     </section>
 
-    <section>
+    <!-- Within Marc's Boulevard DESKTOP -->
+    <section class="mb-md-0 mb-4 d-none d-md-block">
         <div class="container-fluid px-0 py-5">
             <!--  -->
             <div class="row justify-content-center mb-4">
@@ -93,12 +94,99 @@
         </div>
     </section>
 
+    <!-- Within Marc's Boulevard MOBILE -->
+    <section class="d-block d-md-none">
+        <div class="container-fluid px-0 py-5">
+            <!--  -->
+            <div class="row no-gutters">
+                <div class="col-12 text-center">
+                    <h1 class="t1-b-1 custom-font-2" style="color:#000000;">WITHIN MARC'S BOULEVARD</h1>
+                </div>
+            </div>
+            <div class="row no-gutters pt-sm-4">
+                <div class="col-12 px-4 mb-4 py-5">
+                    <div class="slider-within mx-2">
+                        <div class="px-1">
+                            <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="100" class="m-auto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Dean Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Grant Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Will Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Glenn Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection
 
 @section('styles')
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style type="text/css">
-
+        .slick-prev:before {
+            color: #000000;
+        }
+        .slick-next:before {
+            color: #000000;
+        }
         @media (max-width: 576px) {
             .mycontent-left {
                 border-right: none;
@@ -178,6 +266,15 @@
 @endsection
 
 @section('scripts')
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
+        $('.slider-within').slick({
+            dots: false,
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            variableWidth: true,
+            arrows: true
+        });
     </script>
 @endsection
