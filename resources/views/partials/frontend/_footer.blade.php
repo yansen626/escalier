@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer>
-    <div class="parallax100 pt-3 pt-md-5 p-b-15 bg-1">
+    <div class="parallax100 pt-3 pt-md-5 p-b-15 bg-1" style="background: #1f2020;">
         <div class="container p-5 p-md-2">
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">

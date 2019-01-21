@@ -126,9 +126,42 @@
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-1 col-sm-1"></div>
+        <div class="col-lg-10 col-sm-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
+        <div class="col-lg-1 col-sm-1"></div>
+    </section>
+
+    <section class="bg-1 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
+        <div class="col-12" style="text-align: center;">
+            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
+                Future Connection
+                <br/>
+                to Batam City Center
+                <br/>
+                (Port & Government Area)
+            </h5>
+            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
+                Future Connection
+                <br/>
+                to Public Attraction
+                <br/>
+                (Ocarina Park)
+            </h5>
+            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
+                Proposed
+                <br/>
+                Commercial
+                <br/>
+                Strip
+            </h5>
+            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
+                Proposed
+                <br/>
+                Architectural
+                <br/>
+                Landmark
+            </h5>
+        </div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
