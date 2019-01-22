@@ -224,10 +224,8 @@
 
     <!-- Map -->
     <section>
-        <div class="container-fluid">
-            <!--  -->
-            <div class="col-12 p-l0-r0-3">
-            <div class="row">
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
                     <div class="w-100 img-map-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
