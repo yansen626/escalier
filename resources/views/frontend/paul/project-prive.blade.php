@@ -38,7 +38,8 @@
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-13.jpg') }}');"></div>
     </section>
 
-    <section class="bg-0 p-t-40 p-b-10">
+    <!-- DESKTOP -->
+    <section class="bg-0 p-t-40 p-b-10 d-none d-md-block">
         <div class="container">
             <!-- Title section -->
             <div class="row">
@@ -49,6 +50,28 @@
                     <h3 class="t1-s-2 cl-3 txt-center m-b-11 custom-font-2" style="font-weight: 500;">Paul Marc Condovilla</h3>
                     <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-10.png') }}" height="50" alt="header"/>
                     <h5 class="t1-s-2 cl-3 txt-center m-b-11">
+                        Prestigious and inviting, Paul & Prive is the ideal Condovilla to be sought after.
+                        Placed strategically, designed for comfort and laced with natural beauty, these
+                        living spaces cater for the hustlers and the laid backs.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MOBILE -->
+    <section class="bg-0 p-b-10 d-block d-md-none">
+        <div class="container">
+            <!-- Title section -->
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 m-b-50 text-center">
+                    <h3 class="t1-s-2 cl-3 txt-center m-b-25 p-t-50 custom-font-2">Paul Marc Condovilla</h3>
+                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-10.png') }}" height="50" alt="header"/>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-14.jpg') }}" height="100%" width="100%" alt="header"/>
+                </div>
+                <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
+                    <h5 class="t1-s-1 cl-3 txt-center m-b-11 p-t-50">
                         Prestigious and inviting, Paul & Prive is the ideal Condovilla to be sought after.
                         Placed strategically, designed for comfort and laced with natural beauty, these
                         living spaces cater for the hustlers and the laid backs.
