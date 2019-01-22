@@ -163,7 +163,7 @@
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane - Unit Plan 1.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane - Unit Plan 2.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-02.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
                                 </div>
