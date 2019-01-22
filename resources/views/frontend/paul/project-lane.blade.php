@@ -97,7 +97,7 @@
         <div class="container">
             <!-- Title section -->
             <div class="row">
-                <div class="flex-col-c-c p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <!-- Tab02 -->
                     <div class="tab02 p-t-20 text-center">
                         <!-- Nav tabs -->
@@ -111,7 +111,7 @@
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav ">
-                                <a class="nav-link custom-font-1" data-toggle="tab" href="#unitplan" role="tab">UNIT PLAN</a>
+                                <a class="nav-link custom-font-1" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>
                             </li>
                         </ul>
 
@@ -122,26 +122,14 @@
                                 <div class="p-rl-30 p-t-25 p-b-35">
                                     <div class="container">
                                         <!-- Title section -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul)-11.jpg') }}" height="100%" width="100%" alt="header"/>
+                                        <div class="row d-none d-md-block">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane - Site Plan.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
-                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20 custom-font-2">
-                                                    Paul Lane <br/>
-                                                    <b style="font-size: 40px;">SITE PLAN</b>
-                                                </h3>
-                                                <h5 class="t1-s-2 cl-3 txt-center m-b-11 p-t-50">
-                                                    Total Land Area <b>3,600 sqm</b>
-                                                </h5>
-                                                <div class="row" style="font-size: 10px; width: 59%;">
-                                                    <div class="col-md-6 tab-left">
-                                                        Total GFA <b>5,760 sqm</b>
-                                                    </div>
-                                                    <div class="col-md-6 tab-right">
-                                                        Total Unit <b>20 units</b>
-                                                    </div>
-                                                </div>
+                                        </div>
+                                        <div class="row d-block d-md-none">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-43med.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -153,9 +141,16 @@
                                 <div class="p-rl-30 p-t-25 p-b-35">
                                     <div class="container">
                                         <!-- Title section -->
-                                        <div class="row">
+                                        <div class="row d-none d-md-block">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                                                 <img src="{{ asset('images/paulmarc/lanes/Paul Lane - Floor Plan.jpg') }}" height="auto" width="100%" alt="header"/>
+                                            </div>
+                                        </div>
+
+                                        <!-- Title section -->
+                                        <div class="row d-block d-md-none">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-44.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -163,42 +158,26 @@
                             </div>
 
                             <!-- - -->
-                            <div class="tab-pane fade" id="unitplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-25 p-b-35">
-                                    <div class="container">
-                                        <!-- Title section -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/lanes/Typical Unit.jpg') }}" height="100%" width="100%" alt="header"/>
-                                            </div>
-                                            <div class="flex-col-c-c col-md-6 col-lg-6 col-xs-12 txt-left">
-
-                                                <div class="row bottom-line responsive-width">
-                                                    <h3 class="t1-s-2 cl-3 m-b-11 p-t-20 p-l-5 custom-font-2">
-                                                        Paul Lane <br/>
-                                                        <b style="font-size: 40px;">UNIT PLAN</b>
-                                                    </h3>
-                                                </div>
-                                                <div class="row bottom-line responsive-width">
-                                                    <h5 class="t1-s-2 cl-3 m-b-11 p-t-50 p-l-5">
-                                                        <b>TYPICAL UNIT</b>
-                                                    </h5>
-                                                </div>
-                                                <div class="row bottom-line responsive-width" style="font-size: 10px;">
-                                                    <div class="col-md-12 p-t-30 p-l-5">
-                                                        Building Area per Unit  <b>270.0 sqm</b>
-                                                    </div>
-                                                    <div class="col-md-12 p-l-5">
-                                                        Land Area per Unit  <b>90.0 sqm</b>
-                                                    </div>
-                                                    <div class="col-md-12 p-b-30 p-l-5">
-                                                        No. of Unit  <b>16 units</b>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <div class="tab-pane" id="unitplan" role="tabpanel">
+                                <div class="row d-none d-md-block">
+                                    <div class="col-12 pt-4">
+                                        <div class="unit-slider">
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane - Unit Plan 1.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane - Unit Plan 2.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
-                            </div>
+                                </div>
+
+                                <!-- Mobile -->
+                                <div class="row d-block d-md-none">
+                                    <div class="col-12 pt-4">
+                                        <div class="unit-slider">
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-45.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-46.jpg') }}"/></div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -228,6 +207,9 @@
 @endsection
 
 @section('styles')
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
     <style type="text/css">
         .bottom-line{
             border-bottom: 1px solid #333;
@@ -255,18 +237,15 @@
             .right-menu{
                 border-bottom: 1px solid #333;
             }
-            .responsive-width{
-                width: 90%;
-            }
         }
 
         @media (min-width: 768px) {
             .left-menu{
-                border-bottom: 1px solid #333;
 
             }
 
             .middle-menu{
+                border-bottom: 1px solid #333;
             }
 
             .right-menu{
@@ -276,20 +255,17 @@
             .left-menu{
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
-                border-bottom: 1px solid #333;
             }
 
             .middle-menu{
                 border-top: 1px solid #333;
+                border-bottom: 1px solid #333;
             }
 
             .right-menu{
                 border-left: 1px solid #333;
                 border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
-            }
-            .responsive-width{
-                width: 90%;
             }
         }
 
@@ -314,11 +290,11 @@
             .left-menu{
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
-                border-bottom: 1px solid #333;
             }
 
             .middle-menu{
                 border-top: 1px solid #333;
+                border-bottom: 1px solid #333;
             }
 
             .right-menu{
@@ -348,9 +324,6 @@
             .tab-nav{
                 border: 1px solid #333;
             }
-            .responsive-width{
-                width: 59%;
-            }
         }
 
         @media (min-width: 1200px) {
@@ -358,12 +331,12 @@
                 border-left: 1px solid #333;
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
-                border-bottom: 1px solid #333;
             }
 
             .right-menu{
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
+                border-bottom: 1px solid #333;
             }
 
             .four-box{
@@ -375,14 +348,29 @@
             .header-img{
                 min-height: 400px;
             }
-            .responsive-width{
-                width: 59%;
-            }
         }
     </style>
 @endsection
 
 @section('scripts')
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
+
+        $(".unit-slider").slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+
+        $('#tabUnit').on('show.bs.tab', function (e) {
+            $('.unit-slider').slick('refresh');
+
+        })
+
+        $("#tabUnit").click(function(){
+            $('.unit-slider').slick('refresh');
+        });
     </script>
 @endsection
