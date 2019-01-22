@@ -34,7 +34,7 @@
     </section>
 
     <!-- Paragraphs -->
-    <section class="m-b-50">
+    <section class="p-b-50">
         <div class="container">
             <div class="row">
                 <div class="col-md-3"></div>
@@ -56,8 +56,8 @@
         </div>
     </section>
 
-    <!-- Three Pictures -->
-    <section class="m-b-50">
+    <!-- Three Pictures DESKTOP-->
+    <section class="m-b-50 d-none d-md-block">
         <div class="container">
             <hr class="border-dark mb-4" style="border-width: 2px;"/>
             <div class="row">
@@ -131,12 +131,103 @@
         </div>
     </section>
 
+    <!-- Three Pictures MOBILE-->
+    <section class="d-block d-md-none">
+        <div class="container">
+            <hr class="border-dark p-3" style="border-width: 2px;"/>
+            <div class="row">
+                <div class="col-12 p-t-32 p-l0-r0-4 p-r-0 text-center">
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-2.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                    </div>
+                    <div class="col-md-4 col-12 text-dark px-4 p-l0-r0-5">
+                        <h1 class="t1-b-1 custom-font-2">Embodiment</h1>
+                        <h1 class="t1-b-1 custom-font-2">of Serenity</h1>
+                        <br/>
+                        <p>
+                            Imagine a place surrounded by greenery, chimed to the
+                            music of chirping birds. Fresh air, tranquility and the
+                            coolness of the evening breeze are all part of your daily
+                            routine. The exclusive Paul Marc by Triniti Land aims to
+                            encapsulate all the above by merging city life with
+                            luscious landscape, creating an eco-paradise
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flex-col-c-c p-b-20">
+                        <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 p-t-32 p-l0-r0-4 p-r-0 text-center">
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-3.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                    </div>
+                    <div class="col-md-4 col-12 text-dark px-4 p-l0-r0-5">
+                        <h1 class="t1-b-1 custom-font-2">Spacious</h1>
+                        <h1 class="t1-b-1 custom-font-2">Comfort</h1>
+                        <br/>
+                        <p>
+                            Designed with the intention to create your personal
+                            Eden, Paul Marc by Triniti Land has brilliantly
+                            segregated its facilities and living space with a 75/25
+                            split thus seamlessly conjoining space, comfort and
+                            style. So let your hair down, kick back your shoes and
+                            luxuriate in this unique setup where you get to enjoy
+                            your everyday escapade.
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flex-col-c-c p-b-20">
+                        <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 p-t-32 p-l0-r0-4 p-r-0 text-center">
+                    <div class="w-100 img-plant-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-4.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
+                    </div>
+                    <div class="col-md-4 col-12 text-dark px-4 p-l0-r0-5">
+                        <h1 class="t1-b-1 custom-font-2">Lively</h1>
+                        <h1 class="t1-b-1 custom-font-2">Splendor</h1>
+                        <br/>
+                        <p>
+                            Within the Paul Marc district, Triniti Land also offers
+                            three other exclusive developments. Paul & Prive
+                            Condo Villa and Paul The Place Townhouse seek to
+                            satisfy those yearning for an ultimate residential
+                            lifestyle, while Paul Lane aims to fulfill the needs of
+                            those desiring to operate commercially. With such
+                            distinctive and well thought-out features, one is
+                            undeniably spoilt for choice.
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flex-col-c-c p-b-20">
+                        <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Map -->
     <section>
         <div class="container-fluid">
             <!--  -->
+            <div class="col-12 p-l0-r0-3">
             <div class="row">
-                <div class="col-12">
                     <div class="w-100 img-map-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
@@ -160,7 +251,7 @@
         }
 
         .img-plant-responsive{
-            height: 100px;
+            height: 200px;
         }
 
         .t1-b-1{
@@ -169,6 +260,25 @@
 
         .m-b-50{
             margin-bottom: 25px;
+        }
+
+        .p-l0-r0-3{
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .p-l0-r0-4{
+            padding-top: 2em;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .p-l0-r0-5{
+            padding-top: 3em;
+            padding-bottom: 3em;
+            padding-left: 0;
+            padding-right: 0;
         }
 
         @media (min-width: 576px) {

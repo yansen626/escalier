@@ -12,12 +12,12 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e p-b-6 m-b-18">
-                        <a href="#">
+                        <a href="#" class="mx-auto">
                             <img class="max-s-full" src="{{ asset('images/marc/about/Marcs Website components-19.png') }}" alt="IMG" style="max-width: 200px;">
                         </a>
                     </div>
 
-                    <div>
+                    <div class="text-center">
                         <p class="t1-s-2 cl-13 p-b-9">
                             <span class="custom-font-1">PT PURI TRINITI BATAM</span>
                         </p>
