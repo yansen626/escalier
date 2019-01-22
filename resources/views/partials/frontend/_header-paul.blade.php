@@ -108,21 +108,21 @@
                 {{--</li>--}}
             {{--</ul>--}}
 
-            <ul class="main-menu" style="background-color: #fff !important;">
+            <ul class="main-menu" style="background-color: #000 !important;">
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.paul.introduction') }}">INTRODUCTION</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.paul.introduction') }}">INTRODUCTION</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.paul.lanes') }}">PROJECTS</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.paul.lanes') }}">PROJECTS</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('home') }}">MARC'S BOULEVARD</a>
+                    <a class="custom-font-1 text-white" href="{{ route('home') }}">MARC'S BOULEVARD</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-dark" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact_us') }}">CONTACT</a>
                 </li>
             </ul>
         </div>
