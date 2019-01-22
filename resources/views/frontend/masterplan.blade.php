@@ -13,8 +13,8 @@
 
         @media (max-width: 576px) {
             .map-img{
-                background-size: 96% 100%;
-                min-height: 150px;
+                min-height: 1000px;
+                background-size: contain;
             }
 
             .min-img{
@@ -66,17 +66,17 @@
 
         @media (min-width: 1200px) {
             .map-img{
-                height: 952px;
+                height: 740px;
                 background-size:contain;
             }
 
             .min-img{
-                height: 647px;
+                height: 500px;
                 background-size:contain;
             }
 
             .build-img{
-                height: 558px;
+                height: 440px;
                 background-size:contain;
             }
 
@@ -90,7 +90,7 @@
 
 @section('content')
 
-    <!-- About -->
+    <!-- Masterplan -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-35.jpg') }}');"></div>
     </section>
@@ -107,79 +107,119 @@
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-2"></div>
-    </section>
-
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
-        <div class="col-lg-1"></div>
-    </section>
-
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-2"></div>
-    </section>
-
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-lg-1 col-sm-1"></div>
-        <div class="col-lg-10 col-sm-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
-        <div class="col-lg-1 col-sm-1"></div>
-    </section>
-
-    <section class="bg-1 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
-        <div class="col-12" style="text-align: center;">
-            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
-                Future Connection
-                <br/>
-                to Batam City Center
-                <br/>
-                (Port & Government Area)
-            </h5>
-            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
-                Future Connection
-                <br/>
-                to Public Attraction
-                <br/>
-                (Ocarina Park)
-            </h5>
-            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
-                Proposed
-                <br/>
-                Commercial
-                <br/>
-                Strip
-            </h5>
-            <h5 class="t1-s-2 cl-0 m-b-11 custom-font-2" style="font-weight: 500; font-size: 15px;">
-                Proposed
-                <br/>
-                Architectural
-                <br/>
-                Landmark
-            </h5>
+    {{--<!-- Mobile -->--}}
+    <section class="bg-0 p-t-30 p-b-30 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 bg-3" style="height: 2px;"></div>
+            <div class="col-1"></div>
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-2"></div>
+    <section class="bg-0 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
+            <div class="col-1"></div>
+        </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
-        <div class="col-lg-1"></div>
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-1"></div>
+        </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
-        <div class="col-lg-2"></div>
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/MARCS Website Mobile med-07.jpg') }}');"></div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+
+    <!-- Mobile Finish -->
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2 col-sm-1"></div>
+            <div class="col-lg-8 col-sm-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
+            <div class="col-lg-2 col-sm-1"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="col-lg-2"></div>
+        </div>
     </section>
 @endsection
 
