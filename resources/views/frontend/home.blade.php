@@ -125,15 +125,17 @@
             <div class="row justify-content-center">
                 <div class="col-md-1"></div>
                 <div class="col-md-2 col-6 px-md-1 mb-md-0 mb-3">
-                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="130" class="m-auto">
+                    <a href="{{ route('frontend.paul.introduction') }}">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="130" class="m-auto">
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-2 col-6 mb-md-0 mb-3">
                     <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
@@ -205,15 +207,17 @@
                 <div class="col-12 px-4 mb-4">
                     <div class="slider-within mx-2">
                         <div class="px-1">
-                            <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: cover;
-                                    height: 300px;">
-                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
-                                    <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="100" class="m-auto">
+                            <a href="{{ route('frontend.paul.introduction') }}">
+                                <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                        height: 300px;">
+                                    <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                        <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="100" class="m-auto">
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="px-1">
                             <div style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');

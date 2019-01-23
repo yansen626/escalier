@@ -94,4 +94,8 @@ class HomeController extends Controller
         Session::flash('success', 'Thank you for Contacting us!');
         return redirect()->route('contact_us');
     }
+
+    public function downloadCatalogue(){
+        return response()->download(public_path('marc-catalogue.pdf'));
+    }
 }

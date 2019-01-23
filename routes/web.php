@@ -34,6 +34,7 @@ Route::get('/features', 'Frontend\HomeController@features')->name('frontend.feat
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
 Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
+Route::get('/catalogue/download', 'Frontend\HomeController@downloadCatalogue')->name('frontend.catalogue.download');
 
 // FRONTEND PAUL
 Route::get('/paul_marc/introduction', 'Frontend\HomePaulController@introduction')->name('frontend.paul.introduction');
