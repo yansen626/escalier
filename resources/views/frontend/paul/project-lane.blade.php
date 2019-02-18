@@ -13,17 +13,17 @@
     <section class="bg-0 p-t-0 p-b-40">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 left-menu">
+                <div class="col-md-4 left-menu">
                     <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
                         <a href="{{ route('frontend.paul.prives') }}"><img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-10.png') }}" height="50" alt="header"/></a>
                     </div>
                 </div>
-                <div class="col-lg-4 middle-menu">
+                <div class="col-md-4 middle-menu">
                     <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
                         <a href="{{ route('frontend.paul.lanes') }}"><img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-11.png') }}" height="40" alt="header"/></a>
                     </div>
                 </div>
-                <div class="col-lg-4 right-menu">
+                <div class="col-md-4 right-menu">
                     <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
                         <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-12.png') }}" height="40" alt="header"/>
                     </div>
@@ -241,25 +241,26 @@
 
         @media (min-width: 768px) {
             .left-menu{
-
-            }
-
-            .middle-menu{
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;
+                border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
             }
 
+            .middle-menu{
+                border-top: 1px solid #333;
+            }
+
             .right-menu{
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;
+                border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
             }
 
             .left-menu{
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
-            }
-
-            .middle-menu{
-                border-top: 1px solid #333;
-                border-bottom: 1px solid #333;
             }
 
             .right-menu{
@@ -288,17 +289,19 @@
             }
 
             .left-menu{
+                border-left: 1px solid #333;
                 border-right: 1px solid #333;
-                border-top: 1px solid #333;
-            }
-
-            .middle-menu{
                 border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
             }
 
+            .middle-menu{
+                border-top: 1px solid #333;
+            }
+
             .right-menu{
                 border-left: 1px solid #333;
+                border-right: 1px solid #333;
                 border-top: 1px solid #333;
                 border-bottom: 1px solid #333;
             }
@@ -331,9 +334,15 @@
                 border-left: 1px solid #333;
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
+                border-bottom: 1px solid #333;
+            }
+
+            .middle-menu{
+                border-top: 1px solid #333;
             }
 
             .right-menu{
+                border-left: 1px solid #333;
                 border-right: 1px solid #333;
                 border-top: 1px solid #333;
                 border-bottom: 1px solid #333;

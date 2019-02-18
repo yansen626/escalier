@@ -5,7 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>PAUL MARC - PAUL PLACE</title>
+    <title>PAUL MARC - PAUL PRIVE</title>
 @endsection
 
 @section('content')
@@ -44,7 +44,7 @@
             <!-- Title section -->
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-14.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/paul-prive/paul-prive-1.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
                     <h3 class="t1-s-2 cl-3 txt-center m-b-11 custom-font-2" style="font-weight: 500;">Paul Marc Condovilla</h3>
@@ -296,10 +296,10 @@
             <!-- Title section -->
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-16.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/paul-prive/paul-prive-2.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-17.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/paul-prive/paul-prive-3.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
             </div>
         </div>
