@@ -223,17 +223,68 @@
     </section>
 
     <!-- Map -->
-    <section>
-        <div class="container-fluid px-0">
-            <div class="row no-gutters">
-                    <div class="w-100 img-map-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;">
-                    </div>
+    {{--<section>--}}
+        {{--<div class="container-fluid px-0">--}}
+            {{--<div class="row no-gutters">--}}
+                    {{--<div class="w-100 img-map-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-5.jpg') }}');--}}
+                            {{--background-repeat: no-repeat;--}}
+                            {{--background-position: center;--}}
+                            {{--background-size: cover;">--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
+
+    <section class="mb-md-0 mb-4">
+        <div class="container-fluid py-md-5 py-3 bg-1">
+            <!--  -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-12 text-center">
+                    <h1 class="t1-m-1 custom-font-1" style="color: #fff;">WITHIN PAUL MARC</h1>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2 col-4">
+                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-prive.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-lane.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-place.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
+                            <hr class="w-25 mx-auto border-white"/>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
+    </section>
+
+    <section class="mb-md-0 mb-4">
+
     </section>
 
 @endsection

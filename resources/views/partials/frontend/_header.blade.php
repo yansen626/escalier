@@ -16,10 +16,16 @@
                         </li>
                         <li>
                             <a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}">ABOUT</a>
+
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT</a><i class="fa fa-chevron-down"></i>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Paul Prive</a></li>
+                                <li><a href="home-02.html">Paul Lane</a></li>
+                                <li><a href="home-03.html">Paul Place</a></li>
+                            </ul>
                         </li>
 
                         <li>
