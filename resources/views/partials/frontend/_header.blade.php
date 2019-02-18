@@ -12,6 +12,9 @@
                 <div class="menu-desktop" style="position: absolute;">
                     <ul class="main-menu respon-sub-menu left">
                         <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>
+                        </li>
+                        <li>
                             <a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}">ABOUT</a>
                         </li>
 
