@@ -119,7 +119,7 @@
     <section class="bg-0 d-block d-md-none">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
+            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}');"></div>
             <div class="col-1"></div>
         </div>
     </section>
@@ -177,7 +177,7 @@
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="row">
             <div class="col-lg-2"></div>
-            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-36.jpg') }}');"></div>
+            <div class="col-lg-8 size-a-18 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}');"></div>
             <div class="col-lg-2"></div>
         </div>
     </section>
@@ -190,7 +190,7 @@
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
+    {{-- <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="row">
             <div class="col-lg-2 col-sm-1"></div>
             <div class="col-lg-8 col-sm-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-37.jpg') }}');"></div>
@@ -204,7 +204,7 @@
             <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
             <div class="col-lg-2"></div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
         <div class="row">
@@ -221,6 +221,13 @@
             <div class="col-lg-2"></div>
         </div>
     </section>
+    <div class="row">
+                        <div class="col-12 text-center">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;" >back to<br/>
+                                <img src="{{ asset('images/marc/marc-back.png') }}">
+                            </a>
+                        </div>
+                    </div>
 @endsection
 
 @section('scripts')

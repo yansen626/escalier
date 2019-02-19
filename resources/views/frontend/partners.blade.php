@@ -36,7 +36,7 @@
                     <h1 class="t1-b-1 text-dark custom-font-2">WHO WE WORK WITH</h1>
                 </div>
             </div>
-            <div class="d-md-block d-none">
+            {{-- <div class="d-md-block d-none">
                 <div class="row no-gutters">
                     <div class="col-md-4 col-12 text-center border border-left-0 border-dark">
                         <div class="p-5">
@@ -78,10 +78,13 @@
                     </div>
                 </div>
                 <hr class="border-dark" style="border-width: 2px;"/>
-            </div>
+            </div> --}}
+            <hr class="border-dark">
             <div class="row no-gutters">
                 <div class="col-md-4 col-12 border border-left-0 border-top-0 border-dark">
                     <div class="p-md-5 p-3">
+                        <h1>MASTER PLANNER</h1>
+                        <br/>
                         <img src="{{ asset('images/marc/partners/partner-brand-1.png') }}" class="mx-auto" width="130">
                         <br/>
                         <br/>
@@ -141,15 +144,70 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-gutters mb-5">
-                <div class="col-md-4 col-12 text-center border border-top-0 border-left-0 border-dark">
+            {{-- <div class="row no-gutters mb-5">
+               <div class="col-md-4 col-12 border border-left-0 border-top-0 border-dark">
                     <hr class="border-dark d-block d-md-none" style="border-width: 2px;"/>
                     <div class="p-md-5 p-3">
+                        <h1>ARCHITECT</h1>
+                        <br/>
                         <img src="{{ asset('images/marc/partners/partner-brand-3.png') }}" class="mx-auto" width="130">
                     </div>
                 </div>
                 <div class="col-md-8 col-12 border border-top-0 border-left-0 border-right-0 border-dark">
                     <div class="p-md-5 p-3">
+                        <div class="row">
+                            <div class=" col-md-5 col-12 text-center">
+                                <br/>
+                                <img src="{{ asset('images/marc/partners/partners-5.jpg') }}" class="w-75">
+                            </div>
+                            <div class="col-md-7 col-12">
+                                <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Architect Message</h1>
+                                <br/>
+                                <p>
+                                    Marc’s Boulevard focused to be next Batam’s destination landmark
+                                    development that provides high quality living spaces integrated with
+                                    large open green areas, where the resident’s life is balanced
+                                    between work and daily activities. The design delivers a simple yet
+                                    distinctive architecture alongside with combination of carefully
+                                    chosen materials, it creates a luxury living development. It is
+                                    resort-like living with excellent amenities. The lush landscape forms
+                                    an invisible boundary between the buildings and the nature.
+                                </p>
+                                <br/>
+                                <h1 class="t1-m-1 custom-font-2">Raval Kapusta</h1>
+                                <p>Founding Director, OOZN Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+             <div class="row no-gutters">
+                <div class="col-md-4 col-12 border border-left-0 border-top-0 border-dark">
+                    <div class="p-md-5 p-3">
+                        <h1>ARCHITECT</h1>
+                        <br/>
+                        <img src="{{ asset('images/marc/partners/partner-brand-3.png') }}" class="mx-auto" width="130">
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 border border-left-0 border-right-0 border-top-0 border-dark">
+                    <div class="p-md-5 p-3">
+                        <div class="row">
+                            <div class="col-md-6 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <p class="text-left">
+                                    <span class="custom-font-2">Singapore National Stadium</span><br/>
+                                    <span>Singapore</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <p class="text-left">
+                                    <span class="custom-font-2">Resport World Sentosa</span><br/>
+                                    <span>Singapore</span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="border-dark"/>
                         <div class="row">
                             <div class=" col-md-5 col-12 text-center">
                                 <img src="{{ asset('images/marc/partners/partners-5.jpg') }}" class="w-75">
@@ -175,9 +233,67 @@
                     </div>
                 </div>
             </div>
+             <div class="row no-gutters">
+                <div class="col-md-4 col-12 border border-left-0 border-top-0 border-dark">
+                    <div class="p-md-5 p-3">
+                        <h1>BRAND CONSULTANT</h1>
+                        <br/>
+                        <img src="{{ asset('images/marc/partners/partner-brand-2.png') }}" class="mx-auto" width="250">
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 border border-left-0 border-right-0 border-top-0 border-dark">
+                    <div class="p-md-5 p-3">
+                        <div class="row">
+                            <div class="col-md-6 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <p class="text-left">
+                                    <span class="custom-font-2">Hyde Tower - Collins Boulevard</span><br/>
+                                    <span>Tangerang, Indonesia</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <p class="text-left">
+                                    <span class="custom-font-2">Lavaya Resort</span><br/>
+                                    <span>Bali, Indonesia</span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="border-dark"/>
+                        <div class="row">
+                            <div class=" col-md-5 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-8-crop.png') }}" class="w-75">
+                            </div>
+                            <div class="col-md-7 col-12">
+                                <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Brand Consultant Message</h1>
+                                <br/>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+                                    velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                                    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                    praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                </p>
+                                <br/>
+                                <h1 class="t1-m-1 custom-font-2">Benny Bonardy</h1>
+                                <p>Founder, Ben & Wyatt Branding House</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
+<div class="row">
+                        <div class="col-12 text-center">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;" >back to<br/>
+                                <img src="{{ asset('images/marc/marc-back.png') }}">
+                            </a>
+                        </div>
+                    </div>
     <!-- Who We Work With MOBILE -->
     <section class="d-block d-md-none">
         <div class="container">
@@ -187,7 +303,7 @@
                     <h1 class="text-dark custom-font-2" style="font-size: 32px;">WHO WE <br>WORK WITH</h1>
                 </div>
             </div>
-            <div class="row no-gutters d-block d-md-none">
+            {{-- <div class="row no-gutters d-block d-md-none">
                 <div class="col-md-4 col-12 text-center">
                     <hr class="border-dark" style="border-width: 2px;"/>
                     <div class="p-5">
@@ -209,7 +325,7 @@
                         <img src="{{ asset('images/marc/partners/partner-brand-3.png') }}" class="mx-auto" width="130">
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="row no-gutters">
                 <div class="col-md-4 col-12">
                     <hr class="border-dark d-block d-md-none" style="border-width: 2px;"/>
@@ -285,6 +401,21 @@
                 <div class="col-md-8 col-12">
                     <div class="p-md-5 p-3">
                         <div class="row">
+                            <div class="col-md-6 col-12 p-3 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-6.png') }}" class="mx-auto w-100">
+                                <p class="text-center">
+                                    <span class="custom-font-2">Singapore National Stadium</span><br/>
+                                    <span style="font-size: 12px;">Singapore</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-12 p-3 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-7.png') }}" class="mx-auto w-100">
+                                <p class="text-center">
+                                    <span class="custom-font-2">Resort World Sentosa</span><br/>
+                                    <span style="font-size: 12px;">Singapore</span>
+                                </p>
+                            </div>
+                        </div>
                             <div class="p-4 col-md-5 col-12 text-center">
                                 <img src="{{ asset('images/marc/partners/partners-5.jpg') }}" class="w-75">
                             </div>
@@ -305,6 +436,58 @@
                                 <br/>
                                 <h1 class="t1-m-1 custom-font-2">Raval Kapusta</h1>
                                 <p>Founding Director, OOZN Design</p>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="row no-gutters">
+                <div class="col-md-4 col-12 text-center">
+                    <hr class="border-dark d-block d-md-none" style="border-width: 2px;"/>
+                    <div class="p-5" style="padding-bottom:0 !important;">
+                        <img src="{{ asset('images/marc/partners/partner-brand-2.png') }}" class="mx-auto" width="20    0">
+                    </div>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="p-md-5 p-3">
+                        <div class="row">
+                            <div class="col-md-6 col-12 p-3 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <p class="text-center">
+                                    <span class="custom-font-2">Hyde Tower - Collins Boulevard</span><br/>
+                                    <span style="font-size: 12px;">Tangerang, Indonesia</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-12 p-3 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <p class="text-center">
+                                    <span class="custom-font-2">Lavaya Resort</span><br/>
+                                    <span style="font-size: 12px;">Bali, Indonesia</span>
+                                </p>
+                            </div>
+                        </div>
+                            <div class="p-4 col-md-5 col-12 text-center">
+                                <img src="{{ asset('images/marc/partners/partners-8-crop.png') }}" class="w-75">
+                            </div>
+                            <div class="col-md-7 col-12 text-center">
+                                <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Brand Consultant Message</h1>
+                                <br/>
+                                <p style="font-size: 12px;">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+                                    velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                                    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                    praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                </p>
+                                <br/>
+                                <br/>
+                                <h1 class="t1-m-1 custom-font-2">Benny Bonardy</h1>
+                                <p>Founder, Ben & Wyatt Branding House</p>
                                 <br/>
                                 <br/>
                             </div>

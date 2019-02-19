@@ -72,7 +72,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 text-center btn-paulmarc-more">
-                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-25 p-4 t1-m-1 bg-custom-dark" style="border-radius: 30px;">MORE</a>
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-25 p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;">MORE</a>
                         </div>
                     </div>
                 </div>

@@ -36,6 +36,12 @@
                 width: 100%;
             }
         }
+
+        .bg-img3 {
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 @endsection
 
@@ -43,12 +49,12 @@
 
     <!-- About -->
     <section class="flex-wr-s-st m-b-15-sr991 d-none d-md-block">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/developer/Marcs Website components-30.jpg') }}');"></div>
+        <div class="col-md-12 size-a-18 bg-img3 respon-3 header-img" style="background-image: url('{{ asset('images/marc/developer/Marcs Website update-34.png') }}');"></div>
     </section>
 
     <!-- Mobile Version -->
     <section class="flex-wr-s-st m-b-0 d-block d-md-none" style="background: #1f2020;">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/developer/Marcs Website components-30.jpg') }}');"></div>
+        <div class="col-md-12 size-a-18 bg-img3 respon-3 header-img" style="background-image: url('{{ asset('images/marc/developer/Marcs Website update-34.png') }}');"></div>
     </section>
 
     <section class="p-t-60 p-b-10 d-block d-md-none" style="background: #1f2020;">
@@ -120,13 +126,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="{{ asset('images/marc/developer/Marcs Website components-32.png') }}" alt="img_title" style="width: 100%;"/>
+                    <img src="{{ asset('images/marc/developer/Marcs Website update-35.png') }}" alt="img_title" style="width: 100%;"/>
                 </div>
             </div>
         </div>
+        <br/>
+        <br>
+         <div class="row">
+                        <div class="col-12 text-center">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;" >back to<br/>
+                                <img src="{{ asset('images/marc/marc-back.png') }}">
+                            </a>
+                        </div>
+                    </div>
     </section>
 
-    <section class="p-t-60 p-b-40 d-block d-md-none" style="background: #1f2020;">
+    {{-- <section class="p-t-60 p-b-40 d-block d-md-none" style="background: #1f2020;">
         <div class="container">
             <div class="row cl-0">
                 <div class="col-lg-3 col-sm-12 col-xs-12 p-b-20 text-center text-sm-center text-md-left">
@@ -239,7 +254,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+
     <div class="size-a-2 bg-0" style="width: 100%; height: 2px;"></div>
 @endsection
 

@@ -65,7 +65,13 @@
             </div>
         </div>
     </section>
-
+<div class="row">
+                        <div class="col-12 text-center">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;" >back to<br/>
+                                <img src="{{ asset('images/marc/marc-back.png') }}">
+                            </a>
+                        </div>
+                    </div>
 @endsection
 
 @section('styles')

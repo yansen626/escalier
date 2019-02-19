@@ -335,6 +335,88 @@
             </div>
         </div>
     </section>
+    <!-- Within Marc's Boulevard MOBILE -->
+    <section class="d-block d-md-none">
+        <div class="container-fluid px-0 bg-1">
+            <!--  -->
+            <div class="row no-gutters">
+                <div class="col-12 text-center">
+                    <h1 class="t1-s-1 custom-font-1 font-weight-bold py-4" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-12 px-4 mb-4">
+                    <div class="slider-within mx-2">
+                        <div class="px-1">
+                            <a href="{{ route('frontend.paul.introduction') }}">
+                                <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                        height: 300px;">
+                                    <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                        <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="100" class="m-auto">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <div style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Dean Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Grant Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Will Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    height: 300px;">
+                                <div class="box h-100 d-flex justify-content-center flex-column text-center" style="width: 120px;">
+                                    <span class="t1-s-1 text-white custom-font-2">Glenn Marc</span>
+                                    <hr class="w-25 mx-auto border-white"/>
+                                    <span class="text-white custom-font-1" style="font-size: 10px;">#COMINGSOON</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-0 p-t-0 p-b-30 d-block d-md-none">
         <div class="container">
@@ -530,6 +612,86 @@
             </div>
         </div>
     </section>
+    <!-- Within Marc's Boulevard DESKTOP -->
+    <section class="mb-md-0 mb-4 d-none d-md-block">
+        <div class="container-fluid py-md-5 py-3 bg-1">
+            <!--  -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-12 text-center">
+                    <h1 class="t1-m-1 custom-font-1" style="color: #fff;">WITHIN MARC'S BOULEVARD</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-6 px-md-1 mb-md-0 mb-3">
+                    <a href="{{ route('frontend.paul.introduction') }}">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <img src="{{ asset('images/marc/home/within-text-1.png') }}" width="130" class="m-auto">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-2.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <span class="t1-m-1 text-white custom-font-2">Dean Marc</span>
+                            <hr class="w-25 mx-auto border-white"/>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-3.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <span class="t1-m-1 text-white custom-font-2">Grant Marc</span>
+                            <hr class="w-25 mx-auto border-white"/>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-4.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
+                            <hr class="w-25 mx-auto border-white"/>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="w-100" style="background-image: url('{{ asset('images/marc/home/within-5.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 480px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <span class="t1-m-1 text-white custom-font-2">Glenn Marc</span>
+                            <hr class="w-25 mx-auto border-white"/>
+                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-0 p-t-0 p-b-20 d-none d-md-block">
         <div class="container">
@@ -537,9 +699,16 @@
                 <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
             </div>
         </div>
+          <div class="row">
+                        <div class="col-12 text-center">
+                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;">back to<br/>
+                                <img src="{{ asset('images/marc/marc-back.png') }}">
+                            </a>
+                        </div>
+                    </div>
     </section>
+   
 @endsection
-
 @section('scripts')
     <script>
     </script>

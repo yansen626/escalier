@@ -41,7 +41,9 @@
 <body class="animsition">
     {{--<div id="preloader"></div>--}}
 
-    @include('partials.frontend._header-paul')
+    {{-- @include('partials.frontend._header-paul') --}}
+
+    @include('partials.frontend._header')
 
     @yield('content')
 

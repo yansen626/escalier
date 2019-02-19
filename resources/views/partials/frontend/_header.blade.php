@@ -20,11 +20,11 @@
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT</a><i class="fa fa-chevron-down"></i>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Paul Prive</a></li>
-                                <li><a href="home-02.html">Paul Lane</a></li>
-                                <li><a href="home-03.html">Paul Place</a></li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT</a>
+                            <ul class="sub-menu" style="z-index:9999;">   
+                                <li><a href="{{ route('frontend.paul.prives') }}">Paul Prive</a></li>
+                                <li><a href="{{ route('frontend.paul.lanes') }}">Paul Lane</a></li>
+                                <li><a href="#">Paul Place</a></li>
                             </ul>
                         </li>
 
@@ -123,6 +123,10 @@
             {{--</ul>--}}
 
             <ul class="main-menu" style="background-color: #000 !important;">
+                <li>
+                    <a class="custom-font-1 text-white" href="{{ route('home') }}">HOME</a>
+                </li>
+
                 <li>
                     <a class="custom-font-1 text-white" href="{{ route('frontend.about') }}">ABOUT</a>
                 </li>
