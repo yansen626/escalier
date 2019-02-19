@@ -32,6 +32,15 @@
     color: #000 !important;
 }
 
+.menu-desktop .main-menu > li:hover > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-desktop .sub-menu li:hover {
+    background-color: #000;
+}
+
 @media (max-width: 576px) {
     /* Footer */
     .mobile-center{

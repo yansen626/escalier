@@ -20,7 +20,7 @@
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT <i class="fa fa-chevron-down"></i></a>
                             <ul class="sub-menu" style="z-index:9999;">   
                                 <li><a href="{{ route('frontend.paul.prives') }}">Paul Prive</a></li>
                                 <li><a href="{{ route('frontend.paul.lanes') }}">Paul Lane</a></li>
