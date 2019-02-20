@@ -32,15 +32,15 @@
     color: #000 !important;
 }
 
-.wrap-menu-desktop{
-    top: 0px !important;
+#header-sticky .wrap-menu-desktop{
+    top: 0 !important;
 }
 
-.container-header-desktop{
+#header-sticky{
     height: 100px;
 }
 
-.fix-menu-desktop{
+#header-sticky .fix-menu-desktop{
     height: 100px;
 }
 
