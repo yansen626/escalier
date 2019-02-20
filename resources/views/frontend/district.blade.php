@@ -92,6 +92,18 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
+        <div class="container">
+            {{-- <div class="flex-col-c-c p-b-20">
+                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
+            </div> --}}
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
+                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
+                    </a>
+                </div>
+            </div>
+        </div> 
     </section>
 
     <!-- Within Marc's Boulevard MOBILE -->

@@ -693,23 +693,24 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-20 d-none d-md-block">
+    <section class="my-3">
         <div class="container">
-            <div class="flex-col-c-c p-b-20">
+            {{-- <div class="flex-col-c-c p-b-20">
                 <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
+            </div> --}}
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
+                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
+                    </a>
+                </div>
             </div>
-        </div>
-          <div class="row">
-                        <div class="col-12 text-center">
-                            <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full p-2 t1-m-1 bg-custom-dark" style="border-radius: 30px;">back to<br/>
-                                <img src="{{ asset('images/marc/marc-back.png') }}">
-                            </a>
-                        </div>
-                    </div>
+        </div>         
     </section>
    
 @endsection
 @section('scripts')
     <script>
+
     </script>
 @endsection

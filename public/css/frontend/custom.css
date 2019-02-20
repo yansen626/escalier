@@ -62,6 +62,10 @@
     background-color: #000;
 }
 
+#back-navigation{
+    width: 200px;
+}
+
 @media (max-width: 576px) {
     /* Footer */
     .mobile-center{
@@ -92,6 +96,9 @@
 }
 
 @media (min-width: 1024px) {
+    #back-navigation{
+        width: 350px;
+    }
 }
 
 @media (min-width: 1200px) {
