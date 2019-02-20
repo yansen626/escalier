@@ -1,11 +1,11 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Home Page">
+    <meta name="description" content="Partners">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>PARTNERS</title>
+    <title>MARCS BOULEVARD - PARTNERS</title>
 @endsection
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-    <meta name="description" content="Home Page">
+    <meta name="description" content="About">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 

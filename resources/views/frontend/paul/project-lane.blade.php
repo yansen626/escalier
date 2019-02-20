@@ -1,11 +1,11 @@
 @extends('layouts.frontend-paul')
 
 @section('head_and_title')
-    <meta name="description" content="Home Page">
+    <meta name="description" content="Paul Lanes">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>PAUL MARC - PAUL LANE</title>
+    <title>PAUL MARC - PAUL LANES</title>
 @endsection
 
 @section('content')
@@ -124,7 +124,7 @@
                                         <!-- Title section -->
                                         <div class="row d-none d-md-block">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane - Site Plan.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/paul-lanes-site-plan-1.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                         <div class="row d-block d-md-none">

@@ -3,54 +3,54 @@
     <!-- Header desktop -->
     <nav class="container-header-desktop">
         <!-- Logo desktop -->
-        {{--<div class="wrap-menu-desktop">--}}
-            {{--<div class="limiter-menu-desktop container">--}}
-                {{--<a href="{{ route('home') }}" style="margin-top: -100px">--}}
-                    {{--<img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO" height="50" >--}}
-                {{--</a>--}}
-                {{--<!-- Menu desktop -->--}}
-                {{--<div class="menu-desktop" style="position: absolute;">--}}
-                    {{--<ul class="main-menu respon-sub-menu left">--}}
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>--}}
-                        {{--</li>--}}
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}">ABOUT</a>--}}
+        <div class="wrap-menu-desktop" id="header-still">
+            <div class="limiter-menu-desktop container">
+                <a href="{{ route('home') }}" style="margin: 0 auto 0; margin-top: -100px">
+                    <img src="{{ asset('images/marc/about/Marcs Website components-14.png') }}" alt="LOGO" height="50" >
+                </a>
+                <!-- Menu desktop -->
+                <div class="menu-desktop w-100" style="position: absolute; margin: 0 auto 0;">
+                    <ul class="main-menu respon-sub-menu">
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>
+                        </li>
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}">ABOUT</a>
 
-                        {{--</li>--}}
+                        </li>
 
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT <i class="fa fa-chevron-down"></i></a>--}}
-                            {{--<ul class="sub-menu" style="z-index:9999;">   --}}
-                                {{--<li><a href="{{ route('frontend.paul.prives') }}">Paul Prive</a></li>--}}
-                                {{--<li><a href="{{ route('frontend.paul.lanes') }}">Paul Lane</a></li>--}}
-                                {{--<li><a href="#">Paul Place</a></li>--}}
-                            {{--</ul>--}}
-                        {{--</li>--}}
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT <i class="fa fa-chevron-down"></i></a>
+                            <ul class="sub-menu" style="z-index:9999;">
+                                <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
+                                <li><a href="#" class="custom-font-1 disabled-link">DEAN MARC</a></li>
+                                <li><a href="#" class="custom-font-1 disabled-link">GRANT MARC</a></li>
+                                <li><a href="#" class="custom-font-1 disabled-link">WILL MARC</a></li>
+                                <li><a href="#" class="custom-font-1 disabled-link">OLENN MARC</a></li>
+                            </ul>
+                        </li>
 
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.developer') }}">DEVELOPER</a>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.developer') }}">DEVELOPER</a>
+                        </li>
 
-                    {{--<ul class="main-menu respon-sub-menu right">--}}
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>--}}
-                        {{--</li>--}}
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
+                        </li>
 
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}">PARTNERS</a>--}}
-                        {{--</li>--}}
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}">PARTNERS</a>
+                        </li>
 
-                        {{--<li>--}}
-                            {{--<a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}">CONTACT</a>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+                        <li>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <div class="wrap-menu-desktop">
+        <div class="wrap-menu-desktop" id="header-sticky" style="display: none;">
             <div class="limiter-menu-desktop container">
                 <!-- Logo desktop -->
                 <div class="logo">
