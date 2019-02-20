@@ -10,7 +10,7 @@
                 </a>
                 <!-- Menu desktop -->
                 <div class="menu-desktop w-100" style="position: absolute; margin: 0 auto 0;">
-                    <ul class="main-menu respon-sub-menu">
+                    <ul class="main-menu respon-sub-menu" style="margin: 0 auto 0;">
                         <li>
                             <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>
                         </li>
@@ -43,7 +43,7 @@
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" style="padding-right: 20px !important;">CONTACT</a>
                         </li>
                     </ul>
                 </div>
