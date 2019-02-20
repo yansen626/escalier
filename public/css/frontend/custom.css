@@ -32,6 +32,27 @@
     color: #000 !important;
 }
 
+.container-header-desktop{
+    height: inherit;
+}
+
+.fix-menu-desktop{
+    height: inherit;
+}
+
+.main-menu .sub-menu .disabled-link{
+    color: #726866 !important;
+}
+
+.menu-desktop .main-menu .sub-menu li {
+    background-color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.menu-desktop .main-menu .sub-menu li a {
+    color: #fff;
+}
+
 .menu-desktop .main-menu > li:hover > a {
     text-decoration: none;
     color: #fff;
