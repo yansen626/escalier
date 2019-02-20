@@ -130,20 +130,6 @@
                 </div>
             </div>
         </div>
-        <br/>
-        <br>
-         <div class="container">
-            {{-- <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
-            </div> --}}
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
-                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
-                    </a>
-                </div>
-            </div>
-        </div> 
     </section>
 
     {{-- <section class="p-t-60 p-b-40 d-block d-md-none" style="background: #1f2020;">
@@ -261,7 +247,18 @@
         </div>
     </section> --}}
 
-    <div class="size-a-2 bg-0" style="width: 100%; height: 2px;"></div>
+    <section style="background-color: #1f2020;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="{{ route('home') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;">
+                        <div class="mb-2"><span class="custom-font-1 t1-s-1">BACK TO</span></div>
+                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('scripts')

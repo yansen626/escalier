@@ -187,13 +187,13 @@
 
     <section class="bg-0 p-t-0 p-b-20">
         <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="flex-col-c-c">
+                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
             </div>
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-10">
+    <section class="bg-0 p-t-0 p-b-20">
         <div class="container">
             <!-- Title section -->
             <div class="row">
@@ -204,6 +204,15 @@
         </div>
     </section>
 
+    <section class="bg-0 p-t-0">
+        <div class="container">
+            <div class="flex-col-c-c">
+                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
+            </div>
+        </div>
+    </section>
+
+    @include('partials.frontend._back-marc')
 @endsection
 
 @section('styles')

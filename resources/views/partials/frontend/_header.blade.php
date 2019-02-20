@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="header-v3">
+<header>
     <!-- Header desktop -->
     <nav class="container-header-desktop">
         <!-- Logo desktop -->
@@ -61,15 +61,23 @@
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu">
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('home') }}">HOME</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('home') }}" @if(Route::currentRouteName() == 'home') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >HOME</a>
                         </li>
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}">ABOUT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.about') }}" @if(Route::currentRouteName() == 'frontend.about') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >ABOUT</a>
 
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT <i class="fa fa-chevron-down"></i></a>
+                            @if(Route::currentRouteName() == 'frontend.district' ||
+                            Route::currentRouteName() == 'frontend.paul.introduction' ||
+                            Route::currentRouteName() == 'frontend.paul.prives' ||
+                            Route::currentRouteName() == 'frontend.paul.lanes')
+                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}" style="border-bottom: 1px solid #000; padding-bottom: 10px;" >DISTRICT <i class="fa fa-chevron-down"></i></a>
+                            @else
+                                <a class="custom-font-1 menu-font-style" href="{{ route('frontend.district') }}">DISTRICT <i class="fa fa-chevron-down"></i></a>
+                            @endif
+
                             <ul class="sub-menu" style="z-index:9999;">
                                 <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
                                 <li><a href="#" class="custom-font-1 disabled-link">DEAN MARC</a></li>
@@ -80,19 +88,19 @@
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.developer') }}">DEVELOPER</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.developer') }}" @if(Route::currentRouteName() == 'frontend.developer') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >DEVELOPER</a>
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.masterplan') }}" @if(Route::currentRouteName() == 'frontend.masterplan') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >MASTERPLAN</a>
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}">PARTNERS</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.partners') }}" @if(Route::currentRouteName() == 'frontend.partners') style="border-bottom: 1px solid #000; padding-bottom: 10px;" @endif >PARTNERS</a>
                         </li>
 
                         <li>
-                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                            <a class="custom-font-1 menu-font-style" href="{{ route('frontend.contact_us') }}" @if(Route::currentRouteName() == 'frontend.contact_us') style="border-bottom: 1px solid #000; padding-bottom: 10px; padding-right: 20px !important;" @endif >CONTACT</a>
                         </li>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-    <title>MARCS BOULEVARD</title>
+    <title>MARCS BOULEVARD - ABOUT</title>
 @endsection
 
 @section('styles')
@@ -214,13 +214,13 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-30 d-block d-md-none">
-        <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="bg-0 p-t-0 p-b-30 d-block d-md-none">--}}
+        {{--<div class="container">--}}
+            {{--<div class="flex-col-c-c p-b-20">--}}
+                {{--<div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section class="m-b-50 d-block d-md-none">
         <div class="container-fluid px-0">
@@ -274,13 +274,13 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-30 d-block d-md-none">
-        <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="bg-0 p-t-0 p-b-30 d-block d-md-none">--}}
+        {{--<div class="container">--}}
+            {{--<div class="flex-col-c-c p-b-20">--}}
+                {{--<div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section class="m-b-50 d-block d-md-none">
         <div class="container-fluid px-0">
@@ -418,13 +418,13 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-30 d-block d-md-none">
-        <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="bg-0 p-t-0 p-b-30 d-block d-md-none">--}}
+        {{--<div class="container">--}}
+            {{--<div class="flex-col-c-c p-b-20">--}}
+                {{--<div class="size-a-2 bg-3" style="width: 50px; height: 2px;"></div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
     <!-- Mobile Section Finish -->
 
     <!-- Why chosse us -->
@@ -612,6 +612,7 @@
             </div>
         </div>
     </section>
+
     <!-- Within Marc's Boulevard DESKTOP -->
     <section class="mb-md-0 mb-4 d-none d-md-block">
         <div class="container-fluid py-md-5 py-3 bg-1">
@@ -693,24 +694,19 @@
         </div>
     </section>
 
-    <section class="my-3">
-        <div class="container">
-            {{-- <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
-            </div> --}}
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
-                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
-                    </a>
-                </div>
-            </div>
-        </div>         
-    </section>
+    @include('partials.frontend._back-marc')
    
 @endsection
 @section('scripts')
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
-
+        $('.slider-within').slick({
+            dots: false,
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            variableWidth: true,
+            arrows: true
+        });
     </script>
 @endsection

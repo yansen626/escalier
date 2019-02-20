@@ -32,12 +32,16 @@
     color: #000 !important;
 }
 
+.wrap-menu-desktop{
+    top: 0px !important;
+}
+
 .container-header-desktop{
-    height: inherit;
+    height: 100px;
 }
 
 .fix-menu-desktop{
-    height: inherit;
+    height: 100px;
 }
 
 .main-menu .sub-menu .disabled-link{

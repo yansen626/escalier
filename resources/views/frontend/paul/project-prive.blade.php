@@ -10,7 +10,7 @@
 
 @section('content')
     <!-- Tab Header -->
-    <section class="bg-0 p-t-0 p-b-40">
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 left-menu">
@@ -285,8 +285,8 @@
 
     <section class="bg-0 p-t-0 p-b-20">
         <div class="container">
-            <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
+            <div class="flex-col-c-c p-b-10">
+                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
             </div>
         </div>
     </section>
@@ -424,6 +424,16 @@
             </div>
         </div>
     </section>
+
+    <section class="bg-0 p-t-0 p-b-10">
+        <div class="container">
+            <div class="flex-col-c-c">
+                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
+            </div>
+        </div>
+    </section>
+
+    @include('partials.frontend._back-marc')
 @endsection
 
 @section('styles')

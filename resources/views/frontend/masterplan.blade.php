@@ -132,21 +132,21 @@
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/MARCS Website Mobile med-07.jpg') }}');"></div>
-            <div class="col-1"></div>
-        </div>
-    </section>
+    {{--<section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-1"></div>--}}
+            {{--<div class="col-10 size-a-18 bg-img2 respon-3 map-img" style="background-image: url('{{ asset('images/marc/masterplan/MARCS Website Mobile med-07.jpg') }}');"></div>--}}
+            {{--<div class="col-1"></div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
-            <div class="col-1"></div>
-        </div>
-    </section>
+    {{--<section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-1"></div>--}}
+            {{--<div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>--}}
+            {{--<div class="col-1"></div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
         <div class="row">
@@ -221,25 +221,7 @@
         </div>
     </section>
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
-            <div class="col-lg-2"></div>
-        </div>
-        <div class="container">
-            {{-- <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
-            </div> --}}
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
-                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
-                    </a>
-                </div>
-            </div>
-        </div> 
-    </section>
+    @include('partials.frontend._back-marc')
     
 @endsection
 

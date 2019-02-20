@@ -92,23 +92,23 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
-        <div class="container">
-            {{-- <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
-            </div> --}}
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
-                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
-                    </a>
-                </div>
-            </div>
-        </div> 
+        {{--<div class="container">--}}
+            {{-- <div class="flex-col-c-c p-b-20">--}}
+                {{--<div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>--}}
+            {{--</div> --}}
+            {{--<div class="row">--}}
+                {{--<div class="col-12 text-center">--}}
+                    {{--<a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>--}}
+                        {{--<img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div> --}}
     </section>
 
     <!-- Within Marc's Boulevard MOBILE -->
     <section class="d-block d-md-none">
-        <div class="container-fluid px-0 py-5">
+        <div class="container-fluid px-0 py-2">
             <!--  -->
             <div class="row no-gutters">
                 <div class="col-12 text-center">
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="row no-gutters pt-sm-4">
-                <div class="col-12 px-4 mb-4 py-5">
+                <div class="col-12 px-4 mb-2 py-2">
                     <div class="slider-within mx-2">
                         <div class="px-1">
                             <div style="background-image: url('{{ asset('images/marc/home/within-1.jpg') }}');
@@ -186,6 +186,8 @@
             </div>
         </div>
     </section>
+
+    @include('partials.frontend._back-marc')
 
 @endsection
 

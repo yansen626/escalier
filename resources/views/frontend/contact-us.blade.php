@@ -15,14 +15,14 @@
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/contact/Marcs Website components-51.jpg') }}');"></div>
     </section>
 
-    <section class="bg-0 p-t-95 p-b-40">
+    <section class="bg-0 p-t-95">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-6 p-b-60">
                     <div class="p-l-0 text-sm-center text-center">
                         <h3 class="t1-b-1 cl-3 m-b-11">
                             SEND US A MESSAGE
-                        </h1>
+                        </h3>
                     </div>
                 </div>
 
@@ -65,18 +65,8 @@
             </div>
         </div>
     </section>
-<div class="container">
-            {{-- <div class="flex-col-c-c p-b-20">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 2px;"></div>
-            </div> --}}
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;"><strong>BACK TO</strong><br/>
-                        <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
-                    </a>
-                </div>
-            </div>
-        </div> 
+
+    @include('partials.frontend._back-marc')
 @endsection
 
 @section('styles')

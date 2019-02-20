@@ -248,32 +248,28 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-2"></div>
                 <div class="col-md-2 col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-prive.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                    </div>
-                </div>
-                <div class="col-md-2 col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-lane.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                    </div>
-                </div>
-                <div class="col-md-2 col-4">
-                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-place.jpg') }}');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            height: 480px;">
-                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                            <span class="t1-m-1 text-white custom-font-2">Will Marc</span>
-                            <hr class="w-25 mx-auto border-white"/>
-                            <span class="t1-s-1 text-white custom-font-1">#COMINGSOON</span>
+                    <a href="{{ route('frontend.paul.prives') }}">
+                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-prive.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;">
                         </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-4">
+                    <a href="{{ route('frontend.paul.lanes') }}">
+                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-lane.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-place.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -283,9 +279,7 @@
         </div>
     </section>
 
-    <section class="mb-md-0 mb-4">
-
-    </section>
+    @include('partials.frontend._back-marc')
 
 @endsection
 
@@ -330,6 +324,10 @@
             padding-right: 0;
         }
 
+        .img-within-responsive{
+            height: 250px;
+        }
+
         @media (min-width: 576px) {
 
         }
@@ -345,6 +343,10 @@
 
             .img-map-responsive{
                 height: 650px;
+            }
+
+            .img-within-responsive{
+                height: 480px;
             }
 
             .t1-b-1{
