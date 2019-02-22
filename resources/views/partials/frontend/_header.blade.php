@@ -214,11 +214,11 @@
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.developer') }}">DEVELOPER</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.developer') }}">DEVELOPER</a>
                 </li>
 
                 <li>

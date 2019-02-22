@@ -19,12 +19,12 @@
                         </div>
                         <div class="col-md-4 col-12">
                             <div class="d-none d-md-block">
-                                <a href="#">
+                                <a href="https://trinitiland.com" target="_blank">
                                     <img src="{{ asset('images/marc/about/Marcs Website components-19.png') }}"  style="max-width: 150px; margin-top: -26px;">
                                 </a>
                             </div>
                             <div class="d-block d-md-none text-center">
-                                <a href="#">
+                                <a href="https://trinitiland.com" target="_blank">
                                     <img src="{{ asset('images/marc/about/Marcs Website components-19.png') }}"  style="max-width: 150px;">
                                 </a>
                             </div>

@@ -12,7 +12,7 @@
 
                 <div class="col-sm-8 col-md-5 col-lg-3 p-b-20">
                     <div class="size-h-1 flex-s-e p-b-6 m-b-18">
-                        <a href="#" class="mx-auto">
+                        <a href="https://trinitiland.com" class="mx-auto" target="_blank">
                             <img class="max-s-full" src="{{ asset('images/marc/about/Marcs Website components-19.png') }}" alt="IMG" style="max-width: 200px;">
                         </a>
                     </div>

@@ -122,11 +122,193 @@
         </div>
     </section>
 
-    <section class="p-t-60 p-b-10" style="background: #1f2020;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img src="{{ asset('images/marc/developer/Marcs Website update-35.png') }}" alt="img_title" style="width: 100%;"/>
+    {{--<section class="p-t-60 p-b-10" style="background: #1f2020;">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-lg-12">--}}
+                    {{--<img src="{{ asset('images/marc/developer/Marcs Website update-35.png') }}" alt="img_title" style="width: 100%;"/>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
+
+    <!-- Within Marc's Boulevard DESKTOP -->
+    <section class="mb-md-0 mb-2 d-none d-md-block" style="background-color: #1f2020;">
+        <div class="container-fluid py-md-5 py-3">
+            <div class="row justify-content-center no-gutters">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <a href="http://brooklynalamsutera.com" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-01.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                        </div>
+                        <div class="bg-custom-darker" style="height: 75px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <span class="custom-font-1 t1-s-1" style="color: #fff;">BROOKLYN</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <a href="http://springwoodresidence.com" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-02.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                        </div>
+                        <div class="bg-custom-darker" style="height: 75px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <span class="custom-font-1 t1-s-1" style="color: #fff;">SPRING WOOD<br/>RESIDENCE</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <a href="http://yukatasuites.com" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-03.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                        </div>
+                        <div class="bg-custom-darker" style="height: 75px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <span class="custom-font-1 t1-s-1" style="color: #fff;">YUKATA<br/>SUITES</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 mb-md-0 mb-3">
+                    <a href="http://thesmith.co.id" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-04.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                        </div>
+                        <div class="bg-custom-darker" style="height: 75px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <span class="custom-font-1 t1-s-1" style="color: #fff;">THE SMITH</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6">
+                    <a href="http://collinsboulevard.com" target="_blank">
+                        <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-05.jpg') }}');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 480px;">
+                        </div>
+                        <div class="bg-custom-darker" style="height: 75px;">
+                            <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                <span class="custom-font-1 t1-s-1" style="color: #fff;">COLLINS<br/>BOULEVARD</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Within Marc's Boulevard MOBILE -->
+    <section class="d-block d-md-none" style="background-color: #1f2020;">
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
+                <div class="col-12 px-4 mb-2">
+                    <div class="slider-developer mx-2">
+                        <div class="px-1">
+                            <div style="width: 110px">
+                                <a href="http://brooklynalamsutera.com" target="_blank">
+                                    <div style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-01.jpg') }}');
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            height: 200px;">
+                                    </div>
+                                    <div class="bg-custom-darker" style="height: 75px;">
+                                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                            <span class="custom-font-1 t1-s-1" style="color: #fff;">BROOKLYN</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div style="width: 110px">
+                                <a href="http://springwoodresidence.com" target="_blank">
+                                    <div style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-02.jpg') }}');
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            height: 200px;">
+                                    </div>
+                                    <div class="bg-custom-darker" style="height: 75px;">
+                                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                            <span class="custom-font-1 t1-s-1" style="color: #fff;">SPRING WOOD<br/>RESIDENCE</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div style="width: 110px">
+                                <a href="http://yukatasuites.com" target="_blank">
+                                    <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-03.jpg') }}');
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            height: 200px;">
+                                    </div>
+                                    <div class="bg-custom-darker" style="height: 75px;">
+                                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                            <span class="custom-font-1 t1-s-1" style="color: #fff;">YUKATA<br/>SUITES</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div style="width: 110px">
+                                <a href="http://thesmith.co.id" target="_blank">
+                                    <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-04.jpg') }}');
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            height: 200px;">
+                                    </div>
+                                    <div class="bg-custom-darker" style="height: 75px;">
+                                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                            <span class="custom-font-1 t1-s-1" style="color: #fff;">THE SMITH</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div style="width: 110px">
+                                <a href="http://collinsboulevard.com" target="_blank">
+                                    <div class="w-100" style="background-image: url('{{ asset('images/marc/developer/triniti_buildings_web-05.jpg') }}');
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            height: 200px;">
+                                    </div>
+                                    <div class="bg-custom-darker" style="height: 75px;">
+                                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                                            <span class="custom-font-1 t1-s-1" style="color: #fff;">COLLINS<br/>BOULEVARD</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,8 +433,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="{{ route('home') }}" class="btn btn-dark bg-custom-dark w-100 pt-3 pb-4" style="border-radius: 30px;">
-                        <div class="mb-2"><span class="custom-font-1 t1-s-1">BACK TO</span></div>
+                    <a href="{{ route('home') }}" class="btn btn-dark bg-custom-dark pt-2 pb-3" style="width: 80%; border-radius: 30px;">
+                        <div class="mb-1"><span class="custom-font-1 back-font">BACK TO</span></div>
                         <img id="back-navigation" src="{{ asset('images/marc/marc-back.png') }}">
                     </a>
                 </div>
@@ -262,6 +444,15 @@
 @endsection
 
 @section('scripts')
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
+        $('.slider-developer').slick({
+            dots: false,
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            variableWidth: true,
+            arrows: true
+        });
     </script>
 @endsection

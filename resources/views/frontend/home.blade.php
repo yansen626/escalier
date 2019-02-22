@@ -302,7 +302,9 @@
                     <span class="text-dark custom-font-1 text-finely-crafted">FINELY CRAFTED BY</span>
                 </div>
                 <div class="col-md-6 col-12 text-center text-md-left">
-                    <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}">
+                    <a href="https://trinitiland.com" target="_blank">
+                        <img class="img-trinity-responsive" src="{{ asset('images/marc/home/home-5.png') }}">
+                    </a>
                 </div>
             </div>
             <div class="row mb-4">

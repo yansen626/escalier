@@ -10,6 +10,10 @@
     background-color: #666666;
 }
 
+.bg-custom-darker{
+    background-color: #292929;
+}
+
 .wrap-header-mobile{
     background-color: #fff !important;
 }
@@ -67,7 +71,11 @@
 }
 
 #back-navigation{
-    width: 200px;
+    width: 175px;
+}
+
+.back-font{
+    font-size: 10px;
 }
 
 @media (max-width: 576px) {
