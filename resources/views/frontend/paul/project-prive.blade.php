@@ -34,7 +34,7 @@
     </section>
 
     <!-- About -->
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991">
+    <section class="bg-0 flex-wr-s-st m-t-40 m-b-15-sr991">
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/projects/Marcs Website (Paul) components-13.jpg') }}');"></div>
     </section>
 
@@ -147,12 +147,12 @@
                                     </div>
                                 </div>
 
-                                <div class="p-rl-30 p-t-25 p-b-0 d-block d-md-none">
+                                <div class="p-t-25 p-b-0 d-block d-md-none m-b-120">
                                     <div class="container">
                                         <!-- Title section -->
                                         <div class="row">
                                             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01.jpg') }}" height="100%" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-crop.jpg') }}" height="120%" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@
                             <!-- - -->
                             <div class="tab-pane" id="floorplan" role="tabpanel">
                                 <div class="row d-none d-md-block">
-                                    <div class="col-12 pt-4">
+                                    <div class="col-12 pt-4 m-t-20">
                                         <div class="floor-slider">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower A) - Penthouse.jpg') }}" height="400"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower A) - Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
@@ -179,9 +179,9 @@
 
                                 <!-- Mobile -->
                                 <div class="row d-block d-md-none">
-                                    <div class="col-12 pt-4">
+                                    <div class="col-12 pt-2" height="800px">
                                         <div class="floor-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style="height:500px;"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-03.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-04.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-05.jpg') }}"/></div>
@@ -240,7 +240,7 @@
                                 <div class="row d-block d-md-none">
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-11.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-11.jpg') }}" style="height:100%;"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-12.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-13.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-14.jpg') }}"/></div>
