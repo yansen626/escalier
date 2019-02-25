@@ -28,8 +28,9 @@
             }
 
             .header-img{
-                background-size: 100% 100%;
+                background-size: 100% 75%;
                 min-height: 50px;
+                background-position: center bottom;
             }
         }
 
@@ -92,14 +93,19 @@
 
     <!-- Masterplan -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
+        <div class="container">
+            <div class="row">
         <div class="col-md-12 size-a-18 bg-img2 respon-3 header-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-35.jpg') }}');"></div>
+            </div>
+        </div>        
     </section>
 
+
     <!-- Why chosse us -->
-    <section class="bg-0 p-t-60 p-b-10">
+    <section class="bg-0 p-t-40 p-b-10">
         <div class="container">
             <!-- Title section -->
-            <div class="flex-col-c-c p-b-30">
+            <div class="flex-col-c-c p-b-5">
                 <h3 class="t1-b-1 cl-3 txt-center m-b-11 custom-font-2">
                     MASTERPLAN
                 </h3>
@@ -108,27 +114,33 @@
     </section>
 
     {{--<!-- Mobile -->--}}
-    <section class="bg-0 p-t-30 p-b-30 d-block d-md-none">
+    <section class="bg-0 p-t-15 p-b-30 d-block d-md-none">
+        <div class="container">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10 bg-3" style="height: 2px;"></div>
             <div class="col-1"></div>
         </div>
+        </div>
     </section>
 
     <section class="bg-0 d-block d-md-none">
+        <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}');"></div>
+            <div class="col-10 bg-img2 respon-3" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-40.jpg') }}'); background-position : left top;"></div>
             <div class="col-1"></div>
+        </div>
         </div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
+        <div class="container"> 
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
             <div class="col-1"></div>
+        </div>
         </div>
     </section>
 
@@ -148,32 +160,36 @@
         {{--</div>--}}
     {{--</section>--}}
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-block d-md-none">
+    <section class="bg-0 p-t-15 p-b-30 d-block d-md-none">
+        <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
+            <div class="col-10 bg-img2 respon-3 build-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}'); "></div>
             <div class="col-1"></div>
+        </div>
         </div>
     </section>
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-block d-md-none">
+        <div class="container">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10 bg-3" style="width: 100%; height: 2px;"></div>
             <div class="col-1"></div><br/>
         </div>
-        <div class="row">
+        {{-- <div class="row">
                         <div class="col-12 text-center">
                             <a href="{{ route('frontend.paul.introduction') }}" class="btn btn-dark w-full t1-m-1 bg-custom-dark" style="border-radius: 30px;">back to<br/>
                                 <img src="{{ asset('images/marc/marc-back.png') }}"width="200">
                             </a>
                         </div>
-                    </div>
+        </div> --}}
+        </div>            
     </section>
 
     <!-- Mobile Finish -->
 
-    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-30 p-b-30 d-none d-md-block">
+    <section class="bg-0 flex-wr-s-st m-b-15-sr991 p-t-15 p-b-30 d-none d-md-block">
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8 bg-3" style="width: 100%; height: 2px;"></div>
@@ -214,10 +230,12 @@
     </section> --}}
 
     <section class="bg-0 flex-wr-s-st m-b-15-sr991 d-none d-md-block">
+        <div class="container">
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8 size-a-18 bg-img2 respon-3 min-img" style="background-image: url('{{ asset('images/marc/masterplan/Marcs Website components-38.jpg') }}');"></div>
             <div class="col-lg-2"></div>
+        </div>
         </div>
     </section>
 
