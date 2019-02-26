@@ -152,7 +152,7 @@
                                         <!-- Title section -->
                                         <div class="row">
                                             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-crop.jpg') }}" height="120%" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-new.jpg') }}" height="120%" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
