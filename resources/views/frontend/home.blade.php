@@ -328,7 +328,7 @@
             <!--  -->
             <div class="row">
                 <div class="col-md-6 col-12 mb-md-0 mb-3">
-                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-2.jpg') }}');
+                    <div class="w-100 img-house-responsive" style="background-image: url('{{ asset('images/marc/home/home-6.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">

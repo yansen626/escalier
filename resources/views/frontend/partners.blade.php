@@ -268,14 +268,16 @@
                                 <h1 class="t1-m-1 custom-font-2">Marc’s Boulevard - Brand Consultant Message</h1>
                                 <br/>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-                                    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                                    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-                                    velit esse molestie consequat, vel illum dolore eu feugiat nulla
-                                    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-                                    praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                                    Marc's Boulevard focused to be next Batam's destination
+                                    landmark development that provides high quality living
+                                    spaces integrated with large open green areas, where the
+                                    resident's life is balanced between work and daily
+                                    activities. The design delivers a simple yet distinctive
+                                    architecture alongside with combination of carefully
+                                    chosen materials, it creates a luxury living development. It
+                                    is resort-like living with excellent amenities. The lush
+                                    landscape forms an invisible boundary between the
+                                    buildings and the nature.
                                 </p>
                                 <br/>
                                 <h1 class="t1-m-1 custom-font-2">Benny Bonardy</h1>

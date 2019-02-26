@@ -11,16 +11,39 @@
 @section('content')
 
     <!-- Banner -->
-    <section class="m-b-50">
+    <section class="m-b-50 d-none d-md-block">
 
         <div class="container-fluid">
             <!--  -->
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-1.jpg') }}');
+                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-6.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
+                        <div class="box h-100 d-flex justify-content-center flex-column text-center">
+                            <h1 class="t1-b-1 white custom-font-2">PURPOSE BUILT LEGACY</h1>
+                            <hr class="border-white mx-auto my-md-4" style="width: 50px; border-width: 2px;"/>
+                            <span class="t1-m-1 white custom-font-2">"A legacy one desires</span>
+                            <span class="t1-m-1 white custom-font-2">to be passed down to the loved ones."</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-b-50 d-md-none d-block">
+
+        <div class="container-fluid">
+            <!--  -->
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="w-100" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-6-mobile.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 400px;">
                         <div class="box h-100 d-flex justify-content-center flex-column text-center">
                             <h1 class="t1-b-1 white custom-font-2">PURPOSE BUILT LEGACY</h1>
                             <hr class="border-white mx-auto my-md-4" style="width: 50px; border-width: 2px;"/>
@@ -245,9 +268,8 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-1"></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2 col-4">
+                <div class="col-md-3 px-1"></div>
+                <div class="col-md-2 col-4 px-1">
                     <a href="{{ route('frontend.paul.prives') }}">
                         <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-prive.jpg') }}');
                                 background-repeat: no-repeat;
@@ -256,7 +278,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-4">
+                <div class="col-md-2 col-4 px-1">
                     <a href="{{ route('frontend.paul.lanes') }}">
                         <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-lane.jpg') }}');
                                 background-repeat: no-repeat;
@@ -265,16 +287,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-4">
+                <div class="col-md-2 col-4 px-1">
                     <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-place.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
                     </div>
                 </div>
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-3"></div>
             </div>
         </div>
     </section>
