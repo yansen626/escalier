@@ -34,7 +34,7 @@
 
     <!-- About -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-32.jpg') }}');"></div>
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/lanes/Banner Paul Desktop.jpg') }}');background-position: center;"></div>
     </section>
 
 
@@ -44,7 +44,7 @@
             <!-- Title section -->
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-33.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/lanes/paul-lane-disamping-desc.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
                     <h3 class="t1-s-2 cl-3 txt-center m-b-50 p-t-50 custom-font-2">Paul Marc Shophouse</h3>
@@ -68,7 +68,7 @@
                     <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-34.png') }}" height="50" alt="header"/>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                    <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-33.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/lanes/paul-lane-disamping-desc.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
                 <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
                     <h5 class="t1-s-1 cl-3 txt-center m-b-11 p-t-50">
@@ -119,7 +119,7 @@
                         <div class="tab-content" style="border-bottom: none; border-left: none; border-right: none;">
                             <!-- - -->
                             <div class="tab-pane fade show active" id="siteplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-25 p-b-35">
+                                <div class="p-t-25">
                                     <div class="container">
                                         <!-- Title section -->
                                         <div class="row d-none d-md-block">
@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="row d-block d-md-none">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-43med.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-43.jpg') }}" height="150%" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -138,7 +138,7 @@
 
                             <!-- - -->
                             <div class="tab-pane fade" id="floorplan" role="tabpanel">
-                                <div class="p-rl-30 p-t-25 p-b-35">
+                                <div class="p-rl-30 p-t-15 p-b-35">
                                     <div class="container">
                                         <!-- Title section -->
                                         <div class="row d-none d-md-block">
@@ -150,7 +150,7 @@
                                         <!-- Title section -->
                                         <div class="row d-block d-md-none">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-44.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-44-new.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -172,8 +172,8 @@
                                 <div class="row d-block d-md-none">
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-45.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-46.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-45-new.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-46-new.jpg') }}"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
             <!-- Title section -->
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <img src="{{ asset('images/paulmarc/lanes/Marcs Website (Paul) components-35.jpg') }}" height="100%" width="100%" alt="header"/>
+                    <img src="{{ asset('images/paulmarc/lanes/Paul-lane-dibawah-plans.jpg') }}" height="100%" width="100%" alt="header"/>
                 </div>
             </div>
         </div>
