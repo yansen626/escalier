@@ -179,17 +179,17 @@
 
                                 <!-- Mobile -->
                                 <div class="row d-block d-md-none">
-                                    <div class="col-12 pt-2" height="800px">
+                                    <div class="col-12 pt-2">
                                         <div class="floor-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style="height:500px;"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-03.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-04.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-05.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-06.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-07.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-08.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-09.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-10.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-03.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-04.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-05.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-06.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-07.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-08.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-09.jpg') }}" style= "height:900px;"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-10.jpg') }}" style= "height:900px;"/></div>
                                         </div>
                                     </div>
                                 </div>
