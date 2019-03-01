@@ -269,9 +269,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-1"></div>
-                {{-- <div class="col-md-2"></div> --}}
-                <div class="col-md-3 col-4">
+                <div class="col-md-4 col-4 px-1 px-md-3">
                     <a href="{{ route('frontend.paul.prives') }}">
                         <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-web-paul-prive.jpg') }}');
                                 background-repeat: no-repeat;
@@ -280,7 +278,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-4">
+                <div class="col-md-4 col-4 px-1 px-md-3">
                     <a href="{{ route('frontend.paul.lanes') }}">
                         <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-web-paul-lane.jpg') }}');
                                 background-repeat: no-repeat;
@@ -289,14 +287,13 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-4">
+                <div class="col-md-4 col-4 px-1 px-md-3">
                     <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-web-paul-place.jpg') }}');
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
                     </div>
                 </div>
-                <div class="col-md-3"></div>
             </div>
         </div>
     </section>
