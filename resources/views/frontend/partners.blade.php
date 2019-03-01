@@ -228,7 +228,7 @@
                                 <br/>
                                 <h1 class="t1-m-1 custom-font-2">Raval Kapusta</h1>
                                 <p>Founding Director, OOZN Design</p>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -450,14 +450,14 @@
                     <div class="p-md-5 p-3">
                         <div class="row">
                             <div class="col-md-6 col-12 p-3 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-10.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners10.jpg') }}" class="mx-auto w-100">
                                 <p class="text-center">
                                     <span class="custom-font-2">Hyde Tower - Collins Boulevard</span><br/>
                                     <span style="font-size: 12px;">Tangerang, Indonesia</span>
                                 </p>
                             </div>
                             <div class="col-md-6 col-12 p-3 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-9.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners9.jpg') }}" class="mx-auto w-100">
                                 <p class="text-center">
                                     <span class="custom-font-2">Lavaya Resort</span><br/>
                                     <span style="font-size: 12px;">Bali, Indonesia</span>
