@@ -245,14 +245,14 @@
                     <div class="p-md-5 p-3">
                         <div class="row">
                             <div class="col-md-6 col-12 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-10.jpg') }}" class="mx-auto w-100">
                                 <p class="text-left">
                                     <span class="custom-font-2">Hyde Tower - Collins Boulevard</span><br/>
                                     <span>Tangerang, Indonesia</span>
                                 </p>
                             </div>
                             <div class="col-md-6 col-12 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-9.jpg') }}" class="mx-auto w-100">
                                 <p class="text-left">
                                     <span class="custom-font-2">Lavaya Resort</span><br/>
                                     <span>Bali, Indonesia</span>
@@ -450,14 +450,14 @@
                     <div class="p-md-5 p-3">
                         <div class="row">
                             <div class="col-md-6 col-12 p-3 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-10.jpg') }}" class="mx-auto w-100">
                                 <p class="text-center">
                                     <span class="custom-font-2">Hyde Tower - Collins Boulevard</span><br/>
                                     <span style="font-size: 12px;">Tangerang, Indonesia</span>
                                 </p>
                             </div>
                             <div class="col-md-6 col-12 p-3 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-9.jpg') }}" class="mx-auto w-100">
                                 <p class="text-center">
                                     <span class="custom-font-2">Lavaya Resort</span><br/>
                                     <span style="font-size: 12px;">Bali, Indonesia</span>

@@ -260,6 +260,7 @@
     {{--</section>--}}
 
     <section class="mb-md-0 mb-4">
+        
         <div class="container-fluid py-md-5 py-3 bg-1">
             <!--  -->
             <div class="row justify-content-center mb-4">
@@ -268,27 +269,42 @@
                 </div>
             </div>
             <div class="row justify-content-center">
+<<<<<<< HEAD
+                <div class="col-md-1"></div>
+                {{-- <div class="col-md-2"></div> --}}
+                <div class="col-md-3 col-4">
+=======
                 <div class="col-md-3 px-1"></div>
                 <div class="col-md-2 col-4 px-1">
+>>>>>>> 19ca18ac13bfbf72a974cb30e153f3cc3dc1da12
                     <a href="{{ route('frontend.paul.prives') }}">
-                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-prive.jpg') }}');
+                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-website-paul-prive.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;">
                         </div>
                     </a>
                 </div>
+<<<<<<< HEAD
+                <div class="col-md-3 col-4">
+=======
                 <div class="col-md-2 col-4 px-1">
+>>>>>>> 19ca18ac13bfbf72a974cb30e153f3cc3dc1da12
                     <a href="{{ route('frontend.paul.lanes') }}">
-                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-lane.jpg') }}');
+                        <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-website-paul-lane.jpg') }}');
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;">
                         </div>
                     </a>
                 </div>
+<<<<<<< HEAD
+                <div class="col-md-3 col-4">
+                    <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/Marcs-website-paul-place.jpg') }}');
+=======
                 <div class="col-md-2 col-4 px-1">
                     <div class="w-100 img-within-responsive" style="background-image: url('{{ asset('images/paulmarc/introduction/introduction-paul-place.jpg') }}');
+>>>>>>> 19ca18ac13bfbf72a974cb30e153f3cc3dc1da12
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
