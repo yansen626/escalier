@@ -17,6 +17,17 @@
 
 Auth::routes();
 
+Route::get('/clear', function() {
+
+    \Illuminate\Support\Facades\Artisan::call('cache:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:cache');
+    \Illuminate\Support\Facades\Artisan::call('view:clear');
+
+    return "Cleared!";
+
+});
+
 // FRONTEND ROUTE
 
 Route::get('/', 'Frontend\HomeController@index')->name('home');
@@ -73,3 +84,5 @@ Route::prefix('admin')->group(function(){
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
 });
+
+Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');

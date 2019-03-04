@@ -8,7 +8,6 @@
             <div class="relative">
                 <a data-toggle="collapse" href="#userSettingsCollapse" role="button" aria-expanded="false"
                    aria-controls="userSettingsCollapse" class="btn-fab btn-fab-sm fab-right fab-top btn-primary shadow1 ">
-                    <i class="icon icon-cogs"></i>
                 </a>
                 <div class="user-panel p-3 light mb-2">
                     <div>
@@ -16,8 +15,8 @@
                             <img class="user_avatar" src="{{ asset('img/dummy/u2.png') }}" alt="User Image">
                         </div>
                         <div class="float-left info">
-                            <h6 class="font-weight-light mt-2 mb-1">Test User</h6>
-                            <a href="#"><i class="icon-circle text-primary blink"></i> Online</a>
+                            <h6 class="font-weight-light mt-2 mb-1">Administrator</h6>
+                            <a href="#"><i class="fa fa-user-circle"></i> Online</a>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -39,12 +38,7 @@
             <ul class="sidebar-menu">
                 <li class="treeview">
                     <a href="{{ route('admin.contact-messages.index') }}">
-                        <i class="icon icon-message text-green s-18"></i>Contact Us
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="{{ route('admin.subscribes.index') }}">
-                        <i class="icon icon-message text-green s-18"></i>Subscribers
+                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Contact Us
                     </a>
                 </li>
             </ul>
