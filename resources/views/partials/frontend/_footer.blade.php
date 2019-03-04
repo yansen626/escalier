@@ -77,6 +77,7 @@
                                 <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                                     <span class="size-w-4">
                                        (+62) 300 666 88<br/>
+                                       (+62) 812-8998-9958<br/>
                                         info@trinitiland.com<br/>
                                         www.trinitiland.com
                                     </span>
