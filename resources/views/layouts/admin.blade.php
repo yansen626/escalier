@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css">
     <!-- Styles -->
     <link href="{{ asset('css/backend/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/font-awesome-4.7.0/css/font-awesome.css') }}" rel="stylesheet">
 
     <style>
         .loader {

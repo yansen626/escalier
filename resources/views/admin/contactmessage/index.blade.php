@@ -6,7 +6,7 @@
         <div class="container-fluid text-white">
             <div class="row p-t-b-10 ">
                 <div class="col">
-                    <h4> <i class="icon-table"></i> Contact Us Message</h4>
+                    <h4> <i class="fa fa-table"></i> Contact Us Message</h4>
                 </div>
             </div>
         </div>
