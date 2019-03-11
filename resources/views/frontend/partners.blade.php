@@ -193,14 +193,14 @@
                     <div class="p-md-5 p-3">
                         <div class="row">
                             <div class="col-md-6 col-12 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-2.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-6.png') }}" class="mx-auto w-100">
                                 <p class="text-left">
                                     <span class="custom-font-2">Singapore National Stadium</span><br/>
                                     <span>Singapore</span>
                                 </p>
                             </div>
                             <div class="col-md-6 col-12 text-center">
-                                <img src="{{ asset('images/marc/partners/partners-3.jpg') }}" class="mx-auto w-100">
+                                <img src="{{ asset('images/marc/partners/partners-7.png') }}" class="mx-auto w-100">
                                 <p class="text-left">
                                     <span class="custom-font-2">Resport World Sentosa</span><br/>
                                     <span>Singapore</span>
