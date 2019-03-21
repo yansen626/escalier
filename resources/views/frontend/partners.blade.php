@@ -202,7 +202,7 @@
                             <div class="col-md-6 col-12 text-center">
                                 <img src="{{ asset('images/marc/partners/partners-7.png') }}" class="mx-auto w-100">
                                 <p class="text-left">
-                                    <span class="custom-font-2">Resport World Sentosa</span><br/>
+                                    <span class="custom-font-2">Resort World Sentosa</span><br/>
                                     <span>Singapore</span>
                                 </p>
                             </div>

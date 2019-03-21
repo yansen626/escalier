@@ -124,9 +124,9 @@
                                         <!-- Title section -->
                                         <div class="row">
                                             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/projects/Marcs Website (Paul)-10.jpg') }}" height="100%" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/projects/Paul & Prive - Site Plan (Tower A)-04.jpg') }}" height="100%" width="200%" alt="header"/>
                                             </div>
-                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
+                                            {{-- <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
                                                 <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
                                                     Paul & Prive <br/>
                                                     <b style="font-size: 40px;">SITE PLAN</b>
@@ -141,7 +141,7 @@
                                                     <div class="col-md-6 tab-right">
                                                         Total Parking <b>240 lots</b>
                                                     </div>
-                                                </div>
+                                                </div> --}}
                                             </div>
                                         </div>
                                     </div>
@@ -164,15 +164,15 @@
                                 <div class="row d-none d-md-block">
                                     <div class="col-12 pt-4 m-t-20">
                                         <div class="floor-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower A) - Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower A) - Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower A) -Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower B) - Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower B) - Terrace Villa Unit.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower B) - Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower C) - Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower C) - Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive (Tower C) - Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower B)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower C)-03.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -200,38 +200,41 @@
                                 <div class="row d-none d-md-block">
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower A (Unit Plan) - 1 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower A (Unit Plan) - Terrace Villa Unit (GF)2.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower A (Unit Plan) - Terrace Villa Unit (GF)3.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-1 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-2 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-3 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-4 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-1 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-2 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-3 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower A (Unit Plan)-4 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower B (Unit Plan) - 1 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower B (Unit Plan) - 2 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower B (Unit Plan) - 3 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-1 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-2 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-3 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-4 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-1 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-2 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower B (Unit Plan)-3 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower C (Unit Plan) - 1 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower C (Unit Plan) - 2 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive, Tower C (Unit Plan) - 3 Terrace Villa Unit (GF).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-1 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C(Unit Plan)-2 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-3 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-4 Typical Floor Unit (2nd-7th Floor).jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-1 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-2 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-3 Penthouse.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive,Tower C (Unit Plan)-4 Penthouse.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-04.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-05.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-06.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-07.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-08.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-09.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-11.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-12.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-04.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-05.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-06.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-07.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-08.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-09.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower B)-11.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-01.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-02.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-04.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-05.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-06.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-07.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-08.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-09.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-10.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-11.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower C)-12.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -581,14 +584,16 @@
 
 @section('scripts')
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script type="text/javascript">
+    <script>
 
         $(".floor-slider").slick({
             dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true
+             infinite: true,
+             speed: 300,
+             slidesToShow: 1,
+             adaptiveHeight: true,
+             arrows: true
+            
         });
 
         $('#tabFloor').on('show.bs.tab', function (e) {
@@ -605,7 +610,8 @@
             infinite: true,
             speed: 300,
             slidesToShow: 1,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            arrows: true
         });
 
         $('#tabUnit').on('show.bs.tab', function (e) {
