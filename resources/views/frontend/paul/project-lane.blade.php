@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="row d-block d-md-none">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-43.jpg') }}" height="150%" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-SitePlanLast.jpg') }}" height="150%" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@
                                         <!-- Title section -->
                                         <div class="row d-block d-md-none">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-44-new.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-47.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -169,11 +169,11 @@
                                 </div>
 
                                 <!-- Mobile -->
-                                <div class="row d-block d-md-none">
+                                <div class="row d-block d-md-none mx-2">
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-45-new.jpg') }}"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-46-new.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-48.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/mobile/PAUL MARC MOBILE UNIT-49.jpg') }}"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -220,6 +220,19 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
 
     <style type="text/css">
+
+
+        .slick-prev:before {
+
+        color: black;
+
+        }
+
+        .slick-next:before {
+
+        color: black;
+
+        }
         .bottom-line{
             border-bottom: 1px solid #333;
         }

@@ -126,8 +126,8 @@
                                             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
                                                 <img src="{{ asset('images/paulmarc/projects/Paul & Prive - Site Plan (Tower A)-04.jpg') }}" height="100%" width="200%" alt="header"/>
                                             </div>
-                                            {{-- <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
-                                                <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
+                                            <div class="flex-col-c-c p-b-50 col-md-6 col-lg-6 col-xs-12">
+                                                {{-- <h3 class="t1-s-2 cl-3 txt-center m-b-11 p-t-20">
                                                     Paul & Prive <br/>
                                                     <b style="font-size: 40px;">SITE PLAN</b>
                                                 </h3>
@@ -152,7 +152,7 @@
                                         <!-- Title section -->
                                         <div class="row">
                                             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
-                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-new.jpg') }}" height="120%" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/siteplan/PAUL MARC MOBILE UNIT-01-final.jpg') }}" height="120%" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +177,10 @@
                                     </div>
                                 </div>
 
+                                
+
                                 <!-- Mobile -->
-                                <div class="row d-block d-md-none">
+                                <div class="row d-block d-md-none mx-2">
                                     <div class="col-12 pt-2">
                                         <div class="floor-slider">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/floorplan/mobile/PAUL MARC MOBILE UNIT-02.jpg') }}" style= "height:900px;"/></div>
@@ -197,9 +199,9 @@
 
                             <!-- - -->
                             <div class="tab-pane" id="unitplan" role="tabpanel">
-                                <div class="row d-none d-md-block">
+                                <div class="row d-none d-md-block mx-2">
                                     <div class="col-12 pt-4">
-                                        <div class="unit-slider">
+                                        <div class="unit-slider mx-3">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-01.jpg') }}" height="400"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-02.jpg') }}" height="400"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/Paul & Prive - Unit Plan (Tower A)-03.jpg') }}" height="400"/></div>
@@ -240,7 +242,7 @@
                                 </div>
 
                                 <!-- Mobile -->
-                                <div class="row d-block d-md-none">
+                                <div class="row d-block d-md-none mx-2">
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-11.jpg') }}" style="height:100%;"/></div>
@@ -275,6 +277,9 @@
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-40.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-41.jpg') }}"/></div>
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-42.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-43.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-44.jpg') }}"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/unitplan/mobile/PAUL MARC MOBILE UNIT-45.jpg') }}"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -286,13 +291,6 @@
         </div>
     </section>
 
-    <section class="bg-0 p-t-0 p-b-20">
-        <div class="container">
-            <div class="flex-col-c-c p-b-10">
-                <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
-            </div>
-        </div>
-    </section>
 
     <section class="bg-0 p-t-0 p-b-10">
         <div class="container">
@@ -443,7 +441,52 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
 
+    
     <style type="text/css">
+        
+        .slick-prev:before {
+
+            color: black;
+
+            }
+
+            .slick-next:before {
+
+            color: black;
+
+            }
+        
+        .carousel-control-prev-icon{
+            z-index: 99999;
+        }
+
+        .carousel-control-prev {
+            filter: invert(100%);
+        }
+        .carousel-control-next {
+            filter: invert(100%);
+        }
+        .tab-content > .tab-pane,
+
+        .pill-content > .pill-pane {
+
+        display: block;     /* undo display:none          */
+
+        height: 0;          /* height:0 is also invisible */
+
+        overflow-y: hidden; /* no-overflow                */
+
+        }
+
+        .tab-content > .active,
+
+        .pill-content > .active {
+
+        height: auto;       /* let the content decide it  */
+
+        overflow-y: visible;
+
+} /* bootstrap hack end */```
         @media (max-width: 576px) {
             .header-top-img{
                 min-height: 150px;
@@ -584,15 +627,15 @@
 
 @section('scripts')
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    
     <script>
-
         $(".floor-slider").slick({
             dots: true,
-             infinite: true,
-             speed: 300,
-             slidesToShow: 1,
-             adaptiveHeight: true,
-             arrows: true
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            arrows: true
             
         });
 

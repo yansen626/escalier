@@ -552,6 +552,36 @@
         </div>
     </section>
 
+    {{-- <section class="bg-0 p-t-0 p-b-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <img class="w-100" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-01.jpg') }}" height="300"/>
+                                </div>
+                                <div class="carousel-item">
+                                        <img class="w-100" src="{{ asset('images/paulmarc/floorplan/Paul & Prive - Floor Plan (Tower A)-02.jpg') }}" height="400"/>
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                    </div>
+                </div> --}}
+                {{-- <div class="flex-col-c-c p-b-10">
+                    <div class="size-a-2 bg-3" style="width: 100%; height: 1px;"></div>
+                </div> --}}
+            </div>
+        </section>
+
     <section class="m-b-50">
 
         <div class="container-fluid px-0">
@@ -623,6 +653,14 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <style>
+
+        /* .carousel-control-prev {
+            filter: invert(100%);
+        }
+        .carousel-control-next {
+            filter: invert(100%);
+        } */
+
         .img-banner-responsive{
             height: 500px;
         }

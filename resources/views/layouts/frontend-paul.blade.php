@@ -78,8 +78,8 @@
     <!--===============================================================================================-->
     <script src="{{ asset('vendor/countterup/jquery.counterup.min.js') }}"></script>
     <!--===============================================================================================-->
-    {{--<script src="{{ asset('vendor/slick/slick.min.js') }}"></script>--}}
-    {{--<script src="{{ asset('js/frontend/slick-custom.js') }}"></script>--}}
+    <script src="{{ asset('vendor/slick/slick.min.js') }}"></script>
+    <script src="{{ asset('js/frontend/slick-custom.js') }}"></script>
     <!--===============================================================================================-->
     <script src="{{ asset('vendor/MagnificPopup/jquery.magnific-popup.min.js') }}"></script>
     <!--===============================================================================================-->
