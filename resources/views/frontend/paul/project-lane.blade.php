@@ -34,7 +34,7 @@
 
     <!-- About -->
     <section class="bg-0 flex-wr-s-st m-b-15-sr991">
-        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/lanes/Banner Paul Desktop.jpg') }}');background-position: center;"></div>
+        <div class="col-md-12 size-a-18 bg-img2 respon-3 header-top-img" style="background-image: url('{{ asset('images/paulmarc/lanes/Marcs Website (Paul)-24.jpg') }}');background-position: center;"></div>
     </section>
 
 
@@ -99,19 +99,19 @@
             <div class="row">
                 <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
                     <!-- Tab02 -->
-                    <div class="tab02 p-t-20 text-center">
+                    <div class=" p-t-20 text-center">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link custom-font-1 active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
+                                <a class="nav-link text-dark active" data-toggle="tab" href="#siteplan" role="tab">SITE PLAN</a>
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav">
-                                <a class="nav-link custom-font-1" data-toggle="tab" href="#floorplan" role="tab">FLOOR PLAN</a>
+                                <a class="nav-link text-dark" data-toggle="tab" href="#floorplan" role="tab" id="tabFloor">FLOOR PLAN</a>
                             </li>
 
                             <li class="nav-item col-md-4 p-0 tab-nav ">
-                                <a class="nav-link custom-font-1" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>
+                                <a class="nav-link text-dark" data-toggle="tab" href="#unitplan" role="tab" id="tabUnit">UNIT PLAN</a>
                             </li>
                         </ul>
 
@@ -124,7 +124,7 @@
                                         <!-- Title section -->
                                         <div class="row d-none d-md-block">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/paul-lanes-site-plan-1.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane (Site Plan)-01.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
                                         <div class="row d-block d-md-none">
@@ -143,7 +143,7 @@
                                         <!-- Title section -->
                                         <div class="row d-none d-md-block">
                                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane - Floor Plan.jpg') }}" height="auto" width="100%" alt="header"/>
+                                                <img src="{{ asset('images/paulmarc/lanes/Paul Lane Floor Plan-02.jpg') }}" height="auto" width="100%" alt="header"/>
                                             </div>
                                         </div>
 
@@ -163,7 +163,7 @@
                                     <div class="col-12 pt-4">
                                         <div class="unit-slider">
                                             <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-03.jpg') }}" height="400"/></div>
-                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-03.jpg') }}" height="400"/></div>
+                                            <div><img class="mx-auto" src="{{ asset('images/paulmarc/lanes/Paul Lane (Unit Plan)-04.jpg') }}" height="400"/></div>
                                         </div>
                                     </div>
                                 </div>
