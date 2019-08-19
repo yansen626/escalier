@@ -81,6 +81,15 @@ class HomeController extends Controller
         return view('frontend.contact-us');
     }
 
+    //Escalier
+    public function portfolio(){
+        return view('frontend.portfolio');
+    }
+
+    public function contact(){
+        return view('frontend.contact');
+    }
+
     public function saveContactUs(Request $request){
 //        dd(Carbon::now('Asia/Jakarta')->toDateTimeString());
         $data = ContactMessage::create([

@@ -47,6 +47,10 @@ Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('front
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
 Route::get('/catalogue/download', 'Frontend\HomeController@downloadCatalogue')->name('frontend.catalogue.download');
 
+//Escalier
+
+Route::get('/portfolio', 'Frontend\HomeController@portfolio')->name('frontend.portfolio');
+Route::get('/contact', 'Frontend\HomeController@contact')->name('frontend.contact');
 // FRONTEND PAUL
 Route::get('/paul_marc/introduction', 'Frontend\HomePaulController@introduction')->name('frontend.paul.introduction');
 Route::get('/paul_marc/prives', 'Frontend\HomePaulController@prives')->name('frontend.paul.prives');

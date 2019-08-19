@@ -5,25 +5,58 @@
 <meta name="author" content="PT. Generasi Muda Gigih">
 <meta name="keywords" content="Property, Office, Residence, Apartment, House">
 
-<title>ESCALIER</title>
+<title>ESCALIER - CONTACT US</title>
 @endsection
 
 @section('content')
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 py-5">
-                <p class="text-center pb-2">ABOUT US</p>
-                <p class="text-center t1-b-1 custom-font-2 text-dark">TRUSTED WORK</p>
-            </div>
-            <div class="col-md-12 text-center">
-                <img src="{{ asset('images/escalier/about/daftar-client.png') }}" width="1000">
-            </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="w-100 header-img" style="background-image: url('{{ asset('images/escalier/contact/header-contact-us.jpg') }}');
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;">
         </div>
     </div>
-</section>
+</div>
 
+<section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="t1-b-1 custom-font-2 text-dark pb-2">CONTACT US</p>
+            </div>
+            <div class="col-md-8"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p class="font-weight-bold text-dark pb-2">Head Office</p>
+                <p>RJS 29 C No. 3 Dynasty Walk<br />
+                    Alam Sutera Tangerang, Banten</p>
+            </div>
+            <div class="col-md-4">
+                <p class="font-weight-bold text-dark pb-2">Workshop</p>
+                <p>Workshop Kawasan Industri Agarindo No. 168<br />
+                    Ds Bunder Cikupa Pasar Kemis Kec. Tangerang,<br />
+                    Banten 15710</p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row my-3">
+            <div class="col-md-4">
+                <p>@escalierinterior</p>
+                <div class="col-mb-8"></div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <p>escalier-studio.com<br />
+                    info@escalierstudio.com<br />
+                    0878 8767 6300<br />
+            </div>
+            <div class="col-md-8"></div>
+        </div>
+</section>
 @endsection
 
 @section('styles')
@@ -117,12 +150,17 @@
 
     @media (min-width: 992px) {}
 
-    @media (min-width: 1200px) {}
+    @media (min-width: 1200px) {
+        .header-img {
+            min-height: 500px;
+        }
+    }
 </style>
 @endsection
 
 @section('scripts')
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+</script>
 <script>
     $('.slider-within').slick({
             dots: false,
