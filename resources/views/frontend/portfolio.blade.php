@@ -29,7 +29,7 @@
                 <!-- Tab02 -->
                 <div class="p-t-20 text-center">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
+                    <ul class="nav nav-tabs mb-5" role="tablist">
                         <li class="nav-item col-md-3 p-0 tab-nav">
                             <a class="nav-link active text-dark" data-toggle="tab" href="#office" role="tab">Office
                                 Spaces</a>
@@ -52,18 +52,20 @@
                     </ul>
 
                     <!-- Lightbox -->
-                    <div class="tab-content">
+                    <div class="tab-content pb-5">
                         <div class="tab-pane fade show active" id="office" role="tabpanel">
                             <div class="container">
-                                <div class="row">
+                                <div class="row pb-5">
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-1.jpg') }}"
                                             data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                             <img src="{{ asset('images/escalier/portfolio/office/office-1.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-2.jpg') }}"
@@ -71,8 +73,10 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-2.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-3.jpg') }}"
@@ -80,19 +84,23 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-3.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row pb-5">
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-4.jpg') }}"
                                             data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                             <img src="{{ asset('images/escalier/portfolio/office/office-4.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-5.jpg') }}"
@@ -100,8 +108,10 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-5.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-6.jpg') }}"
@@ -109,19 +119,23 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-6.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row pb-5">
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-7.jpg') }}"
                                             data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                             <img src="{{ asset('images/escalier/portfolio/office/office-7.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-8.jpg') }}"
@@ -129,8 +143,10 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-8.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-9.jpg') }}"
@@ -138,36 +154,42 @@
                                             <img src="{{ asset('images/escalier/portfolio/office/office-9.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row pb-5">
                                     <div class="col-4">
                                         <a href="{{ asset('images/escalier/portfolio/office/office-10.jpg') }}"
                                             data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                             <img src="{{ asset('images/escalier/portfolio/office/office-10.jpg') }}"
                                                 class="img-fluid rounded">
                                         </a>
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
+                                        <div class="text-left pl-3">
+                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                            <span>Jakarta</span>
+                                        </div>
                                     </div>
                                     <div class="col-8"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show" id="visualdisplay" role="tabpanel">
+                    <div class="tab-pane fade show pb-5" id="visualdisplay" role="tabpanel">
                         <div class="container">
-                            <div class="row">
+                            <div class="row pb-5">
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-1.jpg') }}"
                                         data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-1.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-2.jpg') }}"
@@ -175,8 +197,10 @@
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-2.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-3.jpg') }}"
@@ -184,19 +208,23 @@
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-3.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row pb-5">
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-4.jpg') }}"
                                         data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-4.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-5.jpg') }}"
@@ -204,8 +232,10 @@
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-5.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/visual/visual-6.jpg') }}"
@@ -213,23 +243,27 @@
                                         <img src="{{ asset('images/escalier/portfolio/visual/visual-6.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="residential" role="tabpanel">
                         <div class="container">
-                            <div class="row">
+                            <div class="row pb-5">
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/residential/residential-1.jpg') }}"
                                         data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                         <img src="{{ asset('images/escalier/portfolio/residential/residential-1.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/residential/residential-2.jpg') }}"
@@ -237,8 +271,10 @@
                                         <img src="{{ asset('images/escalier/portfolio/residential/residential-2.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/residential/residential-3.jpg') }}"
@@ -246,19 +282,23 @@
                                         <img src="{{ asset('images/escalier/portfolio/residential/residential-3.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row pb-5">
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/residential/residential-4.jpg') }}"
                                         data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                         <img src="{{ asset('images/escalier/portfolio/residential/residential-4.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/residential/residential-5.jpg') }}"
@@ -266,23 +306,27 @@
                                         <img src="{{ asset('images/escalier/portfolio/residential/residential-5.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="commercial" role="tabpanel">
                         <div class="container">
-                            <div class="row">
+                            <div class="row pb-5">
                                 <div class="col-4">
                                     <a href="{{ asset('images/escalier/portfolio/commercial/commercial-1.jpg') }}"
                                         data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                         <img src="{{ asset('images/escalier/portfolio/commercial/commercial-1.jpg') }}"
                                             class="img-fluid rounded">
                                     </a>
-                                    <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                    <span>Jakarta</span>
+                                    <div class="text-left pl-3">
+                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
+                                        <span>Jakarta</span>
+                                    </div>
                                 </div>
                                 <div class="col-8"></div>
                             </div>
