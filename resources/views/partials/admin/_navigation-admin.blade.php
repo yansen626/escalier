@@ -37,8 +37,8 @@
             </div>
             <ul class="sidebar-menu">
                 <li class="treeview">
-                    <a href="{{ route('admin.contact-messages.index') }}">
-                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Contact Us
+                    <a href="{{ route('admin.portofolio.index') }}">
+                        <i class="fa fa-file-text"></i>&nbsp;&nbsp;&nbsp;Portofolio
                     </a>
                 </li>
             </ul>

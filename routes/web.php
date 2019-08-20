@@ -51,6 +51,7 @@ Route::get('/catalogue/download', 'Frontend\HomeController@downloadCatalogue')->
 
 Route::get('/portfolio', 'Frontend\HomeController@portfolio')->name('frontend.portfolio');
 Route::get('/contact', 'Frontend\HomeController@contact')->name('frontend.contact');
+
 // FRONTEND PAUL
 Route::get('/paul_marc/introduction', 'Frontend\HomePaulController@introduction')->name('frontend.paul.introduction');
 Route::get('/paul_marc/prives', 'Frontend\HomePaulController@prives')->name('frontend.paul.prives');
@@ -64,6 +65,15 @@ Route::prefix('admin')->group(function(){
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+
+    // Portofolio
+    Route::get('/portofolio/', 'Admin\PortofolioController@index')->name('admin.portofolio.index');
+    Route::get('/portofolio/show/{item}', 'Admin\PortofolioController@show')->name('admin.portofolio.show');
+    Route::get('/portofolio/create', 'Admin\PortofolioController@create')->name('admin.portofolio.create');
+    Route::post('/portofolio/store', 'Admin\PortofolioController@store')->name('admin.portofolio.store');
+    Route::get('/portofolio/edit/{item}', 'Admin\PortofolioController@edit')->name('admin.portofolio.edit');
+    Route::post('/portofolio/update', 'Admin\PortofolioController@update')->name('admin.portofolio.update');
+    Route::post('/portofolio/delete', 'Admin\PortofolioController@destroy')->name('admin.portofolio.destroy');
 
     // Contact Message
     Route::get('/contact-messages', 'Admin\ContactMessageController@index')->name('admin.contact-messages.index');
@@ -89,4 +99,4 @@ Route::prefix('admin')->group(function(){
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
 });
 
-Route::get('/datatable/contact-message', 'Admin\ContactMessageController@getIndex')->name('datatables.contact-message');
+Route::get('/datatable/portofolio', 'Admin\PortofolioController@getIndex')->name('datatables.portofolio');
