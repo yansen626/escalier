@@ -1,24 +1,24 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-<meta name="description" content="Home Page">
+<meta name="description" content="Escalier About Us">
 <meta name="author" content="PT. Generasi Muda Gigih">
-<meta name="keywords" content="Property, Office, Residence, Apartment, House">
+<meta name="keywords" content="Escalier, Property, Office, Residence, Apartment, House">
 
-<title>ESCALIER</title>
+<title>ESCALIER - ABOUT US</title>
 @endsection
 
 @section('content')
 
-<section>
+<section class="pb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 py-5">
                 <p class="text-center pb-2">ABOUT US</p>
-                <p class="text-center t1-b-1 custom-font-2 text-dark">TRUSTED WORK</p>
+                <p class="text-center t1-b-1 custom-font-2 text-dark txt-trusted">TRUSTED WORK</p>
             </div>
             <div class="col-md-12 text-center">
-                <img src="{{ asset('images/escalier/about/daftar-client.png') }}" width="1000">
+                <img src="{{ asset('images/escalier/about/daftar-client.png') }}" class="img-client">
             </div>
         </div>
     </div>
@@ -38,6 +38,8 @@
         .carousel-control-next {
             filter: invert(100%);
         } */
+
+
 
     .img-banner-responsive {
         height: 500px;
@@ -79,6 +81,16 @@
     /*.slick-dots li.slick-active button:before {*/
     /*color: #fff !important;*/
     /*}*/
+    @media (max-width: 576px) {
+        .txt-trusted {
+            font-size: 30px;
+        }
+
+        .img-client {
+            width: 300px;
+            height: auto;
+        }
+    }
 
     @media (min-width: 576px) {}
 
@@ -112,6 +124,11 @@
 
         .text-finely-crafted {
             font-size: 13px;
+        }
+
+        .img-client {
+            width: 800px;
+            height: auto;
         }
     }
 

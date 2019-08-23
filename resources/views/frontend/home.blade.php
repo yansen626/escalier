@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('head_and_title')
-<meta name="description" content="Home Page">
+<meta name="description" content="Escalier Home">
 <meta name="author" content="PT. Generasi Muda Gigih">
-<meta name="keywords" content="Property, Office, Residence, Apartment, House">
+<meta name="keywords" content="Escalier, Property, Office, Residence, Apartment, House">
 
 <title>ESCALIER</title>
 @endsection
@@ -12,7 +12,7 @@
 
 <!-- Banner -->
 
-<section class="slider">
+<section class="slider d-none d-md-block">
     <div class="rev_slider_wrapper fullwidthbanner-container">
         <div id="rev_slider_1" class="rev_slider fullwidthabanner" data-version="5.4.5" style="display:none">
             <ul>
@@ -286,54 +286,28 @@
         </div>
     </div>
 </section>
-{{-- <section class="m-b-50">
 
-        <div class="container-fluid px-0">
-            <!--  -->
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="w-100 img-banner-responsive" style="background-image: url('{{ asset('images/marc/home/home-1.jpg') }}');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;">
-<div class="box h-100 d-flex justify-content-center flex-column text-center">
-    <div class="d-none d-md-block">
-        <h1 class="t1-b-1 white custom-font-2">BEGIN YOUR CHAPTER</h1>
-        <br />
-        <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;" />
-        <br />
-        <span class="t1-m-1 white custom-font-2">"This is not only a home. This Home is a witness to</span>
-        <b4 />
-        <span class="t1-m-1 white custom-font-2">those who live their story."</span>
-    </div>
-    <div class="d-block d-md-none p-3">
-        <h1 class="t1-b-1 white custom-font-2">BEGIN</h1>
-        <h1 class="t1-b-1 white custom-font-2">YOUR</h1>
-        <h1 class="t1-b-1 white custom-font-2">CHAPTER</h1>
-        <br />
-        <hr class="border-white mx-auto" style="width: 50px; border-width: 3px;" />
-        <br />
-        <span class="t1-m-1 white custom-font-2">"This is not only a home. This Home is a witness to</span>
-        <b4 />
-        <span class="t1-m-1 white custom-font-2">those who live their story."</span>
+{{-- Mobile banner --}}
+<div class="row d-md-none d-block" style="margin-top: -20%;">
+    <div class=" col-12 ">
+        <div class=" w-100 header-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: contain;">
+        </div>
     </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</section> --}}
 
 <!-- Who we are Desktop -->
-<section class="m-b-50 d-none d-md-block m-t-100">
+<section class="pb-3 pt-5 d-none d-md-block" style="background-color:#f8f8f8;">
     <div class="container">
         <!--  -->
         <div class="row m-b-150">
             <div class="col-md-4 col-12 mb-md-0 mb-3 pl-5">
-                <span class="">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-2 text-dark">WHO WE ARE</h2>
+                <span class="pb-2">ABOUT US</span>
+                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-who">WHO WE ARE</h2>
             </div>
-            <div class="col-md-8 mt-4 p-l-0">
+            <div class="col-md-8 col-12 mt-4 p-l-0 txt-whoweare">
                 <span>Serving as an interior build and design company, Escalier strives to deliver the finest interior
                     experience, developed and customized elegantly to individual needs. Escalier commits to deliver
                     excellence, ensuring satisfaction at its best. Whether for a homey or professional ambience,
@@ -341,11 +315,15 @@ background-size: cover;">
                     stroke.</span>
             </div>
         </div>
+    </div>
+</section>
+<section class="d-none d-md-block">
+    <div class="container">
         <div class="row m-b-150 pl-5">
-            <div class="col-md-6 col-12 mb-md-0 mb-3">
+            <div class="col-md-5 col-12 mb-md-0 mb-3">
                 <span class="">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-1 text-dark pb-3">WHAT INSPIRE US</h2>
-                <div class="pr-5">
+                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-home">WHAT INSPIRE US</h2>
+                <div class="pr-5 pt-3">
                     <span>We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
                         philosophy, Escalier understands the importance of process from the
@@ -353,17 +331,46 @@ background-size: cover;">
                         service at every step, ending it with a high note.</span>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('images/escalier/home/what-inspire-us.jpg') }}" height="225">
+            <div class="col-md-7">
+                <img src="{{ asset('images/escalier/home/what-inspire-us.jpg') }}" class="img-inspires-responsive">
             </div>
         </div>
     </div>
 </section>
 
-<section class="m-b-150 ">
+
+{{-- Mobile Section Who we are --}}
+<section class=" d-block d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {{-- <span class="">ABOUT US</span> --}}
+                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-who text-center">WHO WE ARE</h2>
+                <div class=" px-4 pt-4 text-justify">
+                    <span>Serving as an interior build and design company, Escalier strives to deliver the finest
+                        interior experience, developed and customized elegantly to individual needs. Escalier commits to
+                        deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional
+                        ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in
+                        every stroke.</span>
+                </div>
+                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-home text-center pt-5">WHAT INSPIRE US</h2>
+                <div class="px-4 pt-3 text-justify">
+                    <span>We envision an escalating curve as we progress through time, connecting
+                        and delivering each need with utmost perfection. Through a French
+                        philosophy, Escalier understands the importance of process from the
+                        planning stage till its implementation, attentively projecting the best
+                        service at every step, ending it with a high note.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="m-b-150 py-3" style="background-color:#f8f8f8;">
     <div class="container">
         <div class="row pl-5">
-            <div class="col-md-4 pb-1">
+            <div class="col-md-4  col-12 pb-1">
                 <span>CORE VALUES</span>
                 <div class="col-md-8"></div>
             </div>
@@ -406,14 +413,14 @@ background-size: cover;">
 <section class="m-b-75">
     <div class="container">
         <div class="row pl-5">
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 col-12 pt-5">
                 <p class="pb-2">ABOUT US</p>
-                <h2 class="t1-b-1 custom-font-2 text-dark pb-2">TRUSTED WORK</h2>
+                <h2 class="t1-b-1 custom-font-2 text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
                 <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active" role="button"
                     aria-pressed="true">View more</a>
             </div>
             <div class="col-md-8">
-                <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" height="190px;">
+                <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" class="img-client-responsive">
             </div>
         </div>
     </div>
@@ -451,8 +458,24 @@ background-size: cover;">
         margin-top: 0;
         height: 30px;
         width: auto;
-
     }
+
+    .img-client-responsive {
+        margin-top: 0;
+        height: 70px;
+        width: auto;
+    }
+
+    .img-inspires-responsive {
+        margin-top: 0;
+        height: 110px;
+        width: auto;
+    }
+
+    .txt-header-home {
+        font-size: 30px;
+    }
+
 
     .btn-paulmarc-more .w-25 {
         width: 75% !important;
@@ -467,6 +490,11 @@ background-size: cover;">
         font-weight: bold;
     }
 
+    .txt-whoweare {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+
     /*.slick-dots li button:before {*/
     /*color: #fff;*/
     /*}*/
@@ -474,6 +502,19 @@ background-size: cover;">
     /*.slick-dots li.slick-active button:before {*/
     /*color: #fff !important;*/
     /*}*/
+    @media (max-width: 576px) {
+        .txt-header-who {
+            font-size: 30px;
+        }
+
+        .header-img {
+            min-height: 350px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+    }
+
 
     @media (min-width: 576px) {}
 
@@ -497,6 +538,18 @@ background-size: cover;">
             width: auto;
         }
 
+        .img-inspires-responsive {
+            margin-top: 0;
+            height: 261px;
+            width: auto;
+        }
+
+        .img-client-responsive {
+            margin-top: 0;
+            height: 170px;
+            width: auto;
+        }
+
         .btn-paulmarc-more .w-25 {
             width: 25% !important;
         }
@@ -507,6 +560,10 @@ background-size: cover;">
 
         .text-finely-crafted {
             font-size: 13px;
+        }
+
+        .txt-header-who {
+            font-size: 36px;
         }
     }
 

@@ -1,20 +1,20 @@
 <!-- Footer -->
 <footer>
     <div class="parallax100 p-b-15 bg-1" style="background: black;">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 col-12">
-                    <div class="logo">
+                    <div class="logo-footer">
                         <a href="{{ route('home') }}"><img src="{{ asset('images/escalier/logo-escalier-footer.png') }}"
                                 alt="LOGO" style="width: 150px; height: auto;"></a>
                     </div>
-                    <div class="flex-wr-s-s t1-s-2 cl-13 p-b-9 pt-5">
+                    <div class="flex-wr-s-s t1-s-2 cl-13 p-b-9 pt-5 d-none d-md-block copyright">
                         <span class="size-w-4">
                             Copyright © 2019. All Rights Reserved
                         </span>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 p-t-50 mt-3">
+                <div class="col-md-4 p-t-50 mt-3 pt-md-10 headoffice-footer">
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-30">
                             <span class="size-w-4">
@@ -32,7 +32,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-12 pt-5 mt-3">
+                <div class="col-md-4  workshop-footer">
                     <ul>
                         <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
                             <span class="size-w-4">
@@ -44,6 +44,56 @@
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex-wr-s-s t1-s-2 cl-13 p-b-9 pt-5 d-block d-md-none text-center">
+                        <span class="size-w-4">
+                            Copyright © 2019. All Rights Reserved
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
+
+
+@section('styles')
+<style>
+    @media (max-width: 576px) {
+        .logo-footer {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .workshop-footer {
+            padding-top: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .workshop-footer {
+            padding-top: 3rem;
+            margin-top: 1rem;
+        }
+
+        .logo-footer {
+            padding-top: 30px;
+            padding-left: 80px;
+        }
+
+        .copyright {
+            padding-top: 160px !important;
+            padding-left: 80px;
+        }
+
+        .headoffice-footer {
+            padding-top: 80px;
+        }
+
+        .workshop-footer {
+            padding-top: 78px;
+        }
+    }
+    }
+</style>

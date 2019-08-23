@@ -77,7 +77,7 @@
 
     <!-- Header desktop STICKY -->
     <nav class="container-header-desktop" id="header-sticky">
-        <div class="wrap-menu-desktop" style="background-color: rgba(0,0,0,0.4) !important;">
+        <div class="wrap-menu-desktop" style="background-color: rgba(0,0,0,1) !important;">
             <div class="limiter-menu-desktop container-fluid">
                 <!-- Logo desktop -->
                 <div class="logo">
@@ -117,10 +117,10 @@
 
     <!-- Header Mobile -->
     <nav class="container-header-mobile">
-        <div class="wrap-header-mobile">
+        <div class="wrap-header-mobile" style="background-color: black !important;">
             <!-- Logo moblie -->
             <div class="logo-mobile">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/marc/logo-black-without-tagline.png') }}"
+                <a href="{{ route('home') }}"><img src="{{ asset('images/escalier/logo-escalier-header.png') }}"
                         alt="LOGO"></a>
             </div>
 
@@ -193,34 +193,11 @@
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.about') }}">ABOUT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.portfolio') }}">PORTFOLIO</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.district') }}">DISTRICT</a>
-                    <ul class="sub-menu" style="z-index:9999;">
-                        <li><a href="{{ route('frontend.paul.introduction') }}" class="custom-font-1">PAUL MARC</a></li>
-                        <li><a href="#" class="custom-font-1 disabled-link">DEAN MARC</a></li>
-                        <li><a href="#" class="custom-font-1 disabled-link">GRANT MARC</a></li>
-                        <li><a href="#" class="custom-font-1 disabled-link">WILL MARC</a></li>
-                        <li><a href="#" class="custom-font-1 disabled-link">OLENN MARC</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.masterplan') }}">MASTERPLAN</a>
-                </li>
-
-                <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.developer') }}">DEVELOPER</a>
-                </li>
-
-                <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.partners') }}">PARTNERS</a>
-                </li>
-
-                <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact_us') }}">CONTACT</a>
+                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact') }}">CONTACT US</a>
                 </li>
             </ul>
         </div>
