@@ -32,7 +32,7 @@ class PortofolioTransformer extends TransformerAbstract
 
             return[
                 'name'              => $portofolio->name,
-                'location'              => $portofolio->location,
+                'location'          => $portofolio->location,
                 'created_at'        => $createdDate,
                 'update_at'         => $updatedDate,
                 'action'            => $action

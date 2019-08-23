@@ -24,7 +24,7 @@
                                 <div class="container-fluid animatedParent animateOnce my-3">
                                     <div class="animated fadeInUpShort">
                                         <!-- Input -->
-                                        {{ Form::open(['route'=>['admin.product.store'],'method' => 'post','id' => 'general-form', 'enctype' => 'multipart/form-data']) }}
+                                        {{ Form::open(['route'=>['admin.portofolio.update'],'method' => 'post','id' => 'general-form', 'enctype' => 'multipart/form-data']) }}
 
                                         @include('partials.admin._messages')
                                         @foreach($errors->all() as $error)
@@ -36,12 +36,15 @@
                                                 </li>
                                             </ul>
                                         @endforeach
+                                        <input type="hidden" name="id" value="{{$portofolio->id}}">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="row">
                                                     <div class="col-md-6 mb-3">
                                                         <label class="form-label">Upload Main Image *</label>
-                                                        <img src="{{ asset('storage/products/'.$mainImage->path) }}" style="width: 200px;height: auto;">
+                                                        @if(!empty($mainImage))
+                                                            <img src="{{ asset('storage/portofolios/'.$mainImage->path) }}" style="width: 200px;height: auto;">
+                                                        @endif
                                                     </div>
                                                     <div class="col-md-6 mb-3">
                                                         {{--<input type="file" name="PhotoPosted" id="PhotoPosted" class="file-loading">--}}
@@ -52,83 +55,37 @@
                                                     <div class="col-md-6 mb-3">
                                                         <label class="form-label">Upload Detail Image *</label>
                                                         <br>
-                                                        @foreach($detailImage as $image)
-                                                            <img src="{{ asset('storage/products/'.$image->path) }}" style="width: 200px;height: auto;">
-                                                        @endforeach
+                                                        @if($detailImage->count() > 0)
+                                                            @foreach($detailImage as $image)
+                                                                <img src="{{ asset('storage/portofolios/'.$image->path) }}" style="width: 200px;height: auto;">
+                                                            @endforeach
+                                                        @endif
                                                     </div>
                                                     <div class="col-md-6 mb-3">
                                                         {!! Form::file('detail_image[]', array('id' => 'detail_image', 'class' => 'file-loading', 'multiple' => 'multiple')) !!}
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-6 mb-3">
-                                                        <label for="validationCustom01">Product Name</label>
-                                                        <input type="text" name="name" class="form-control" value="{{$product->name}}" readonly>
-                                                    </div>
-                                                    <div class="col-md-6 mb-3">
-                                                        <label for="sku">SKU</label>
-                                                        <input type="text" class="form-control" id="sku" name="sku" value="{{$product->sku}}" required>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-12 mb-3">
                                                         <label for="category">Category</label>
                                                         <select id="category" name="category" class="custom-select form-control">
                                                             <option value="-1">Select Product Category</option>
                                                             @foreach($categories as $category)
-                                                                <option value="{{ $category->id }}" @if($category->id == $selectedCategory->category_id) selected @endif > {{ $category->name }}</option>
+                                                                <option value="{{ $category->id }}" @if($category->id == $portofolio->category_id) selected @endif > {{ $category->name }}</option>
                                                             @endforeach
                                                         </select>
                                                     </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="validationCustom04">Price</label>
-                                                        <input type="number" class="form-control" id="price"  name="price" value="{{$product->price}}" required>
+                                                    <div class="col-md-12 mb-3">
+                                                        <label for="validationCustom01">Portofolio Name</label>
+                                                        <input type="text" name="name" class="form-control" value="{{$portofolio->name}}" required>
                                                     </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="sku">Quantity</label>
-                                                        <input type="number" class="form-control" id="qty" name="qty" value="{{$product->qty}}" required>
+                                                    <div class="col-md-12 mb-3">
+                                                        <label for="sku">Portofolio Location</label>
+                                                        <input type="text" class="form-control" id="location" name="location" value="{{$portofolio->location}}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-3 mb-3">
-                                                        <label>Weight</label>
-                                                        <input type="number" class="form-control" id="weight" name="weight" value="{{$product->weight}}" required>
-                                                    </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label>Width</label>
-                                                        <input type="number" class="form-control" id="width" name="width" value="{{$product->width}}">
-                                                    </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label>Height</label>
-                                                        <input type="number" class="form-control" id="height" name="height" value="{{$product->height}}">
-                                                    </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label>Length</label>
-                                                        <input type="number" class="form-control" id="length" name="length" value="{{$product->length}}">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="productDetails">Product Details</label>
-                                                    <textarea class="form-control p-t-40" id="description" name="description"
-                                                              placeholder="Write Something..." rows="7" required>{{$product->description}}</textarea>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="tags">Product Tags</label><br>
-                                                    <input type="text" class="tags-input" id="tags" name="tags" placeholder="Add New"
-                                                           value="{{$product->tag}}">
-                                                </div>
-                                                {{--<div class="row">--}}
-                                                {{--<div class="col-md-12 mb-3">--}}
-                                                {{--<label>Meta Title</label>--}}
-                                                {{--<input type="text" name="meta_title" class="form-control">--}}
-                                                {{--</div>--}}
-                                                {{--<div class="col-md-12 mb-3">--}}
-                                                {{--<label>Meta Description</label>--}}
-                                                {{--<textarea id="meta_description" rows="2" class="form-control" name="meta_description"></textarea>--}}
-                                                {{--</div>--}}
-                                                {{--</div>--}}
-                                                <div class="row">
-                                                    <a href="{{ route('admin.product.index') }}" class="btn btn-danger">Exit</a>
+                                                    <a href="{{ route('admin.portofolio.index') }}" class="btn btn-danger">Exit</a>
                                                     <button class="btn btn-primary" type="submit">Publish</button>
                                                 </div>
                                             </div>

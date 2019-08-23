@@ -65,12 +65,12 @@ class PortofolioController extends Controller
 
     public function create()
     {
-        $product = Portofolio::find(1);
+        $portofolio = Portofolio::find(1);
         $categories = Category::all();
 
         $data = [
             'categories'    => $categories,
-            'product'    => $product,
+            'product'    => $portofolio,
         ];
         return view('admin.portofolio.create')->with($data);
     }
@@ -159,25 +159,31 @@ class PortofolioController extends Controller
 
         }catch(\Exception $ex){
             error_log($ex);
-            Log::error("Admin/PortofolioController error: ". $ex);
+            Log::error("Admin/PortofolioController store error: ". $ex);
             return back()->withErrors("Something Went Wrong")->withInput();
         }
     }
 
     public function edit(Portofolio $item)
     {
-        $categories = Category::all();
-        $mainImage = PortofolioImage::where('portofolio_id', $item->id)->where('is_main_image', 1)->first();
-        $detailImage = PortofolioImage::where('portofolio_id', $item->id)
-            ->where('is_main_image', 0)
-            ->where('is_thumbnail', 0)->get();
-        $data = [
-            'product'    => $item,
-            'categories'    => $categories,
-            'mainImage'    => $mainImage,
-            'detailImage'    => $detailImage,
-        ];
-        return view('admin.portofolio.edit')->with($data);
+        try{
+            $categories = Category::all();
+            $mainImage = PortofolioImage::where('portofolio_id', $item->id)->where('is_main_image', 1)->first();
+            $detailImage = PortofolioImage::where('portofolio_id', $item->id)
+                ->where('is_main_image', 0)
+                ->where('is_thumbnail', 0)->get();
+            $data = [
+                'portofolio'    => $item,
+                'categories'    => $categories,
+                'mainImage'    => $mainImage,
+                'detailImage'    => $detailImage,
+            ];
+            return view('admin.portofolio.edit')->with($data);
+
+        }catch(\Exception $ex){
+            Log::error("Admin/PortofolioController edit error: ". $ex);
+            dd($ex);
+        }
     }
 
     public function update(Request $request){
@@ -185,27 +191,9 @@ class PortofolioController extends Controller
         try{
             $validator = Validator::make($request->all(), [
                 'name'        => 'required',
-                'sku'         => 'required',
-                'category'             => 'required',
-                'price'             => 'required',
-                'qty'             => 'required',
-                'weight'             => 'required',
-                'description'             => 'required',
+                'location'             => 'required',
             ]);
-            $product = Portofolio::find($request->input('id'));
-            if($product->qty > $request->input('qty')){
-                $prevQty = $product->qty - $request->input('qty');
-                $prevQty = '-' . $prevQty;
-            }
-            else if($product->qty < $request->input('qty')){
-                $prevQty = $request->input('qty') - $product->qty;
-            }
-            else if($request->input('qty') == 0){
-                $prevQty = '-' . $product->qty;
-            }
-            else{
-                $prevQty = 0;
-            }
+            $portofolio = Portofolio::find($request->input('id'));
 
             if ($request->input('category') == "-1") {
                 return back()->withErrors("Category is required")->withInput($request->all());
@@ -213,62 +201,33 @@ class PortofolioController extends Controller
 //            dd($request);
             $detailImages = $request->file('detail_image');
             $mainImages = $request->file('main_image');
-            $thumbnailImages = $request->file('thumbnail_image');
 
             if ($validator->fails())
                 return redirect()->back()->withErrors($validator->errors())->withInput($request->all());
 
             $dateTimeNow = Carbon::now('Asia/Jakarta');
-            $slug = Utilities::CreatePortofolioSlug($request->input('name'));
 
-            $colourNew = Utilities::CreatePortofolioSlug($request->input('colour'));
-
-            if($request->input('is_customize') == 'on'){
-                $customize = 1;
-            }
-            else{
-                $customize = 0;
-            }
-//            dd($slug);
             // update product
-            $product->is_customize = $customize;
-            $product->category_id = $request->input('category');
-            $product->name = $request->input('name');
-            $product->slug = $slug."--".$colourNew;
-            $product->sku = $request->input('sku');
-            $product->description = $request->input('description');
-            $product->style_notes = $request->input('style_notes');
-            $product->qty = $request->input('qty');
-            $product->price = (double) $request->input('price');
-            $product->weight = $request->input('weight');
-            $product->width = $request->input('width');
-            $product->height = $request->input('height');
-            $product->length = $request->input('length');
-            $product->tag = $request->input('tags');
-            $product->updated_at = $dateTimeNow->toDateTimeString();
+            $portofolio->name = $request->input('name');
+            $portofolio->category_id = $request->input('category');
+            $portofolio->location = $request->input('location');
+//            $portofolio->status = $request->input('status');
+            $portofolio->updated_at = $dateTimeNow->toDateTimeString();
 
-            $product->save();
-
-//            // update product category
-//            $selectedCategory = CategoryPortofolio::where('portofolio_id', $product->id)->first();
-//            $selectedCategory->category_id = $request->input('category');
-//            $selectedCategory->updated_at = $dateTimeNow->toDateTimeString();
-//            $selectedCategory->save();
-
+            $portofolio->save();
 
             // update product main image, thumbnail and image detail
-
             if(!empty($mainImages)){
-                $mainImage = PortofolioImage::where('portofolio_id', $product->id)->where('is_main_image', 1)->first();
+                $mainImage = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 1)->first();
 //                dd($mainImage);
                 if(!empty($mainImage)){
-
                     $mainImage->delete();
+                }
 
                     $img = Image::make($mainImages);
                     $extStr = $img->mime();
                     $ext = explode('/', $extStr, 2);
-                    $filename = $product->id.'_main_'.$slug.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
+                    $filename = $portofolio->id.'_main_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
                     if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
                         $img->save(public_path('storage/portofolios/'. $filename), 75);
@@ -278,43 +237,15 @@ class PortofolioController extends Controller
                     }
 
                     $newPortofolioImage = PortofolioImage::create([
-                        'portofolio_id' => $product->id,
+                        'portofolio_id' => $portofolio->id,
                         'path' => $filename,
                         'is_main_image' => 1,
                         'is_thumbnail' => 0,
                     ]);
-                }
-            }
-            if(!empty($thumbnailImages)){
-                $thumbnailImage = PortofolioImage::where('portofolio_id', $product->id)->where('is_thumbnail', 1)->first();
-//                dd($thumbnailImage);
-                if(!empty($thumbnailImage)){
-
-                    $thumbnailImage->delete();
-
-                    $img = Image::make($thumbnailImages);
-                    $extStr = $img->mime();
-                    $ext = explode('/', $extStr, 2);
-                    $filename = $product->id.'_thumbnail_'.$slug.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
-
-                    if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
-                        $img->save(public_path('storage/portofolios/'. $filename), 75);
-                    }
-                    else{
-                        $img->save('../public_html/storage/portofolios/'. $filename, 75);
-                    }
-
-                    $newPortofolioImage = PortofolioImage::create([
-                        'portofolio_id' => $product->id,
-                        'path' => $filename,
-                        'is_main_image' => 0,
-                        'is_thumbnail' => 1,
-                    ]);
-                }
             }
             if(!empty($detailImages)){
 //                dd($detailImages);
-                $detailImage = PortofolioImage::where('portofolio_id', $product->id)->where('is_main_image', 0)->where('is_thumbnail', 0)->get();
+                $detailImage = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->where('is_thumbnail', 0)->get();
 
                 foreach($detailImage as $image){
                     $image->delete();
@@ -325,7 +256,7 @@ class PortofolioController extends Controller
                     $extStr = $img->mime();
                     $ext = explode('/', $extStr, 2);
 
-                    $filename = $product->id.'_'.$i.'_'.$slug.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
+                    $filename = $portofolio->id.'_'.$i.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
                     if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
                         $img->save(public_path('storage/portofolios/'. $filename), 75);
@@ -335,7 +266,7 @@ class PortofolioController extends Controller
                     }
 
                     $newPortofolioImage = PortofolioImage::create([
-                        'portofolio_id' => $product->id,
+                        'portofolio_id' => $portofolio->id,
                         'path' => $filename,
                         'is_main_image' => 0,
                         'is_thumbnail' => 0,
@@ -343,12 +274,12 @@ class PortofolioController extends Controller
                 }
             }
 
-
-            return redirect()->route('admin.portofolio.show',['item' => $product->id]);
+            return redirect()->route('admin.portofolio.edit',['item' => $portofolio->id]);
 
         }catch(\Exception $ex){
 //            dd($ex);
             error_log($ex);
+            Log::error("Admin/PortofolioController update error: ". $ex);
             return back()->withErrors("Something Went Wrong")->withInput();
         }
     }
@@ -379,9 +310,9 @@ class PortofolioController extends Controller
     public function destroy(Request $request)
     {
         try {
-            $product = Portofolio::find($request->id);
-            $product->status = 2;
-            $product->save();
+            $portofolio = Portofolio::find($request->id);
+            $portofolio->status = 2;
+            $portofolio->save();
 
             Session::flash('success', 'Success Deleting ');
             return Response::json(array('success' => 'VALID'));

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Escalier') }}</title>
     <link rel="icon" href="{{ asset('img/basic/favicon.ico') }}" type="image/x-icon">
 
 
