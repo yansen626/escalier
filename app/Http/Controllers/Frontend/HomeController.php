@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\ContactMessage;
+use App\Models\Portofolio;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -83,7 +84,19 @@ class HomeController extends Controller
 
     //Escalier
     public function portfolio(){
-        return view('frontend.portfolio');
+        $officePortofolios = Portofolio::where('category_id', 1)->get();
+        $visualPortofolios = Portofolio::where('category_id', 2)->get();
+        $residentialPortofolios = Portofolio::where('category_id', 3)->get();
+        $commercialPortofolios = Portofolio::where('category_id', 4)->get();
+
+        $data = [
+            'officePortofolios'         => $officePortofolios,
+            'visualPortofolios'         => $visualPortofolios,
+            'residentialPortofolios'    => $residentialPortofolios,
+            'commercialPortofolios'     => $commercialPortofolios
+        ];
+
+        return view('frontend.portfolio')->with($data);
     }
 
     public function contact(){

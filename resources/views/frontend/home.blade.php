@@ -288,7 +288,7 @@
 </section>
 
 {{-- Mobile banner --}}
-<div class="container-fluid md-none d-block p-0">
+<div class="container-fluid d-md-none d-block p-0">
     <div class="row no-gutters">
         <div class="col-12">
             <div class="w-100 header-mobile-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');

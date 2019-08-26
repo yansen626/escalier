@@ -31,22 +31,22 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs mb-5" role="tablist">
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link active text-dark" data-toggle="tab" href="#office" role="tab">Office
+                            <a class="nav-link active text-dark custom-font-avenir-light" data-toggle="tab" href="#office" role="tab">Office
                                 Spaces</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark" data-toggle="tab" href="#visualdisplay" role="tab"
+                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#visualdisplay" role="tab"
                                 id="tabFloor">Visual Display Units</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark" data-toggle="tab" href="#residential" role="tab"
+                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#residential" role="tab"
                                 id="tabUnit">Residential Spaces</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark" data-toggle="tab" href="#commercial" role="tab">Commercial
+                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#commercial" role="tab">Commercial
                                 Spaces</a>
                         </li>
                     </ul>
@@ -55,301 +55,148 @@
         </div>
     </div>
 </section>
-                    <!-- Lightbox -->
+
 <section>
-                        <div class="tab-content pb-5">
-                            <div class="tab-pane fade show active" id="office" role="tabpanel">
-                                <div class="container">
-                                    <div class="row pb-5 row-p">
-                                        <div class="col-md-4 col-12">
-                                            <a href="{{ asset('images/escalier/portfolio/office/office-1.jpg') }}"
-                                                data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-1.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-2.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-2.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-3.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-3.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row pb-5 row-p">
-                                    <div class="col-md-4 col-12">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-4.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-4.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-5.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-5.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-6.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-6.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row pb-5 row-p">
-                                    <div class="col-md-4 col-12">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-7.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-7.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-8.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-8.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-9.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-9.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row pb-5 row-p">
-                                    <div class="col-md-4 col-12">
-                                        <a href="{{ asset('images/escalier/portfolio/office/office-10.jpg') }}"
-                                            data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                            <img src="{{ asset('images/escalier/portfolio/office/office-10.jpg') }}"
-                                                class="img-fluid rounded">
-                                        </a>
-                                        <div class="text-left pl-3 spaces-portfolio-responsive">
-                                            <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                            <span>Jakarta</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8"></div>
+        <div class="tab-content pb-5">
+            <div class="tab-pane fade show active" id="office" role="tabpanel">
+                <div class="container">
+                    <div class="row pb-5">
+                        @foreach($officePortofolios as $portofolio)
+                            <div class="col-md-4 col-12">
+                                @php
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                @endphp
+                                <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                   data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                         class="img-fluid rounded">
+                                </a>
+                                @if($portofolio->portofolio_images->count() > 1)
+                                    @foreach($portofolio->portofolio_images as $image)
+                                        @if($image->is_main_image === 0)
+                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                               data-toggle="lightbox1" data-gallery="gallery1">
+                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                                     class="img-fluid rounded">
+                                            </a>
+                                        @endif
+                                    @endforeach
+                                @endif
+                                <div class="text-left spaces-portfolio-responsive">
+                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
+                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
                                 </div>
                             </div>
-                        </div>
+                        @endforeach
                     </div>
-                    <div class="tab-pane fade show pb-5" id="visualdisplay" role="tabpanel">
-                        <div class="container">
-                            <div class="row pb-5 row-p">
-                                <div class="col-md-4 col-12">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-1.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-1.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-2.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-2.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-3.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-3.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show pb-5" id="visualdisplay" role="tabpanel">
+                <div class="container">
+                    <div class="row pb-5">
+                        @foreach($visualPortofolios as $portofolio)
+                            <div class="col-md-4 col-12">
+                                @php
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                @endphp
+                                <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                   data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                         class="img-fluid rounded">
+                                </a>
+                                @if($portofolio->portofolio_images->count() > 1)
+                                    @foreach($portofolio->portofolio_images as $image)
+                                        @if($image->is_main_image === 0)
+                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                               data-toggle="lightbox1" data-gallery="gallery1">
+                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                                     class="img-fluid rounded">
+                                            </a>
+                                        @endif
+                                    @endforeach
+                                @endif
+                                <div class="text-left spaces-portfolio-responsive">
+                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
+                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
                                 </div>
                             </div>
-                            <div class="row pb-5 row-p">
-                                <div class="col-md-4 col-12">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-4.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-4.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-5.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-5.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/visual/visual-6.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/visual/visual-6.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
-                    <div class="tab-pane fade show" id="residential" role="tabpanel">
-                        <div class="container">
-                            <div class="row pb-5 row-p">
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/residential/residential-1.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/residential/residential-1.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/residential/residential-2.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/residential/residential-2.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/residential/residential-3.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/residential/residential-3.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="residential" role="tabpanel">
+                <div class="container">
+                    <div class="row pb-5">
+                        @foreach($residentialPortofolios as $portofolio)
+                            <div class="col-md-4 col-12">
+                                @php
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                @endphp
+                                <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                   data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                         class="img-fluid rounded">
+                                </a>
+                                @if($portofolio->portofolio_images->count() > 1)
+                                    @foreach($portofolio->portofolio_images as $image)
+                                        @if($image->is_main_image === 0)
+                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                               data-toggle="lightbox1" data-gallery="gallery1">
+                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                                     class="img-fluid rounded">
+                                            </a>
+                                        @endif
+                                    @endforeach
+                                @endif
+                                <div class="text-left spaces-portfolio-responsive">
+                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
+                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
                                 </div>
                             </div>
-                            <div class="row pb-5 row-p">
-                                <div class="col-md-4 col-12">
-                                    <a href="{{ asset('images/escalier/portfolio/residential/residential-4.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/residential/residential-4.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="{{ asset('images/escalier/portfolio/residential/residential-5.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/residential/residential-5.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
-                    <div class="tab-pane fade show" id="commercial" role="tabpanel">
-                        <div class="container">
-                            <div class="row pb-5 row-p">
-                                <div class="col-md-4 col-12">
-                                    <a href="{{ asset('images/escalier/portfolio/commercial/commercial-1.jpg') }}"
-                                        data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                        <img src="{{ asset('images/escalier/portfolio/commercial/commercial-1.jpg') }}"
-                                            class="img-fluid rounded">
-                                    </a>
-                                    <div class="text-left pl-3 spaces-portfolio-responsive">
-                                        <span class="font-weight-bold">Lorem Ipsum Sit Dolor</span><br />
-                                        <span>Jakarta</span>
-                                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="commercial" role="tabpanel">
+                <div class="container">
+                    <div class="row pb-5">
+                        @foreach($commercialPortofolios as $portofolio)
+                            <div class="col-md-4 col-12">
+                                @php
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                @endphp
+                                <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                   data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                         class="img-fluid rounded">
+                                </a>
+                                @if($portofolio->portofolio_images->count() > 1)
+                                    @foreach($portofolio->portofolio_images as $image)
+                                        @if($image->is_main_image === 0)
+                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                               data-toggle="lightbox1" data-gallery="gallery1">
+                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
+                                                     class="img-fluid rounded">
+                                            </a>
+                                        @endif
+                                    @endforeach
+                                @endif
+                                <div class="text-left spaces-portfolio-responsive">
+                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
+                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
                                 </div>
-                                <div class="col-md-8"></div>
                             </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 @endsection
 
 @section('styles')
-<link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-<link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css" media="screen" />
 
 
 <style type="text/css">
@@ -357,11 +204,6 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 20px;
-        margin-top: -20px;
-    }
-
-    .row-p {
-        margin: 0px !important;
     }
 
     .slick-prev:before {
@@ -415,7 +257,7 @@
     }
 
     /* bootstrap hack end */
-    ``` @media (max-width: 576px) {
+    @media (max-width: 576px) {
         .header-top-img {
             min-height: 150px;
         }
@@ -472,10 +314,6 @@
             border-left: 1px solid #333;
             border-top: 1px solid #333;
             border-bottom: 1px solid #333;
-        }
-
-        .row-p {
-            margin: 15px;
         }
     }
 
@@ -562,64 +400,12 @@
 @endsection
 
 @section('scripts')
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js">
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script>
-    $('.slider-within').slick({
-            dots: false,
-            infinite: false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            variableWidth: true,
-            arrows: true
-        });
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 <script>
-    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+    $(document).on("click", '[data-toggle="lightbox1"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
     });
-
-    $(".floor-slider").slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        arrows: true
-        
-    });
-
-    $('#tabFloor').on('show.bs.tab', function (e) {
-        $('.floor-slider').slick('refresh');
-
-    })
-
-    $("#tabFloor").click(function(){
-        $('.floor-slider').slick('refresh');
-    });
-
-    $(".unit-slider").slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        arrows: true
-    });
-
-    $('#tabUnit').on('show.bs.tab', function (e) {
-        $('.unit-slider').slick('refresh');
-
-    })
-
-    $("#tabUnit").click(function(){
-        $('.unit-slider').slick('refresh');
-    });
-
-    
 </script>
 @endsection
