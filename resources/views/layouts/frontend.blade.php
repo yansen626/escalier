@@ -32,6 +32,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/main.css') }}">
     <!--===============================================================================================-->
+    <link href="{{ asset('css/frontend/font.css')}}" rel="stylesheet">
     <link href="{{ asset('css/frontend/custom.css')}}" rel="stylesheet">
 
     @yield('styles')

@@ -22,17 +22,8 @@
     border-bottom: 1px solid #ffffff;
 }
 
-.custom-font-1 {
-    font-family: 'atsackersgothicregular', sans-serif !important;
-}
-
-.custom-font-2 {
-    font-family: 'chapazaregular', sans-serif !important;
-}
-
 .menu-font-style {
-    font-size: 12px !important;
-    font-weight: bold;
+    font-size: 16px !important;
     color: #000 !important;
 }
 
@@ -78,44 +69,37 @@
     font-size: 10px;
 }
 
-.hamburger-inner .hamburger-inner:after .hamburger-inner:before {
-    background-color: white !important;
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{
+    background-color: #fff !important;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
 
-    /* Footer */
-    .mobile-center {
-        text-align: center !important;
-    }
-
-    .mobile-p-b-0 {
-        padding-bottom: 0;
-    }
-
-    .mobile-p-t-0 {
-        padding-top: 0;
+    .workshop-footer {
+        padding-top: 20px;
     }
 }
 
-@media (max-width: 768px) {
-
-    /* Footer */
-    .mobile-center {
-        text-align: center !important;
-        ;
+@media (min-width: 768px) {
+    .workshop-footer {
+        padding-top: 3rem;
+        margin-top: 1rem;
     }
 
-    .mobile-p-b-0 {
-        padding-bottom: 0;
+    .copyright {
+        padding-top: 150px !important;
     }
 
-    .mobile-p-t-0 {
-        padding-top: 0;
+    .headoffice-footer {
+        padding-top: 55px;
+    }
+
+    .workshop-footer {
+        padding-top: 55px;
     }
 }
 
-@media (max-width: 992px) {}
+@media (min-width: 992px) {}
 
 @media (min-width: 1024px) {
     #back-navigation {
@@ -124,185 +108,3 @@
 }
 
 @media (min-width: 1200px) {}
-
-@font-face {
-    font-family: 'atsackersgothicregular';
-    src: url('../../fonts/at_sackers_gothic_medium-webfont.woff2') format('woff2'),
-        url('../../fonts/at_sackers_gothic_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'chapazaregular';
-    src: url('../../fonts/chapaza-webfont.woff2') format('woff2'),
-        url('../../fonts/chapaza-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'playfair_displayblack';
-    src: url('../../fonts//playfair/playfairdisplay-black-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'playfair_displayblack_italic';
-    src: url('../../fonts//playfair/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-blackitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'playfair_displaybold';
-    src: url('../../fonts//playfair/playfairdisplay-bold-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'playfair_displaybold_italic';
-    src: url('../../fonts//playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'playfair_displayregular';
-    src: url('../../fonts//playfair/playfairdisplay-regular-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'playfair_displayitalic';
-    src: url('../../fonts//playfair/playfairdisplay-regularitalic-webfont.woff2') format('woff2'),
-        url('../../fonts//playfair/playfairdisplay-regularitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Avenir LT Std 55 Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 55 Roman'), url('AvenirLTStd-Roman.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 55 Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 55 Oblique'), url('AvenirLTStd-Oblique.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 35 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 35 Light'), url('AvenirLTStd-Light.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 35 Light Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 35 Light Oblique'), url('AvenirLTStd-LightOblique.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 45 Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 45 Book Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 45 Book Oblique'), url('AvenirLTStd-BookOblique.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 65 Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 65 Medium'), url('AvenirLTStd-Medium.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 65 Medium Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 65 Medium Oblique'), url('AvenirLTStd-MediumOblique.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 85 Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 85 Heavy'), url('AvenirLTStd-Heavy.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 85 Heavy Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 85 Heavy Oblique'), url('AvenirLTStd-HeavyOblique.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 95 Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 95 Black'), url('AvenirLTStd-Black.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Avenir LT Std 95 Black Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir LT Std 95 Black Oblique'), url('AvenirLTStd-BlackOblique.woff') format('woff');
-}

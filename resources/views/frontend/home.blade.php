@@ -20,57 +20,57 @@
                 <li data-transition="slidingoverlayhorizontal">
                     <img src="images/escalier/home/header-photo.jpg" alt="IMG-SLIDE" class="rev-slidebg">
 
-                    {{-- <h2 class="tp-caption tp-resizeme caption-1 text-uppercase" 
+                    {{-- <h2 class="tp-caption tp-resizeme caption-1 text-uppercase"
                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                         data-visibility="['on', 'on', 'on', 'on']"
- 
-                        data-fontsize="['48', '48', '48', '38']" 
+
+                        data-fontsize="['48', '48', '48', '38']"
                         data-lineheight="['58', '58', '58', '58']"
-                        data-color="['#FFF']" 
+                        data-color="['#FFF']"
                         data-textAlign="['center', 'center', 'center', 'center']"
-                     
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['-83', '-83', '-83', '-93']" 
-                     
+
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['-83', '-83', '-83', '-93']"
+
                         data-width="['1200','992','768','480']"
-                        data-height="['auto', 'auto', 'auto', 'auto']" 
-                        data-whitespace="['normal']" 
-                     
+                        data-height="['auto', 'auto', 'auto', 'auto']"
+                        data-whitespace="['normal']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[15, 15, 15, 15]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[15, 15, 15, 15]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >BEGIN YOUR CHAPTER</h2> --}}
 
-                    {{-- <p class="tp-caption tp-resizeme caption-2" 
+                    {{-- <p class="tp-caption tp-resizeme caption-2"
                         data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:right;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                         data-visibility="['on', 'on', 'on', 'on']"
- 
-                        data-fontsize="['30', '30', '30', '25']" 
+
+                        data-fontsize="['30', '30', '30', '25']"
                         data-lineheight="['39', '39', '39', '39']"
-                        data-color="['#FFF']" 
+                        data-color="['#FFF']"
                         data-textAlign="['center', 'center', 'center', 'center']"
-                     
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['-13', '-13', '-13', '-13']" 
-                     
+
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['-13', '-13', '-13', '-13']"
+
                         data-width="['1200','992','768','480']"
-                        data-height="['auto', 'auto', 'auto', 'auto']" 
-                        data-whitespace="['normal']" 
-                     
+                        data-height="['auto', 'auto', 'auto', 'auto']"
+                        data-whitespace="['normal']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[15, 15, 15, 15]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[15, 15, 15, 15]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >
                         <Span>This is not only a home. This Home is a witness to</span>
@@ -79,20 +79,20 @@
 
                     {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
                         data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['88', '88', '88', '88']"
+
                         data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
+                        data-height="['auto']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[10, 10, 10, 10]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[10, 10, 10, 10]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >
                             <a href="projects-grid.html" class="btn1 flex-c-c">
@@ -168,20 +168,20 @@
 
                 {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
                         data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['88', '88', '88', '88']"
+
                         data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
+                        data-height="['auto']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[10, 10, 10, 10]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[10, 10, 10, 10]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >
                             <a href="projects-grid.html" class="btn1 flex-c-c">
@@ -257,20 +257,20 @@
 
                 {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
                         data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                        data-x="['center']" 
-                        data-y="['center']" 
-                        data-hoffset="['0', '0', '0', '0']" 
-                        data-voffset="['88', '88', '88', '88']" 
-                     
+                        data-x="['center']"
+                        data-y="['center']"
+                        data-hoffset="['0', '0', '0', '0']"
+                        data-voffset="['88', '88', '88', '88']"
+
                         data-width="['1200','992','768','480']"
-                        data-height="['auto']" 
-                     
+                        data-height="['auto']"
+
                         data-paddingtop="[0, 0, 0, 0]"
                         data-paddingright="[10, 10, 10, 10]"
                         data-paddingbottom="[0, 0, 0, 0]"
                         data-paddingleft="[10, 10, 10, 10]"
 
-                        data-basealign="slide" 
+                        data-basealign="slide"
                         data-responsive_offset="off"
                         >
                             <a href="projects-grid.html" class="btn1 flex-c-c">
@@ -288,47 +288,49 @@
 </section>
 
 {{-- Mobile banner --}}
-<div class="row d-md-none d-block" style="margin-top: -20%;">
-    <div class=" col-12 ">
-        <div class=" w-100 header-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: contain;">
+<div class="container-fluid md-none d-block p-0">
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div class="w-100 header-mobile-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;">
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Who we are Desktop -->
-<section class="pb-3 pt-5 d-none d-md-block" style="background-color:#f8f8f8;">
+<section class="section-box d-none d-md-block" style="background-color:#f8f8f8;">
     <div class="container">
-        <!--  -->
-        <div class="row m-b-150">
+        <div class="row">
             <div class="col-md-4 col-12 mb-md-0 mb-3 pl-5">
-                <span class="pb-2">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-who">WHO WE ARE</h2>
+                <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home">WHO WE ARE</h2>
             </div>
-            <div class="col-md-8 col-12 mt-4 p-l-0 txt-whoweare">
-                <span>Serving as an interior build and design company, Escalier strives to deliver the finest interior
+            <div class="col-md-8 col-12 mt-4 p-l-0">
+                <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest interior
                     experience, developed and customized elegantly to individual needs. Escalier commits to deliver
                     excellence, ensuring satisfaction at its best. Whether for a homey or professional ambience,
                     Escalier devotes to craft an ideal yet passionate design, leading to perfection in every
-                    stroke.</span>
+                    stroke.</p>
             </div>
         </div>
     </div>
 </section>
-<section class="d-none d-md-block">
+
+<section class="section-box d-none d-md-block">
     <div class="container">
-        <div class="row m-b-150 pl-5">
+        <div class="row pl-5">
             <div class="col-md-5 col-12 mb-md-0 mb-3">
-                <span class="">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-home">WHAT INSPIRE US</h2>
+                <span class="custom-font-avenir-light">ABOUT US</span>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home">WHAT INSPIRE US</h2>
                 <div class="pr-5 pt-3">
-                    <span>We envision an escalating curve as we progress through time, connecting
+                    <p class="custom-font-avenir-medium">We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
                         philosophy, Escalier understands the importance of process from the
                         planning stage till its implementation, attentively projecting the best
-                        service at every step, ending it with a high note.</span>
+                        service at every step, ending it with a high note.</p>
                 </div>
             </div>
             <div class="col-md-7">
@@ -340,26 +342,34 @@
 
 
 {{-- Mobile Section Who we are --}}
-<section class=" d-block d-md-none">
+<section class="section-box d-block d-md-none" style="background-color:#f8f8f8;">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                {{-- <span class="">ABOUT US</span> --}}
-                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-who text-center">WHO WE ARE</h2>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home text-center">WHO WE ARE</h2>
                 <div class=" px-4 pt-4 text-justify">
-                    <span>Serving as an interior build and design company, Escalier strives to deliver the finest
+                    <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest
                         interior experience, developed and customized elegantly to individual needs. Escalier commits to
                         deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional
                         ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in
-                        every stroke.</span>
+                        every stroke.</p>
                 </div>
-                <h2 class="t1-b-1 custom-font-2 text-dark txt-header-home text-center pt-5">WHAT INSPIRE US</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-box d-block d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home text-center">WHAT INSPIRE US</h2>
                 <div class="px-4 pt-3 text-justify">
-                    <span>We envision an escalating curve as we progress through time, connecting
+                    <p class="custom-font-avenir-medium">We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
                         philosophy, Escalier understands the importance of process from the
                         planning stage till its implementation, attentively projecting the best
-                        service at every step, ending it with a high note.</span>
+                        service at every step, ending it with a high note.</p>
                 </div>
             </div>
         </div>
@@ -367,56 +377,56 @@
 </section>
 
 
-<section class="m-b-150 py-3" style="background-color:#f8f8f8;">
+<section class="section-box" style="background-color:#f8f8f8;">
     <div class="container">
         <div class="row pl-5">
             <div class="col-md-4  col-12 pb-1">
-                <span>CORE VALUES</span>
+                <span class="custom-font-avenir-light">CORE VALUES</span>
                 <div class="col-md-8"></div>
             </div>
         </div>
         <div class="row pl-5">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-md-0 mb-4">
                 <div class="pb-4">
-                    <span class="font-weight-bold" style="font-size: 20px;">Detail is Matter for Us</span>
+                    <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Detail is Matter for Us</span>
                 </div>
                 <div class="pr-2">
-                    <span>We understands how details matter. We are committed to craft the best designs for our clients,
-                        perfecting it with finest attention.</span>
+                    <p class="custom-font-avenir-medium">We understands how details matter. We are committed to craft the best designs for our clients,
+                        perfecting it with finest attention.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-md-0 mb-4">
                 <div class="pb-4">
-                    <span class="font-weight-bold" style="font-size: 20px;">Communication</span>
+                    <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Communication</span>
                 </div>
                 <div class="pr-2">
-                    <span>Client’s satisfaction is our priority. Our
+                    <p class="custom-font-avenir-medium">Client’s satisfaction is our priority. Our
                         professional designers are dedicated to listen
                         and cater the best service to our clients, ensuring
-                        excellence in every steps.</span>
+                        excellence in every steps.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-md-0 mb-4">
                 <div class="pb-4">
-                    <span class="font-weight-bold" style="font-size: 20px;">Speed</span>
+                    <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Speed</span>
                 </div>
                 <div class="pr-2">
-                    <span>We highly value your time. Our commitment is to
+                    <p class="custom-font-avenir-medium">We highly value your time. Our commitment is to
                         deliver your needs in speed, without
-                        compromising the quality in the execution.</span>
+                        compromising the quality in the execution.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="m-b-75">
+<section class="section-box">
     <div class="container">
         <div class="row pl-5">
-            <div class="col-md-4 col-12 pt-5">
-                <p class="pb-2">ABOUT US</p>
-                <h2 class="t1-b-1 custom-font-2 text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
-                <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active" role="button"
+            <div class="col-md-4 col-12 pt-4 mb-md-0 mb-4">
+                <p class="pb-2 custom-font-avenir-light">ABOUT US</p>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
+                <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active custom-font-avenir-medium" role="button"
                     aria-pressed="true">View more</a>
             </div>
             <div class="col-md-8">
@@ -434,30 +444,13 @@
 <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 <style>
-    /* .carousel-control-prev {
-            filter: invert(100%);
-        }
-        .carousel-control-next {
-            filter: invert(100%);
-        } */
-
-    .img-banner-responsive {
-        height: 500px;
+    .section-box{
+        padding-top: 4em;
+        padding-bottom: 4em;
     }
 
-    .img-house-responsive {
-        height: 400px;
-    }
-
-    .img-paulmarc-responsive {
-        height: 100px;
-        width: auto;
-    }
-
-    .img-trinity-responsive {
-        margin-top: 0;
-        height: 30px;
-        width: auto;
+    .header-mobile-img {
+        min-height: 190px;
     }
 
     .img-client-responsive {
@@ -476,7 +469,6 @@
         font-size: 30px;
     }
 
-
     .btn-paulmarc-more .w-25 {
         width: 75% !important;
     }
@@ -485,57 +477,14 @@
         margin-bottom: 25px;
     }
 
-    .text-finely-crafted {
-        font-size: 10px;
-        font-weight: bold;
+    @media (min-width: 576px) {
+
     }
-
-    .txt-whoweare {
-        padding-right: 30px;
-        padding-left: 20px;
-    }
-
-    /*.slick-dots li button:before {*/
-    /*color: #fff;*/
-    /*}*/
-
-    /*.slick-dots li.slick-active button:before {*/
-    /*color: #fff !important;*/
-    /*}*/
-    @media (max-width: 576px) {
-        .txt-header-who {
-            font-size: 30px;
-        }
-
-        .header-img {
-            min-height: 350px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            height: 100%;
-        }
-    }
-
-
-    @media (min-width: 576px) {}
 
     @media (min-width: 768px) {
-        .img-banner-responsive {
-            height: 550px;
-        }
-
-        .img-house-responsive {
-            height: 600px;
-        }
-
-        .img-paulmarc-responsive {
-            height: 200px;
-            width: auto;
-        }
-
-        .img-trinity-responsive {
-            margin-top: -28px;
-            height: 45px;
-            width: auto;
+        .section-box{
+            padding-top: 5em;
+            padding-bottom: 5em;
         }
 
         .img-inspires-responsive {
@@ -558,12 +507,8 @@
             margin-bottom: 50px;
         }
 
-        .text-finely-crafted {
-            font-size: 13px;
-        }
-
-        .txt-header-who {
-            font-size: 36px;
+        .txt-header-home {
+            font-size: 42px;
         }
     }
 

@@ -81,27 +81,29 @@
             <div class="limiter-menu-desktop container-fluid">
                 <!-- Logo desktop -->
                 <div class="logo">
-                    <a href="{{ route('home') }}"><img
-                            src="{{ asset('images/escalier/logo-escalier-header-trans.png') }}" alt="LOGO"
-                            style="width: 150px; height: auto;"></a>
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('images/escalier/logo-escalier-header-trans.png') }}" alt="LOGO"
+                             class="ml-md-5"
+                            style="width: 150px; height: auto;">
+                    </a>
                 </div>
 
                 <!-- Menu desktop -->
                 <div class="menu-desktop">
                     <ul class="main-menu respon-sub-menu" style="margin-right:100px !important">
                         <li>
-                            <a class="custom-font-1 menu-font-style text-white" href="{{ route('home') }}">
+                            <a class="custom-font-avenir-light menu-font-style text-white" href="{{ route('home') }}">
                                 <div class="text-white">HOME</div>
                             </a>
                         </li>
                         <li class="ml-5">
-                            <a class="custom-font-1 menu-font-style text-white"
+                            <a class="custom-font-avenir-light menu-font-style text-white"
                                 href="{{ route('frontend.portfolio') }}">
                                 <div class="text-white">PORTFOLIO</div>
                             </a>
                         </li>
                         <li class="ml-5">
-                            <a class="custom-font-1 menu-font-style text-white" href="{{ route('frontend.contact') }}">
+                            <a class="custom-font-avenir-light menu-font-style text-white" href="{{ route('frontend.contact') }}">
                                 <div class="text-white">CONTACT US</div>
                             </a>
                         </li>
@@ -134,70 +136,18 @@
         </div>
 
         <div class="menu-mobile">
-            {{--<ul class="top-bar-m p-l-20 p-tb-8">--}}
-            {{--<li>--}}
-            {{--<div class="t1-s-1 cl-5 p-tb-3">--}}
-            {{--<span class="fs-16 m-r-6">--}}
-            {{--<i class="fa fa-home" aria-hidden="true"></i>--}}
-            {{--</span>--}}
-            {{--<span>379 5Th Ave New York, Nyc 10018</span>--}}
-            {{--</div>--}}
-            {{--</li>--}}
-
-            {{--<li>--}}
-            {{--<div class="t1-s-1 cl-5 p-tb-3">--}}
-            {{--<span class="fs-16 m-r-6">--}}
-            {{--<i class="fa fa-phone" aria-hidden="true"></i>--}}
-            {{--</span>--}}
-            {{--<span>(+1) 96 716 6879</span>--}}
-            {{--</div>--}}
-            {{--</li>--}}
-
-            {{--<li>--}}
-            {{--<div class="t1-s-1 cl-5 p-tb-3">--}}
-            {{--<span class="fs-16 m-r-6">--}}
-            {{--<i class="fa fa-clock-o" aria-hidden="true"></i>--}}
-            {{--</span>--}}
-            {{--<span>Mon-Sat 09:00 am - 17:00 pm/Sunday CLOSE</span>--}}
-            {{--</div>--}}
-            {{--</li>--}}
-
-            {{--<li>--}}
-            {{--<div>--}}
-            {{--<a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-            {{--<i class="fa fa-facebook-official"></i>--}}
-            {{--</a>--}}
-
-            {{--<a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-            {{--<i class="fa fa-twitter"></i>--}}
-            {{--</a>--}}
-
-            {{--<a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-            {{--<i class="fa fa-google-plus"></i>--}}
-            {{--</a>--}}
-
-            {{--<a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-            {{--<i class="fa fa-instagram"></i>--}}
-            {{--</a>--}}
-
-            {{--<a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">--}}
-            {{--<i class="fa fa-linkedin"></i>--}}
-            {{--</a>--}}
-            {{--</div>--}}
-            {{--</li>--}}
-            {{--</ul>--}}
 
             <ul class="main-menu" style="background-color: #000 !important;">
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('home') }}">HOME</a>
+                    <a class="custom-font-avenir-light text-white" href="{{ route('home') }}">HOME</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.portfolio') }}">PORTFOLIO</a>
+                    <a class="custom-font-avenir-light text-white" href="{{ route('frontend.portfolio') }}">PORTFOLIO</a>
                 </li>
 
                 <li>
-                    <a class="custom-font-1 text-white" href="{{ route('frontend.contact') }}">CONTACT US</a>
+                    <a class="custom-font-avenir-light text-white" href="{{ route('frontend.contact') }}">CONTACT US</a>
                 </li>
             </ul>
         </div>
