@@ -83,8 +83,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <a href="{{ route('admin.portofolio.index') }}" class="btn btn-danger">Exit</a>
-                                                    <button class="btn btn-primary" type="submit">Publish</button>
+                                                    <a href="{{ route('admin.portofolio.index') }}" class="btn btn-warning">Batal</a>
+                                                    <button class="btn btn-success" type="submit">Simpan</button>
                                                 </div>
                                             </div>
                                         </div>

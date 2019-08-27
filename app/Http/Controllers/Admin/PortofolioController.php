@@ -116,7 +116,7 @@ class PortofolioController extends Controller
 
             $img->save(public_path('storage/portofolios/'. $filename), 75);
 
-            $newPortofolioImage = PortofolioImage::create([
+            PortofolioImage::create([
                 'portofolio_id' => $newPortofolio->id,
                 'path' => $filename,
                 'is_main_image' => 1,
@@ -145,6 +145,7 @@ class PortofolioController extends Controller
                 }
             }
 
+            Session::flash('success', 'Sukses membuat baru Portofolio!');
             return redirect()->route('admin.portofolio.edit',['item' => $newPortofolio->id]);
 
         }catch(\Exception $ex){
@@ -256,10 +257,10 @@ class PortofolioController extends Controller
                 }
             }
 
+            Session::flash('success', 'Sukses mengubah data Portofolio!');
             return redirect()->route('admin.portofolio.edit',['item' => $portofolio->id]);
 
         }catch(\Exception $ex){
-//            dd($ex);
             error_log($ex);
             Log::error("Admin/PortofolioController update error: ". $ex);
             return back()->withErrors("Something Went Wrong")->withInput();
@@ -292,14 +293,31 @@ class PortofolioController extends Controller
     public function destroy(Request $request)
     {
         try {
-            $portofolio = Portofolio::find($request->id);
-            $portofolio->status = 2;
-            $portofolio->save();
+            $deletedId = $request->input('id');
+            $portofolio = Portofolio::find($deletedId);
+            if(empty($portofolio)){
+                return Response::json(array('errors' => 'INVALID'));
+            }
 
-            Session::flash('success', 'Success Deleting ');
+            $detailImages = PortofolioImage::where('portofolio_id', $deletedId)->get();
+
+            // Delete old image
+            foreach ($detailImages as $oldImage){
+                if(!empty($oldImage->path)){
+                    $oldPath = asset('storage/portofolios/'. $oldImage->path);
+                    if(file_exists($oldPath)) unlink($oldPath);
+                }
+                $oldImage->delete();
+            }
+
+            $portofolio->delete();
+
+            Session::flash('success', 'Sukses menghapus Portofolio!');
             return Response::json(array('success' => 'VALID'));
         }
         catch(\Exception $ex){
+            error_log($ex);
+            Log::error("Admin/PortofolioController destroy error: ". $ex);
             return Response::json(array('errors' => 'INVALID'));
         }
 
