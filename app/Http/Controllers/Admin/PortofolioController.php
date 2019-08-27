@@ -83,31 +83,29 @@ class PortofolioController extends Controller
                 'location'             => 'required',
             ]);
 
-            if ($request->input('category') == "-1") {
-                return back()->withErrors("Category is required")->withInput($request->all());
-            }
-//            dd($request);
-            $detailImages = $request->file('detail_image');
-            $mainImages = $request->file('main_image');
-
-            if($detailImages == null){
-                return back()->withErrors("Detail Image required")->withInput($request->all());
-            }
             if ($validator->fails())
                 return redirect()->back()->withErrors($validator->errors())->withInput($request->all());
 
+            if ($request->input('category') == "-1") {
+                return back()->withErrors("Mohon pilih kategori!")->withInput($request->all());
+            }
+
+            if(!$request->hasFile('main_image')){
+                return back()->withErrors("Gambar Utama wajib diunggah!")->withInput($request->all());
+            }
+
+            $mainImages = $request->file('main_image');
+
             $dateTimeNow = Carbon::now('Asia/Jakarta');
 
-//            dd($colourNew);
             $newPortofolio = Portofolio::create([
-                'name' => $request->input('name'),
-                'location' => $request->input('location'),
-                'category_id' => $request->input('category'),
-                'status' => 1,
-                'created_at'        => $dateTimeNow->toDateTimeString(),
-                'updated_at'        => $dateTimeNow->toDateTimeString(),
+                'name'          => $request->input('name'),
+                'location'      => $request->input('location'),
+                'category_id'   => $request->input('category'),
+                'status'        => 1,
+                'created_at'    => $dateTimeNow->toDateTimeString(),
+                'updated_at'    => $dateTimeNow->toDateTimeString(),
             ]);
-
 
             // save product main image, thumbnail and image detail
             //main image
@@ -127,21 +125,24 @@ class PortofolioController extends Controller
 
 
             //image detail
-            for($i=0;$i<sizeof($detailImages);$i++){
-                $img = Image::make($detailImages[$i]);
-                $extStr = $img->mime();
-                $ext = explode('/', $extStr, 2);
+            if($request->hasFile('detail_image')){
+                $detailImages = $request->file('detail_image');
+                for($i = 0; $i < sizeof($detailImages); $i++){
+                    $img = Image::make($detailImages[$i]);
+                    $extStr = $img->mime();
+                    $ext = explode('/', $extStr, 2);
 
-                $filename = $newPortofolio->id.'_'.$i.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
+                    $filename = $newPortofolio->id.'_'.$i.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-                $img->save(public_path('storage/portofolios/'. $filename), 75);
+                    $img->save(public_path('storage/portofolios/'. $filename), 75);
 
-                $newPortofolioImage = PortofolioImage::create([
-                    'portofolio_id' => $newPortofolio->id,
-                    'path' => $filename,
-                    'is_main_image' => 0,
-                    'is_thumbnail' => 0,
-                ]);
+                    PortofolioImage::create([
+                        'portofolio_id' => $newPortofolio->id,
+                        'path' => $filename,
+                        'is_main_image' => 0,
+                        'is_thumbnail' => 0,
+                    ]);
+                }
             }
 
             return redirect()->route('admin.portofolio.edit',['item' => $newPortofolio->id]);
@@ -176,66 +177,72 @@ class PortofolioController extends Controller
     }
 
     public function update(Request $request){
-//        dd($request);
         try{
             $validator = Validator::make($request->all(), [
                 'name'        => 'required',
-                'location'             => 'required',
+                'location'    => 'required',
             ]);
-            $portofolio = Portofolio::find($request->input('id'));
-
-            if ($request->input('category') == "-1") {
-                return back()->withErrors("Category is required")->withInput($request->all());
-            }
-//            dd($request);
-            $detailImages = $request->file('detail_image');
-            $mainImages = $request->file('main_image');
 
             if ($validator->fails())
                 return redirect()->back()->withErrors($validator->errors())->withInput($request->all());
 
+            $portofolio = Portofolio::find($request->input('id'));
+
             $dateTimeNow = Carbon::now('Asia/Jakarta');
 
-            // update product
             $portofolio->name = $request->input('name');
             $portofolio->category_id = $request->input('category');
             $portofolio->location = $request->input('location');
-//            $portofolio->status = $request->input('status');
             $portofolio->updated_at = $dateTimeNow->toDateTimeString();
 
             $portofolio->save();
 
             // update product main image, thumbnail and image detail
-            if(!empty($mainImages)){
+            if($request->hasFile('main_image')){
+                $mainImages = $request->file('main_image');
                 $mainImage = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 1)->first();
-//                dd($mainImage);
+
+                // Delete old image
+                if(!empty($mainImage->path)){
+                    $oldPath = asset('storage/portofolios/'. $mainImage->path);
+                    if(file_exists($oldPath)) unlink($oldPath);
+                }
+
                 if(!empty($mainImage)){
                     $mainImage->delete();
                 }
 
-                    $img = Image::make($mainImages);
-                    $extStr = $img->mime();
-                    $ext = explode('/', $extStr, 2);
-                    $filename = $portofolio->id.'_main_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
+                $img = Image::make($mainImages);
+                $extStr = $img->mime();
+                $ext = explode('/', $extStr, 2);
+                $filename = $portofolio->id.'_main_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-                    $img->save(public_path('storage/portofolios/'. $filename), 75);
+                $img->save(public_path('storage/portofolios/'. $filename), 75);
 
-                    $newPortofolioImage = PortofolioImage::create([
-                        'portofolio_id' => $portofolio->id,
-                        'path' => $filename,
-                        'is_main_image' => 1,
-                        'is_thumbnail' => 0,
-                    ]);
+                PortofolioImage::create([
+                    'portofolio_id' => $portofolio->id,
+                    'path' => $filename,
+                    'is_main_image' => 1,
+                    'is_thumbnail' => 0,
+                ]);
             }
-            if(!empty($detailImages)){
-//                dd($detailImages);
-                $detailImage = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->where('is_thumbnail', 0)->get();
+            if($request->hasFile('detail_image')){
+                $changedDetailImages = $request->file('detail_image');
+                $detailImages = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->where('is_thumbnail', 0)->get();
 
-                foreach($detailImage as $image){
+                // Delete old image
+                foreach ($detailImages as $oldImage){
+                    if(!empty($oldImage->path)){
+                        $oldPath = asset('storage/portofolios/'. $oldImage->path);
+                        if(file_exists($oldPath)) unlink($oldPath);
+                    }
+                }
+
+                foreach($changedDetailImages as $image){
                     $image->delete();
                 }
 
-                for($i=0;$i<sizeof($detailImages);$i++){
+                for($i = 0; $i < sizeof($detailImages); $i++){
                     $img = Image::make($detailImages[$i]);
                     $extStr = $img->mime();
                     $ext = explode('/', $extStr, 2);
@@ -244,7 +251,7 @@ class PortofolioController extends Controller
 
                     $img->save(public_path('storage/portofolios/'. $filename), 75);
 
-                    $newPortofolioImage = PortofolioImage::create([
+                    PortofolioImage::create([
                         'portofolio_id' => $portofolio->id,
                         'path' => $filename,
                         'is_main_image' => 0,

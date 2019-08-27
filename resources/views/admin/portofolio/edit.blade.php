@@ -6,7 +6,7 @@
         <div class="container-fluid text-white">
             <div class="row p-t-b-10 ">
                 <div class="col">
-                    <h4> <i class="icon-table"></i> Edit Product</h4>
+                    <h4> <i class="icon-table"></i> Ubah Data Portofolio</h4>
                 </div>
             </div>
         </div>
@@ -41,19 +41,18 @@
                                             <div class="col-md-12">
                                                 <div class="row">
                                                     <div class="col-md-6 mb-3">
-                                                        <label class="form-label">Upload Main Image *</label>
+                                                        <label class="form-label">Ubah Gambar Utama</label>
                                                         @if(!empty($mainImage))
                                                             <img src="{{ asset('storage/portofolios/'.$mainImage->path) }}" style="width: 200px;height: auto;">
                                                         @endif
                                                     </div>
                                                     <div class="col-md-6 mb-3">
-                                                        {{--<input type="file" name="PhotoPosted" id="PhotoPosted" class="file-loading">--}}
                                                         {!! Form::file('main_image', array('id' => 'main_image', 'class' => 'file-loading', 'accept' => 'image/*,application/pdf')) !!}
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 mb-3">
-                                                        <label class="form-label">Upload Detail Image *</label>
+                                                        <label class="form-label">Ubah Gambar Lain</label>
                                                         <br>
                                                         @if($detailImage->count() > 0)
                                                             @foreach($detailImage as $image)
@@ -67,21 +66,20 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-12 mb-3">
-                                                        <label for="category">Category</label>
+                                                        <label for="category">Kategori</label>
                                                         <select id="category" name="category" class="custom-select form-control">
-                                                            <option value="-1">Select Product Category</option>
                                                             @foreach($categories as $category)
                                                                 <option value="{{ $category->id }}" @if($category->id == $portofolio->category_id) selected @endif > {{ $category->name }}</option>
                                                             @endforeach
                                                         </select>
                                                     </div>
                                                     <div class="col-md-12 mb-3">
-                                                        <label for="validationCustom01">Portofolio Name</label>
-                                                        <input type="text" name="name" class="form-control" value="{{$portofolio->name}}" required>
+                                                        <label for="name">Nama Portofolio</label>
+                                                        <input type="text" id="name" name="name" class="form-control" value="{{ $portofolio->name }}" required>
                                                     </div>
                                                     <div class="col-md-12 mb-3">
-                                                        <label for="sku">Portofolio Location</label>
-                                                        <input type="text" class="form-control" id="location" name="location" value="{{$portofolio->location}}" required>
+                                                        <label for="location">Lokasi</label>
+                                                        <input type="text" class="form-control" id="location" name="location" value="{{ $portofolio->location }}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row">
