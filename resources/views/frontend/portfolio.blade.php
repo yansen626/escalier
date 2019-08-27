@@ -64,22 +64,21 @@
                         @foreach($officePortofolios as $portofolio)
                             <div class="col-md-4 col-12">
                                 @php
-                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
+                                    $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
                                     <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                          class="img-fluid rounded">
                                 </a>
-                                @if($portofolio->portofolio_images->count() > 1)
-                                    @foreach($portofolio->portofolio_images as $image)
-                                        @if($image->is_main_image === 0)
-                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                               data-toggle="lightbox1" data-gallery="gallery1">
-                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                                     class="img-fluid rounded">
-                                            </a>
-                                        @endif
+                                @if($otherImages->count() > 0)
+                                    @foreach($otherImages as $image)
+                                        <a href="{{ asset('storage/portofolios/'. $image->path) }}"
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}" class="d-none">
+                                            <img src="{{ asset('storage/portofolios/'. $image->path) }}"
+                                                 class="img-fluid rounded">
+                                        </a>
                                     @endforeach
                                 @endif
                                 <div class="text-left spaces-portfolio-responsive">
@@ -96,23 +95,24 @@
                     <div class="row pb-5">
                         @foreach($visualPortofolios as $portofolio)
                             <div class="col-md-4 col-12">
+
                                 @php
-                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
+                                    $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
                                     <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                          class="img-fluid rounded">
                                 </a>
-                                @if($portofolio->portofolio_images->count() > 1)
-                                    @foreach($portofolio->portofolio_images as $image)
-                                        @if($image->is_main_image === 0)
-                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                               data-toggle="lightbox1" data-gallery="gallery1">
-                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                                     class="img-fluid rounded">
-                                            </a>
-                                        @endif
+
+                                @if($otherImages->count() > 0)
+                                    @foreach($otherImages as $image)
+                                        <a href="{{ asset('storage/portofolios/'. $image->path) }}"
+                                           data-toggle="lightbox1" data-gallery="gallery1">
+                                            <img src="{{ asset('storage/portofolios/'. $image->path) }}"
+                                                 class="img-fluid rounded">
+                                        </a>
                                     @endforeach
                                 @endif
                                 <div class="text-left spaces-portfolio-responsive">
@@ -130,22 +130,21 @@
                         @foreach($residentialPortofolios as $portofolio)
                             <div class="col-md-4 col-12">
                                 @php
-                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
+                                    $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
                                     <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                          class="img-fluid rounded">
                                 </a>
-                                @if($portofolio->portofolio_images->count() > 1)
-                                    @foreach($portofolio->portofolio_images as $image)
-                                        @if($image->is_main_image === 0)
-                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                               data-toggle="lightbox1" data-gallery="gallery1">
-                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                                     class="img-fluid rounded">
-                                            </a>
-                                        @endif
+                                @if($otherImages->count() > 0)
+                                    @foreach($otherImages as $image)
+                                        <a href="{{ asset('storage/portofolios/'. $image->path) }}"
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                            <img src="{{ asset('storage/portofolios/'. $image->path) }}"
+                                                 class="img-fluid rounded">
+                                        </a>
                                     @endforeach
                                 @endif
                                 <div class="text-left spaces-portfolio-responsive">
@@ -163,22 +162,21 @@
                         @foreach($commercialPortofolios as $portofolio)
                             <div class="col-md-4 col-12">
                                 @php
-                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first()
+                                    $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
+                                    $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
                                     <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                          class="img-fluid rounded">
                                 </a>
-                                @if($portofolio->portofolio_images->count() > 1)
-                                    @foreach($portofolio->portofolio_images as $image)
-                                        @if($image->is_main_image === 0)
-                                            <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                               data-toggle="lightbox1" data-gallery="gallery1">
-                                                <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                                     class="img-fluid rounded">
-                                            </a>
-                                        @endif
+                                @if($otherImages->count() > 0)
+                                    @foreach($otherImages as $image)
+                                        <a href="{{ asset('storage/portofolios/'. $image->path) }}"
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                            <img src="{{ asset('storage/portofolios/'. $image->path) }}"
+                                                 class="img-fluid rounded">
+                                        </a>
                                     @endforeach
                                 @endif
                                 <div class="text-left spaces-portfolio-responsive">
@@ -403,9 +401,33 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 <script>
-    $(document).on("click", '[data-toggle="lightbox1"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
+
+    @foreach($officePortofolios as $portofolio)
+        $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    @endforeach
+
+    @foreach($visualPortofolios as $portofolio)
+        $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    @endforeach
+
+    @foreach($residentialPortofolios as $portofolio)
+        $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    @endforeach
+
+    @foreach($commercialPortofolios as $portofolio)
+        $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    @endforeach
 </script>
 @endsection

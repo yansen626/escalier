@@ -11,7 +11,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
  * Class PortofolioImage
- * 
+ *
  * @property int $id
  * @property int $portofolio_id
  * @property string $path
@@ -19,15 +19,13 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property bool $is_thumbnail
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
- * 
+ *
  * @property \App\Models\Portofolio $portofolio
  *
  * @package App\Models
  */
 class PortofolioImage extends Eloquent
 {
-	public $incrementing = false;
-
 	protected $casts = [
 		'id' => 'int',
 		'portofolio_id' => 'int',
@@ -44,6 +42,6 @@ class PortofolioImage extends Eloquent
 
 	public function portofolio()
 	{
-		return $this->belongsTo(\App\Models\Portofolio::class);
+		return $this->belongsTo(\App\Models\Portofolio::class, 'portofolio_id');
 	}
 }

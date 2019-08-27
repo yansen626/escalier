@@ -83,7 +83,6 @@ class PortofolioController extends Controller
                 'location'             => 'required',
             ]);
 
-
             if ($request->input('category') == "-1") {
                 return back()->withErrors("Category is required")->withInput($request->all());
             }
@@ -117,12 +116,7 @@ class PortofolioController extends Controller
             $ext = explode('/', $extStr, 2);
             $filename = $newPortofolio->id.'_main_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-            if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
-                $img->save(public_path('storage/portofolios/'. $filename), 75);
-            }
-            else{
-                $img->save('../public_html/storage/portofolios/'. $filename, 75);
-            }
+            $img->save(public_path('storage/portofolios/'. $filename), 75);
 
             $newPortofolioImage = PortofolioImage::create([
                 'portofolio_id' => $newPortofolio->id,
@@ -140,12 +134,7 @@ class PortofolioController extends Controller
 
                 $filename = $newPortofolio->id.'_'.$i.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-                if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
-                    $img->save(public_path('storage/portofolios/'. $filename), 75);
-                }
-                else{
-                    $img->save('../public_html/storage/portofolios/'. $filename, 75);
-                }
+                $img->save(public_path('storage/portofolios/'. $filename), 75);
 
                 $newPortofolioImage = PortofolioImage::create([
                     'portofolio_id' => $newPortofolio->id,
@@ -229,12 +218,7 @@ class PortofolioController extends Controller
                     $ext = explode('/', $extStr, 2);
                     $filename = $portofolio->id.'_main_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-                    if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
-                        $img->save(public_path('storage/portofolios/'. $filename), 75);
-                    }
-                    else{
-                        $img->save('../public_html/storage/portofolios/'. $filename, 75);
-                    }
+                    $img->save(public_path('storage/portofolios/'. $filename), 75);
 
                     $newPortofolioImage = PortofolioImage::create([
                         'portofolio_id' => $portofolio->id,
@@ -258,12 +242,7 @@ class PortofolioController extends Controller
 
                     $filename = $portofolio->id.'_'.$i.'_'.Carbon::now('Asia/Jakarta')->format('Ymdhms'). '.'. $ext[1];
 
-                    if(env('SERVER_HOST_URL') == 'http://localhost:8000/'){
-                        $img->save(public_path('storage/portofolios/'. $filename), 75);
-                    }
-                    else{
-                        $img->save('../public_html/storage/portofolios/'. $filename, 75);
-                    }
+                    $img->save(public_path('storage/portofolios/'. $filename), 75);
 
                     $newPortofolioImage = PortofolioImage::create([
                         'portofolio_id' => $portofolio->id,
