@@ -201,14 +201,13 @@ class PortofolioController extends Controller
             if($request->hasFile('main_image')){
                 $mainImages = $request->file('main_image');
                 $mainImage = PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 1)->first();
-
-                // Delete old image
-                if(!empty($mainImage->path)){
-                    $oldPath = asset('storage/portofolios/'. $mainImage->path);
-                    if(file_exists($oldPath)) unlink($oldPath);
-                }
-
                 if(!empty($mainImage)){
+                    // Delete old image
+                    if(!empty($mainImage->path)){
+                        $oldPath = asset('storage/portofolios/'. $mainImage->path);
+                        if(file_exists($oldPath)) unlink($oldPath);
+                    }
+
                     $mainImage->delete();
                 }
 
@@ -236,14 +235,11 @@ class PortofolioController extends Controller
                         $oldPath = asset('storage/portofolios/'. $oldImage->path);
                         if(file_exists($oldPath)) unlink($oldPath);
                     }
+                    $oldImage->delete();
                 }
 
-                foreach($changedDetailImages as $image){
-                    $image->delete();
-                }
-
-                for($i = 0; $i < sizeof($detailImages); $i++){
-                    $img = Image::make($detailImages[$i]);
+                for($i = 0; $i < sizeof($changedDetailImages); $i++){
+                    $img = Image::make($changedDetailImages[$i]);
                     $extStr = $img->mime();
                     $ext = explode('/', $extStr, 2);
 
@@ -253,9 +249,9 @@ class PortofolioController extends Controller
 
                     PortofolioImage::create([
                         'portofolio_id' => $portofolio->id,
-                        'path' => $filename,
+                        'path'          => $filename,
                         'is_main_image' => 0,
-                        'is_thumbnail' => 0,
+                        'is_thumbnail'  => 0,
                     ]);
                 }
             }
