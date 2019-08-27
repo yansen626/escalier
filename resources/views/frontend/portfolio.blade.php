@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade show pb-5" id="visualdisplay" role="tabpanel">
+            <div class="tab-pane fade show" id="visualdisplay" role="tabpanel">
                 <div class="container">
                     <div class="row pb-5">
                         @foreach($visualPortofolios as $portofolio)
@@ -264,7 +264,6 @@
             padding-left: 0px !important;
             padding-right: 0px !important;
             padding-bottom: 20px !important;
-            margin-top: -20px !important;
         }
 
         .header-img {
