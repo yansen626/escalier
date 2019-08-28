@@ -7,12 +7,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Escalier') }}</title>
+    <title>ESACALIER BACKEND</title>
     <link rel="icon" href="{{ asset('img/basic/favicon.ico') }}" type="image/x-icon">
 
 
     <!-- Styles -->
     <link href="{{ asset('css/backend/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/font-awesome-4.7.0/css/font-awesome.css') }}" rel="stylesheet">
 
     <style>
         .loader {

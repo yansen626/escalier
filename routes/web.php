@@ -97,6 +97,9 @@ Route::prefix('admin')->group(function(){
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
+
+    Route::get('/admin/change-password', 'Admin\AdminController@editPassword')->name('admin.change-password');
+    Route::post('/admin/change-password/save', 'Admin\AdminController@updatePassword')->name('admin.change-password.save');
 });
 
 Route::get('/datatable/portofolio', 'Admin\PortofolioController@getIndex')->name('datatables.portofolio');

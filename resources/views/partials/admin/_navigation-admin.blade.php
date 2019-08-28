@@ -3,7 +3,7 @@
     <aside class="main-sidebar fixed offcanvas shadow">
         <section class="sidebar">
             <div class="w-80px mt-3 mb-3 ml-3">
-                <img src="{{ asset('img/basic/logo.png') }}" alt="">
+{{--                <img src="{{ asset('images/escalier/logo-escalier-header.png') }}" alt="">--}}
             </div>
             <div class="relative">
                 <a data-toggle="collapse" href="#userSettingsCollapse" role="button" aria-expanded="false"
@@ -20,19 +20,19 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="collapse multi-collapse" id="userSettingsCollapse">
-                        <div class="list-group mt-3 shadow">
-                            <a href="#" class="list-group-item list-group-item-action ">
-                                <i class="mr-2 icon-umbrella text-blue"></i>Profile
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <i class="mr-2 icon-cogs text-yellow"></i>Settings
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <i class="mr-2 icon-security text-purple"></i>Change Password
-                            </a>
-                        </div>
-                    </div>
+{{--                    <div class="collapse multi-collapse" id="userSettingsCollapse">--}}
+{{--                        <div class="list-group mt-3 shadow">--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action ">--}}
+{{--                                <i class="mr-2 icon-umbrella text-blue"></i>Profile--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action">--}}
+{{--                                <i class="mr-2 icon-cogs text-yellow"></i>Settings--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="list-group-item list-group-item-action">--}}
+{{--                                <i class="mr-2 icon-security text-purple"></i>Change Password--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <ul class="sidebar-menu">

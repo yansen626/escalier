@@ -28,14 +28,10 @@
                             <i class="fa fa-chevron-down"></i>
                         </a>
                         <div class="dropdown-menu p-1">
-                            <div class="row box justify-content-between my-1">
-                                <div class="col">
-                                    <a href="{{ route('admin.logout') }}">
-                                    <i class="fa fa-clock-o"></i>
-                                    <div class="pt-1">Logout</div>
-                                    </a>
-                                </div>
-                            </div>
+                            <a href="{{ route('admin.logout') }}" class="list-group-item list-group-item-action"><i
+                                    class="mr-2 fa fa-sign-out text-red"></i>Log Out</a>
+                            <a href="{{ route('admin.change-password') }}" class="list-group-item list-group-item-action"><i
+                                    class="mr-2 fa fa-lock text-yellow"></i>Ganti Kata Sandi</a>
                         </div>
                     </li>
                 </ul>
