@@ -109,7 +109,7 @@
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
                                         <a href="{{ asset('storage/portofolios/'. $image->path) }}"
-                                           data-toggle="lightbox1" data-gallery="gallery1">
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}" class="d-none">
                                             <img src="{{ asset('storage/portofolios/'. $image->path) }}"
                                                  class="img-fluid rounded">
                                         </a>
@@ -141,7 +141,7 @@
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
                                         <a href="{{ asset('storage/portofolios/'. $image->path) }}"
-                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}" class="d-none">
                                             <img src="{{ asset('storage/portofolios/'. $image->path) }}"
                                                  class="img-fluid rounded">
                                         </a>
@@ -173,7 +173,7 @@
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
                                         <a href="{{ asset('storage/portofolios/'. $image->path) }}"
-                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
+                                           data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}" class="d-none">
                                             <img src="{{ asset('storage/portofolios/'. $image->path) }}"
                                                  class="img-fluid rounded">
                                         </a>

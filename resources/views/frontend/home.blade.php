@@ -379,14 +379,14 @@
 
 <section class="section-box" style="background-color:#f8f8f8;">
     <div class="container">
-        <div class="row pl-5">
-            <div class="col-md-4  col-12 pb-1">
-                <span class="custom-font-avenir-light">CORE VALUES</span>
+        <div class="row pl-0 pl-md-5">
+            <div class="col-md-4 col-12 pb-1 text-center text-md-left">
+                <span class="custom-font-avenir-light txt-sub-header-home">CORE VALUES</span>
                 <div class="col-md-8"></div>
             </div>
         </div>
-        <div class="row pl-5">
-            <div class="col-md-4 mb-md-0 mb-4">
+        <div class="row pl-0 pl-md-5">
+            <div class="col-md-4 mb-md-0 mb-5 text-center text-md-left">
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Detail is Matter for Us</span>
                 </div>
@@ -395,7 +395,7 @@
                         perfecting it with finest attention.</p>
                 </div>
             </div>
-            <div class="col-md-4 mb-md-0 mb-4">
+            <div class="col-md-4 mb-md-0 mb-5 text-center text-md-left">
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Communication</span>
                 </div>
@@ -406,7 +406,7 @@
                         excellence in every steps.</p>
                 </div>
             </div>
-            <div class="col-md-4 mb-md-0 mb-4">
+            <div class="col-md-4 mb-md-0 mb-4 text-center text-md-left">
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Speed</span>
                 </div>
@@ -420,10 +420,10 @@
     </div>
 </section>
 
-<section class="section-box">
+<section class="section-box d-none d-md-block">
     <div class="container">
         <div class="row pl-5">
-            <div class="col-md-4 col-12 pt-4 mb-md-0 mb-4">
+            <div class="col-md-4 col-12 pt-4">
                 <p class="pb-2 custom-font-avenir-light">ABOUT US</p>
                 <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
                 <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active custom-font-avenir-medium" role="button"
@@ -431,6 +431,26 @@
             </div>
             <div class="col-md-8">
                 <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" class="img-client-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-box d-block d-md-none">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 pt-4 mb-4 text-center">
+                <p class="pb-2 custom-font-avenir-light txt-sub-header-home">ABOUT US</p>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
+            </div>
+            <div class="col-12">
+                <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active custom-font-avenir-light" role="button"
+                   aria-pressed="true">View more</a>
             </div>
         </div>
     </div>
@@ -465,8 +485,12 @@
         width: auto;
     }
 
+    .txt-sub-header-home {
+        font-size: 12px;
+    }
+
     .txt-header-home {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .btn-paulmarc-more .w-25 {
@@ -505,6 +529,10 @@
 
         .m-b-50 {
             margin-bottom: 50px;
+        }
+
+        .txt-sub-header-home {
+            font-size: 16px;
         }
 
         .txt-header-home {

@@ -77,6 +77,18 @@
     background-color: #fff !important;
 }
 
+.logo-footer{
+    width: 120px;
+}
+
+.footer-font-size{
+    font-size: 12px;
+}
+
+.headoffice-footer{
+    padding-top: 10px;
+}
+
 @media (min-width: 576px) {
 
     .workshop-footer {
@@ -100,6 +112,14 @@
 
     .workshop-footer {
         padding-top: 55px;
+    }
+
+    .logo-footer{
+        width: 170px;
+    }
+
+    .footer-font-size{
+        font-size: 16px;
     }
 }
 
