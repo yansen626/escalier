@@ -3,7 +3,7 @@
 @section('head_and_title')
 <meta name="description" content="Escalier Portfolio">
 <meta name="author" content="PT. Generasi Muda Gigih">
-<meta name="keywords" content="Escalier, Property, Office, Residence, Apartment, House">
+<meta name="keywords" content="Escalier, Interior, Office, Residential, Apartment, Commercial, Spaces">
 
 <title>ESCALIER - PORTFOLIO</title>
 @endsection

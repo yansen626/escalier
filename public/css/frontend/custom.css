@@ -39,6 +39,10 @@
     height: 100px;
 }
 
+.fix-menu-desktop .wrap-menu-desktop{
+    height: 100px !important;
+}
+
 .main-menu .sub-menu .disabled-link {
     color: #726866 !important;
 }

@@ -12,11 +12,11 @@
             screenH1 = $(window).height() - 70;
         }
 
-        if ($(window).height() <= 660) { 
+        if ($(window).height() <= 660) {
             screenH1 = $(window).height() - 150;
         }
 
-        jQuery('#rev_slider_1').show().revolution({ 
+        jQuery('#rev_slider_1').show().revolution({
 
             responsiveLevels: [1200-17, 992-17, 768-17, 480-17],
             gridwidth:[1200, 992, 768, 480],
@@ -25,7 +25,7 @@
 
             spinner: 'spinner2',
             disableProgressBar:"on",
-            
+
             sliderLayout: 'fullwidth',
 
             navigation: {
@@ -35,17 +35,17 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
-                    enable: true,
+                    enable: false,
                     style: 'persephone',
                     hide_onleave: true,
                     hide_onmobile: true,
@@ -56,7 +56,7 @@
                         h_offset: 40,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -65,7 +65,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: false
                 }
@@ -84,7 +84,7 @@
         }
 
         jQuery('#rev_slider_2').show().revolution({
-            
+
             responsiveLevels: [1200-17, 992-17, 768-17, 480-17],
             gridwidth:[1200, 992, 768, 480],
             minHeight: screenH2,
@@ -92,7 +92,7 @@
 
             spinner: 'spinner2',
             disableProgressBar:"on",
-            
+
             sliderLayout: 'fullwidth',
 
             navigation: {
@@ -102,15 +102,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: true,
                     style: 'persephone',
@@ -123,7 +123,7 @@
                         h_offset: 40,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -132,7 +132,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: false
                 }
@@ -150,7 +150,7 @@
         }
 
         jQuery('#rev_slider_3').show().revolution({
-            
+
             responsiveLevels: [1900-17, 1368-17, 992-17, 480-17],
             gridwidth:[1900, 1368, 992, 480],
             minHeight: screenH3,
@@ -158,7 +158,7 @@
 
             spinner: 'spinner2',
             disableProgressBar:"on",
-            
+
             sliderLayout: 'fullwidth',
 
             navigation: {
@@ -168,15 +168,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: true,
                     style: 'persephone',
@@ -189,7 +189,7 @@
                         h_offset: 40,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -198,7 +198,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: false
                 }

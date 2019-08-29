@@ -89,26 +89,26 @@
             // $('#preloader').delay(100).fadeOut();
         });
 
-        $('#subscription_form').on('submit', function(e) {
-            e.preventDefault();
-            var name = $('#subscribe_name').val();
-            var email = $('#subscribe_email').val();
-            // alert(name);
+        {{--$('#subscription_form').on('submit', function(e) {--}}
+        {{--    e.preventDefault();--}}
+        {{--    var name = $('#subscribe_name').val();--}}
+        {{--    var email = $('#subscribe_email').val();--}}
+        {{--    // alert(name);--}}
 
-            $.ajax({
-                type: 'POST',
-                url: '{{ route('frontend.subscribe.save') }}',
-                datatype : "application/json",
-                data: {
-                    '_token': '{{ csrf_token() }}',
-                    'name': name,
-                    'email': email
-                }, // no need to stringify
-                success: function (result) {
-                    $('#subscribe_success_message').slideDown(500);
-                }
-            });
-        });
+        {{--    $.ajax({--}}
+        {{--        type: 'POST',--}}
+        {{--        url: '{{ route('frontend.subscribe.save') }}',--}}
+        {{--        datatype : "application/json",--}}
+        {{--        data: {--}}
+        {{--            '_token': '{{ csrf_token() }}',--}}
+        {{--            'name': name,--}}
+        {{--            'email': email--}}
+        {{--        }, // no need to stringify--}}
+        {{--        success: function (result) {--}}
+        {{--            $('#subscribe_success_message').slideDown(500);--}}
+        {{--        }--}}
+        {{--    });--}}
+        {{--});--}}
 
     </script>
     @yield('scripts')
