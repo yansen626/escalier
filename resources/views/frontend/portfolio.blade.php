@@ -62,15 +62,22 @@
                 <div class="container">
                     <div class="row pb-5">
                         @foreach($officePortofolios as $portofolio)
-                            <div class="col-md-4 col-12">
+                            <div class="col-md-4 col-12 mb-4">
                                 @php
                                     $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
                                     $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
-                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                         class="img-fluid rounded">
+                                    <div class="box-portofolio">
+                                        <div class="image-portofolio" style="background-image: url('{{ asset('storage/portofolios/'. $mainImage->path) }}')">
+
+                                        </div>
+                                        <div class="text-left spaces-portfolio-responsive">
+                                            <span class="custom-font-avenir-black text-dark">{{ $portofolio->name }}</span><br />
+                                            <span class="custom-font-avenir-light text-dark">{{ $portofolio->location }}</span>
+                                        </div>
+                                    </div>
                                 </a>
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
@@ -81,10 +88,6 @@
                                         </a>
                                     @endforeach
                                 @endif
-                                <div class="text-left spaces-portfolio-responsive">
-                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
-                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
-                                </div>
                             </div>
                         @endforeach
                     </div>
@@ -94,16 +97,22 @@
                 <div class="container">
                     <div class="row pb-5">
                         @foreach($visualPortofolios as $portofolio)
-                            <div class="col-md-4 col-12">
-
+                            <div class="col-md-4 col-12 mb-3">
                                 @php
                                     $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
                                     $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
-                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                         class="img-fluid rounded">
+                                    <div class="box-portofolio">
+                                        <div class="image-portofolio" style="background-image: url('{{ asset('storage/portofolios/'. $mainImage->path) }}')">
+
+                                        </div>
+                                        <div class="text-left spaces-portfolio-responsive">
+                                            <span class="custom-font-avenir-black text-dark">{{ $portofolio->name }}</span><br />
+                                            <span class="custom-font-avenir-light text-dark">{{ $portofolio->location }}</span>
+                                        </div>
+                                    </div>
                                 </a>
 
                                 @if($otherImages->count() > 0)
@@ -115,10 +124,6 @@
                                         </a>
                                     @endforeach
                                 @endif
-                                <div class="text-left spaces-portfolio-responsive">
-                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
-                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
-                                </div>
                             </div>
                         @endforeach
                     </div>
@@ -128,15 +133,22 @@
                 <div class="container">
                     <div class="row pb-5">
                         @foreach($residentialPortofolios as $portofolio)
-                            <div class="col-md-4 col-12">
+                            <div class="col-md-4 col-12 mb-3">
                                 @php
                                     $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
                                     $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
-                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                         class="img-fluid rounded">
+                                    <div class="box-portofolio">
+                                        <div class="image-portofolio" style="background-image: url('{{ asset('storage/portofolios/'. $mainImage->path) }}')">
+
+                                        </div>
+                                        <div class="text-left spaces-portfolio-responsive">
+                                            <span class="custom-font-avenir-black text-dark">{{ $portofolio->name }}</span><br />
+                                            <span class="custom-font-avenir-light text-dark">{{ $portofolio->location }}</span>
+                                        </div>
+                                    </div>
                                 </a>
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
@@ -147,10 +159,6 @@
                                         </a>
                                     @endforeach
                                 @endif
-                                <div class="text-left spaces-portfolio-responsive">
-                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
-                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
-                                </div>
                             </div>
                         @endforeach
                     </div>
@@ -160,15 +168,22 @@
                 <div class="container">
                     <div class="row pb-5">
                         @foreach($commercialPortofolios as $portofolio)
-                            <div class="col-md-4 col-12">
+                            <div class="col-md-4 col-12 mb-3">
                                 @php
                                     $mainImage = $portofolio->portofolio_images->where('is_main_image', 1)->first();
                                     $otherImages = \App\Models\PortofolioImage::where('portofolio_id', $portofolio->id)->where('is_main_image', 0)->get();
                                 @endphp
                                 <a href="{{ asset('storage/portofolios/'. $mainImage->path) }}"
                                    data-toggle="portofolio_{{ $portofolio->id }}" data-gallery="portofolio_gallery_{{ $portofolio->id }}">
-                                    <img src="{{ asset('storage/portofolios/'. $mainImage->path) }}"
-                                         class="img-fluid rounded">
+                                    <div class="box-portofolio">
+                                        <div class="image-portofolio" style="background-image: url('{{ asset('storage/portofolios/'. $mainImage->path) }}')">
+
+                                        </div>
+                                        <div class="text-left spaces-portfolio-responsive">
+                                            <span class="custom-font-avenir-black text-dark">{{ $portofolio->name }}</span><br />
+                                            <span class="custom-font-avenir-light text-dark">{{ $portofolio->location }}</span>
+                                        </div>
+                                    </div>
                                 </a>
                                 @if($otherImages->count() > 0)
                                     @foreach($otherImages as $image)
@@ -179,10 +194,6 @@
                                         </a>
                                     @endforeach
                                 @endif
-                                <div class="text-left spaces-portfolio-responsive">
-                                    <span class="custom-font-avenir-black">{{ $portofolio->name }}</span><br />
-                                    <span class="custom-font-avenir-light">{{ $portofolio->location }}</span>
-                                </div>
                             </div>
                         @endforeach
                     </div>
@@ -198,34 +209,22 @@
 
 
 <style type="text/css">
+    .box-portofolio{
+        margin: 0 auto;
+        width: 330px;
+        height: 390px;
+    }
+
+    .image-portofolio{
+        height: 330px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 7px;
+    }
+
     .spaces-portfolio-responsive {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 20px;
-    }
-
-    .slick-prev:before {
-
-        color: black;
-
-    }
-
-    .slick-next:before {
-
-        color: black;
-
-    }
-
-    .carousel-control-prev-icon {
-        z-index: 99999;
-    }
-
-    .carousel-control-prev {
-        filter: invert(100%);
-    }
-
-    .carousel-control-next {
-        filter: invert(100%);
+        padding-top: 1em;
     }
 
     .tab-content>.tab-pane,
@@ -260,12 +259,6 @@
             min-height: 150px;
         }
 
-        .spaces-portfolio-responsive {
-            padding-left: 0px !important;
-            padding-right: 0px !important;
-            padding-bottom: 20px !important;
-        }
-
         .header-img {
             min-height: 350px;
             background-size: 100%;
@@ -287,30 +280,17 @@
     }
 
     @media (min-width: 768px) {
-        .left-menu {}
-
-        .middle-menu {
-            border-bottom: 1px solid #333;
+        .box-portofolio{
+            width: 370px;
+            height: 430px;
         }
 
-        .right-menu {
-            border-bottom: 1px solid #333;
-        }
-
-        .left-menu {
-            border-right: 1px solid #333;
-            border-top: 1px solid #333;
-        }
-
-        .middle-menu {
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
-        }
-
-        .right-menu {
-            border-left: 1px solid #333;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
+        .image-portofolio{
+            height: 370px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 7px;
         }
     }
 
@@ -404,28 +384,36 @@
     @foreach($officePortofolios as $portofolio)
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
-            $(this).ekkoLightbox();
+            $(this).ekkoLightbox({
+                maxHeight: 500
+            });
         });
     @endforeach
 
     @foreach($visualPortofolios as $portofolio)
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
-            $(this).ekkoLightbox();
+            $(this).ekkoLightbox({
+                maxHeight: 500
+            });
         });
     @endforeach
 
     @foreach($residentialPortofolios as $portofolio)
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
-            $(this).ekkoLightbox();
+            $(this).ekkoLightbox({
+                maxHeight: 500
+            });
         });
     @endforeach
 
     @foreach($commercialPortofolios as $portofolio)
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
-            $(this).ekkoLightbox();
+            $(this).ekkoLightbox({
+                maxHeight: 500
+            });
         });
     @endforeach
 </script>
