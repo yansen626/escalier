@@ -211,12 +211,12 @@
 <style type="text/css">
     .box-portofolio{
         margin: 0 auto;
-        width: 330px;
-        height: 390px;
+        width: 290px;
+        height: 360px;
     }
 
     .image-portofolio{
-        height: 330px;
+        height: 300px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -276,6 +276,36 @@
 
         .right-menu {
             border-bottom: 1px solid #333;
+        }
+    }
+
+    @media (min-width: 350px) {
+        .box-portofolio{
+            width: 345px;
+            height: 430px;
+        }
+
+        .image-portofolio{
+            height: 370px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 7px;
+        }
+    }
+
+    @media (min-width: 400px) {
+        .box-portofolio{
+            width: 385px;
+            height: 430px;
+        }
+
+        .image-portofolio{
+            height: 370px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 7px;
         }
     }
 
