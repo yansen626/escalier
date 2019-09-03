@@ -22,7 +22,7 @@
     </div>
 </section>
 
-<section class="mt-5">
+<section class="mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-12">
