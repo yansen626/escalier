@@ -415,7 +415,7 @@
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox({
-                maxHeight: 500
+                maxWidth: 600
             });
         });
     @endforeach
@@ -424,7 +424,7 @@
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox({
-                maxHeight: 500
+                maxWidth: 600
             });
         });
     @endforeach
@@ -433,7 +433,7 @@
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox({
-                maxHeight: 500
+                maxWidth: 600
             });
         });
     @endforeach
@@ -442,7 +442,7 @@
         $(document).on("click", '[data-toggle="portofolio_{{ $portofolio->id }}"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox({
-                maxHeight: 500
+                maxWidth: 600
             });
         });
     @endforeach

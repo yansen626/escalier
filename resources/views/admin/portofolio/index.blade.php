@@ -37,6 +37,7 @@
                         <table id="demoGrid" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
                             <thead>
                             <tr>
+                                <th>Kategori</th>
                                 <th>Nama</th>
                                 <th>Lokasi</th>
                                 <th>Dibuat pada</th>
@@ -97,6 +98,7 @@
             ajax: '{!! route('datatables.portofolio') !!}',
             order: [ [0, 'asc'] ],
             columns: [
+                { data: 'category', name: 'category', class: 'text-center'},
                 { data: 'name', name: 'name', class: 'text-center'},
                 { data: 'location', name: 'location', class: 'text-center'},
                 { data: 'created_at', name: 'created_at', class: 'text-center', orderable: false, searchable: false,

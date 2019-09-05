@@ -31,6 +31,7 @@ class PortofolioTransformer extends TransformerAbstract
 
 
             return[
+                'category'          => $portofolio->category->name,
                 'name'              => $portofolio->name,
                 'location'          => $portofolio->location,
                 'created_at'        => $createdDate,
