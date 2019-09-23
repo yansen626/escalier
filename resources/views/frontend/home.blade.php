@@ -47,11 +47,11 @@
                         data-responsive_offset="off"
                         >BEGIN YOUR CHAPTER</h2> --}}
 
-                    {{-- <p class="tp-caption tp-resizeme caption-2"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:right;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                    <p class="tp-caption tp-resizeme caption-2 custom-font-playfair-displayregular"
+                        data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:right;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                         data-visibility="['on', 'on', 'on', 'on']"
 
-                        data-fontsize="['30', '30', '30', '25']"
+                        data-fontsize="['35', '35', '35', '30']"
                         data-lineheight="['39', '39', '39', '39']"
                         data-color="['#FFF']"
                         data-textAlign="['center', 'center', 'center', 'center']"
@@ -73,9 +73,8 @@
                         data-basealign="slide"
                         data-responsive_offset="off"
                         >
-                        <Span>This is not only a home. This Home is a witness to</span>
-                        <span>those who live their story.<span>
-                        </p> --}}
+                        <span>Ensuring Excellence in Every Step</span>
+                        </p>
 
                     {{-- <div class="tp-caption tp-resizeme caption-3 flex-wr-c-c d-flex"
                         data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -295,6 +294,9 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;">
+                <div class="box h-100 d-flex justify-content-center flex-column text-center custom-font-playfair-displayregular text-white">
+                    <span style="font-size: 20px;">Ensuring Excellence in Every Step</span>
+                </div>
             </div>
         </div>
     </div>
@@ -403,7 +405,7 @@
                     <p class="custom-font-avenir-medium">Client’s satisfaction is our priority. Our
                         professional designers are dedicated to listen
                         and cater the best service to our clients, ensuring
-                        excellence in every steps.</p>
+                        excellence in every step.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-md-0 mb-4 text-center text-md-left">
@@ -470,7 +472,7 @@
     }
 
     .header-mobile-img {
-        min-height: 190px;
+        height: 190px;
     }
 
     .img-client-responsive {

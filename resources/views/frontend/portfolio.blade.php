@@ -16,6 +16,9 @@
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: cover;">
+            <div class="box h-100 d-flex justify-content-center flex-column text-center custom-font-playfair-displayregular text-white">
+                <span class="header-portfolio-text">Ending it With a High Note</span>
+            </div>
         </div>
     </div>
 </div>
@@ -209,6 +212,10 @@
 
 
 <style type="text/css">
+    .header-img{
+        height: 190px;
+    }
+
     .box-portofolio{
         margin: 0 auto;
         width: 290px;
@@ -253,30 +260,8 @@
 
     }
 
-    /* bootstrap hack end */
-    @media (max-width: 576px) {
-        .header-top-img {
-            min-height: 150px;
-        }
-
-        .header-img {
-            min-height: 350px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            height: 100%;
-        }
-
-        .left-menu {
-            border-bottom: 1px solid #333;
-        }
-
-        .middle-menu {
-            border-bottom: 1px solid #333;
-        }
-
-        .right-menu {
-            border-bottom: 1px solid #333;
-        }
+    .header-portfolio-text{
+        font-size: 20px;
     }
 
     @media (min-width: 350px) {
@@ -310,6 +295,10 @@
     }
 
     @media (min-width: 768px) {
+        .header-img{
+            height: 500px;
+        }
+
         .box-portofolio{
             width: 370px;
             height: 430px;
@@ -322,24 +311,15 @@
             background-size: cover;
             border-radius: 7px;
         }
+
+        .header-portfolio-text{
+            font-size: 35px;
+        }
     }
 
     @media (max-width: 992px) {}
 
     @media (min-width: 1024px) {
-        .header-top-img {
-            min-height: 350px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            height: 100%;
-        }
-
-        .header-img {
-            min-height: 350px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            height: 100%;
-        }
 
         .left-menu {
             border-right: 1px solid #333;
@@ -376,7 +356,13 @@
         }
 
         .tab-nav {
-            border: 1px solid #333;
+            border-top: 1px solid #333;
+            border-left: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+
+        .tab-nav:last-child{
+            border-right: 1px solid #333;
         }
     }
 
@@ -397,10 +383,6 @@
             text-align: center;
             vertical-align: middle;
             line-height: 90px;
-        }
-
-        .header-img {
-            min-height: 500px;
         }
     }
 </style>
