@@ -24,32 +24,32 @@
 </div>
 
 
-<section class="bg-0 p-t-0 p-b-10 pt-5">
+<section class="bg-0 p-t-0 p-b-10 pt-4">
     <div class="container">
         <!-- Title section -->
         <div class="row">
-            <div class="p-b-50 col-md-12 col-sm-12 col-xs-12 col-lg-12">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                 <!-- Tab02 -->
                 <div class="p-t-20 text-center">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs mb-5" role="tablist">
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link active text-dark custom-font-avenir-light" data-toggle="tab" href="#office" role="tab">Office
+                            <a class="nav-link active text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#office" role="tab">Office
                                 Spaces</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#visualdisplay" role="tab"
+                            <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#visualdisplay" role="tab"
                                 id="tabFloor">Visual Display Units</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#residential" role="tab"
+                            <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#residential" role="tab"
                                 id="tabUnit">Residential Spaces</a>
                         </li>
 
                         <li class="nav-item col-md-3 col-12 p-0 tab-nav">
-                            <a class="nav-link text-dark custom-font-avenir-light" data-toggle="tab" href="#commercial" role="tab">Commercial
+                            <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#commercial" role="tab">Commercial
                                 Spaces</a>
                         </li>
                     </ul>
@@ -264,6 +264,35 @@
         font-size: 20px;
     }
 
+    .nav-tabs{
+        border: none !important;
+    }
+
+    .tab-nav {
+        border: none !important;
+    }
+
+    .nav-link.active.nav-custom-box{
+        border-radius: 18px !important;
+        background-color: #0e955e;
+        margin: 10px;
+        color: #fff !important;
+        padding: 12px 0;
+    }
+
+    .nav-custom-box{
+        border-radius: 18px !important;
+        background-color: #000;
+        margin: 10px;
+        color: #fff !important;
+        padding: 12px 0;
+    }
+
+    .nav-link.nav-custom-box:hover{
+        background-color: #0e955e;
+        color: #fff !important;
+    }
+
     @media (min-width: 350px) {
         .box-portofolio{
             width: 345px;
@@ -355,15 +384,15 @@
             line-height: 90px;
         }
 
-        .tab-nav {
-            border-top: 1px solid #333;
-            border-left: 1px solid #333;
-            border-bottom: 1px solid #333;
-        }
+        /*.tab-nav {*/
+        /*    border-top: 1px solid #333;*/
+        /*    border-left: 1px solid #333;*/
+        /*    border-bottom: 1px solid #333;*/
+        /*}*/
 
-        .tab-nav:last-child{
-            border-right: 1px solid #333;
-        }
+        /*.tab-nav:last-child{*/
+        /*    border-right: 1px solid #333;*/
+        /*}*/
     }
 
     @media (min-width: 1200px) {
