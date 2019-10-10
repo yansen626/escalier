@@ -287,20 +287,20 @@
 </section>
 
 {{-- Mobile banner --}}
-<div class="container-fluid d-md-none d-block p-0">
-    <div class="row no-gutters">
-        <div class="col-12">
-            <div class="w-100 header-mobile-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;">
-                <div class="box h-100 d-flex justify-content-center flex-column text-center custom-font-playfair-displayregular text-white">
-                    <span style="font-size: 20px;">Ensuring Excellence in Every Step</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="container-fluid d-md-none d-block p-0">--}}
+{{--    <div class="row no-gutters">--}}
+{{--        <div class="col-12">--}}
+{{--            <div class="w-100 header-mobile-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');--}}
+{{--                background-repeat: no-repeat;--}}
+{{--                background-position: center;--}}
+{{--                background-size: cover;">--}}
+{{--                <div class="box h-100 d-flex justify-content-center flex-column text-center custom-font-playfair-displayregular text-white">--}}
+{{--                    <span style="font-size: 20px;">Ensuring Excellence in Every Step</span>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 <!-- Who we are Desktop -->
 <section class="section-box d-none d-md-block" style="background-color:#f8f8f8;">
@@ -321,6 +321,7 @@
     </div>
 </section>
 
+<!-- What Inspire Us Desktop -->
 <section class="section-box d-none d-md-block">
     <div class="container">
         <div class="row pl-5">
@@ -344,29 +345,55 @@
 
 
 {{-- Mobile Section Who we are --}}
-<section class="section-box d-block d-md-none" style="background-color:#f8f8f8;">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home text-center">WHO WE ARE</h2>
-                <div class=" px-4 pt-4 text-justify">
-                    <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest
-                        interior experience, developed and customized elegantly to individual needs. Escalier commits to
-                        deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional
-                        ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in
-                        every stroke.</p>
+{{--<section class="section-box d-block d-md-none" style="background-color:#f8f8f8;">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12">--}}
+{{--                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home text-center">WHO WE ARE</h2>--}}
+{{--                <div class=" px-4 pt-4 text-justify">--}}
+{{--                    <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest--}}
+{{--                        interior experience, developed and customized elegantly to individual needs. Escalier commits to--}}
+{{--                        deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional--}}
+{{--                        ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in--}}
+{{--                        every stroke.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
+
+<!-- Who We Are Mobile -->
+<div class="container-fluid p-0 mb-5 d-md-none d-block">
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div class="w-100 header-mobile-img" style="background-image: url('{{ asset('images/escalier/home/header-photo.jpg') }}');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;">
+                <div class="box h-100 d-flex justify-content-center flex-column text-center text-white">
+                    <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
+                    <h2 class="t1-b-1 custom-font-playfair-displayregular text-white txt-header-home text-center">WHO WE ARE</h2>
+                    <div class=" px-4 pt-4">
+                        <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest
+                            interior experience, developed and customized elegantly to individual needs. Escalier commits to
+                            deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional
+                            ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in
+                            every stroke.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
-<section class="section-box d-block d-md-none">
+<!-- What Inspire Us Mobile -->
+<section class="mb-5 d-block d-md-none">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home text-center">WHAT INSPIRE US</h2>
-                <div class="px-4 pt-3 text-justify">
+            <div class="col-12 text-center">
+                <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home">WHAT INSPIRE US</h2>
+                <div class="px-4 pt-3">
                     <p class="custom-font-avenir-medium">We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
                         philosophy, Escalier understands the importance of process from the
@@ -378,7 +405,28 @@
     </div>
 </section>
 
+<!-- Trusted Work Mobile -->
+<section class="mb-5 d-block d-md-none">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 mb-4 text-center">
+                <p class="pb-2 custom-font-avenir-light txt-sub-header-home">ABOUT US</p>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
+            </div>
+            <div class="col-12">
+                <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active custom-font-avenir-light" role="button"
+                   aria-pressed="true">View more</a>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Core Values Responsive -->
 <section class="section-box" style="background-color:#f8f8f8;">
     <div class="container">
         <div class="row pl-0 pl-md-5">
@@ -392,7 +440,7 @@
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Detail is Matter for Us</span>
                 </div>
-                <div class="pr-2">
+                <div class="pr-md-2 pl-md-0 px-4">
                     <p class="custom-font-avenir-medium">We understands how details matter. We are committed to craft the best designs for our clients,
                         perfecting it with finest attention.</p>
                 </div>
@@ -401,7 +449,7 @@
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Communication</span>
                 </div>
-                <div class="pr-2">
+                <div class="pr-md-2 pl-md-0 px-4">
                     <p class="custom-font-avenir-medium">Client’s satisfaction is our priority. Our
                         professional designers are dedicated to listen
                         and cater the best service to our clients, ensuring
@@ -412,7 +460,7 @@
                 <div class="pb-4">
                     <span class="custom-font-playfair-displayregular" style="font-size: 20px;">Speed</span>
                 </div>
-                <div class="pr-2">
+                <div class="pr-md-2 pl-md-0 px-4">
                     <p class="custom-font-avenir-medium">We highly value your time. Our commitment is to
                         deliver your needs in speed, without
                         compromising the quality in the execution.</p>
@@ -422,6 +470,7 @@
     </div>
 </section>
 
+<!-- Trusted Work Desktop -->
 <section class="section-box d-none d-md-block">
     <div class="container">
         <div class="row pl-5">
@@ -433,26 +482,6 @@
             </div>
             <div class="col-md-8">
                 <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" class="img-client-responsive">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section-box d-block d-md-none">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 pt-4 mb-4 text-center">
-                <p class="pb-2 custom-font-avenir-light txt-sub-header-home">ABOUT US</p>
-                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark pb-2 txt-header-home">TRUSTED WORK</h2>
-            </div>
-            <div class="col-12">
-                <img src="{{ asset('images/escalier/home/website-escalier_16.png') }}" style="width: 100%;">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <a href="{{ route('frontend.about') }}" class="btn btn-secondary btn-sm active custom-font-avenir-light" role="button"
-                   aria-pressed="true">View more</a>
             </div>
         </div>
     </div>
@@ -472,7 +501,7 @@
     }
 
     .header-mobile-img {
-        height: 190px;
+        height: 500px;
     }
 
     .img-client-responsive {
@@ -492,7 +521,7 @@
     }
 
     .txt-header-home {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .btn-paulmarc-more .w-25 {
