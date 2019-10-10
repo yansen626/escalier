@@ -30,9 +30,9 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                 <!-- Tab02 -->
-                <div class="p-t-20 text-center">
+                <div class="text-center">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs mb-5" role="tablist">
+                    <ul class="nav nav-tabs mb-3" role="tablist">
                         <li class="nav-item col-md-3 col-6 p-0 tab-nav">
                             <a class="nav-link active text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#office" role="tab">Office
                                 Spaces</a>
@@ -275,7 +275,7 @@
     .nav-link.active.nav-custom-box{
         border-radius: 18px !important;
         background-color: #0e955e;
-        margin: 10px;
+        margin: 5px;
         color: #fff !important;
         padding: 12px 0;
     }
@@ -283,7 +283,7 @@
     .nav-custom-box{
         border-radius: 18px !important;
         background-color: #000;
-        margin: 10px;
+        margin: 5px;
         color: #fff !important;
         padding: 12px 0;
     }
@@ -328,6 +328,16 @@
             height: 500px;
         }
 
+        .nav-link.active.nav-custom-box{
+            margin: 10px;
+            padding: 12px 0;
+        }
+
+        .nav-custom-box{
+            margin: 10px;
+            padding: 12px 0;
+        }
+
         .box-portofolio{
             width: 370px;
             height: 430px;
@@ -346,7 +356,7 @@
         }
     }
 
-    @media (max-width: 992px) {}
+    @media (min-width: 992px) {}
 
     @media (min-width: 1024px) {
 

@@ -392,7 +392,8 @@
         <div class="row">
             <div class="col-12 text-center">
                 <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home">WHAT INSPIRE US</h2>
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home mb-3">WHAT INSPIRE US</h2>
+                <img src="{{ asset('images/escalier/home/what-inspire-us.jpg') }}" class="img-inspires-responsive">
                 <div class="px-4 pt-3">
                     <p class="custom-font-avenir-medium">We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
@@ -512,7 +513,7 @@
 
     .img-inspires-responsive {
         margin-top: 0;
-        height: 110px;
+        height: 130px;
         width: auto;
     }
 
