@@ -33,22 +33,22 @@
                 <div class="p-t-20 text-center">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs mb-5" role="tablist">
-                        <li class="nav-item col-md-3 col-12 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
                             <a class="nav-link active text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#office" role="tab">Office
                                 Spaces</a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-12 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
                             <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#visualdisplay" role="tab"
                                 id="tabFloor">Visual Display Units</a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-12 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
                             <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#residential" role="tab"
                                 id="tabUnit">Residential Spaces</a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-12 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
                             <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#commercial" role="tab">Commercial
                                 Spaces</a>
                         </li>
