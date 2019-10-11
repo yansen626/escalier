@@ -373,8 +373,8 @@
                 <div class="box h-100 d-flex justify-content-center flex-column text-center text-white">
                     <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
                     <h2 class="t1-b-1 custom-font-playfair-displayregular text-white txt-header-home text-center">WHO WE ARE</h2>
-                    <div class=" px-4 pt-4">
-                        <p class="custom-font-avenir-medium">Serving as an interior build and design company, Escalier strives to deliver the finest
+                    <div class="px-5 pt-4">
+                        <p class="custom-font-avenir-medium" style="font-size: 10px;">Serving as an interior build and design company, Escalier strives to deliver the finest
                             interior experience, developed and customized elegantly to individual needs. Escalier commits to
                             deliver excellence, ensuring satisfaction at its best. Whether for a homey or professional
                             ambience, Escalier devotes to craft an ideal yet passionate design, leading to perfection in
@@ -392,9 +392,9 @@
         <div class="row">
             <div class="col-12 text-center">
                 <span class="pb-2 custom-font-avenir-light">ABOUT US</span>
-                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home mb-3">WHAT INSPIRE US</h2>
-                <img src="{{ asset('images/escalier/home/what-inspire-us.jpg') }}" class="img-inspires-responsive">
-                <div class="px-4 pt-3">
+                <h2 class="t1-b-1 custom-font-playfair-displayregular text-dark txt-header-home mb-4">WHAT INSPIRE US</h2>
+                <img src="{{ asset('images/escalier/home/what-inspire-us.jpg') }}" class="img-inspires-responsive mb-4">
+                <div class="px-4 pt-2">
                     <p class="custom-font-avenir-medium">We envision an escalating curve as we progress through time, connecting
                         and delivering each need with utmost perfection. Through a French
                         philosophy, Escalier understands the importance of process from the
@@ -502,7 +502,7 @@
     }
 
     .header-mobile-img {
-        height: 500px;
+        height: 650px;
     }
 
     .img-client-responsive {
