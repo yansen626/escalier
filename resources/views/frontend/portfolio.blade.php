@@ -33,24 +33,54 @@
                 <div class="text-center">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs mb-3" role="tablist">
-                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
-                            <a class="nav-link active text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#office" role="tab">Office
-                                Spaces</a>
+                        <li class="nav-item col-md-3 col-3 p-0 tab-nav">
+                            <a class="nav-link active text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#office" role="tab">
+                                <div class="d-none d-md-block">
+                                    Office Spaces
+                                </div>
+                                <div class="d-block d-md-none">
+                                    Office<br/>
+                                    Spaces
+                                </div>
+                            </a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-3 p-0 tab-nav">
                             <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#visualdisplay" role="tab"
-                                id="tabFloor">Visual Display Units</a>
+                                id="tabFloor">
+                                <div class="d-none d-md-block">
+                                    Display Units
+                                </div>
+                                <div class="d-block d-md-none">
+                                    Display<br/>
+                                    Units
+                                </div>
+                            </a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
+                        <li class="nav-item col-md-3 col-3 p-0 tab-nav">
                             <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#residential" role="tab"
-                                id="tabUnit">Residential Spaces</a>
+                                id="tabUnit">
+                                <div class="d-none d-md-block">
+                                    Residential Spaces
+                                </div>
+                                <div class="d-block d-md-none">
+                                    Residential<br/>
+                                    Spaces
+                                </div>
+                            </a>
                         </li>
 
-                        <li class="nav-item col-md-3 col-6 p-0 tab-nav">
-                            <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#commercial" role="tab">Commercial
-                                Spaces</a>
+                        <li class="nav-item col-md-3 col-3 p-0 tab-nav">
+                            <a class="nav-link text-dark custom-font-avenir-light nav-custom-box" data-toggle="tab" href="#commercial" role="tab">
+                                <div class="d-none d-md-block">
+                                    Commercial Spaces
+                                </div>
+                                <div class="d-block d-md-none">
+                                    Commercial<br/>
+                                    Spaces
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -278,6 +308,7 @@
         margin: 5px;
         color: #fff !important;
         padding: 12px 0;
+        font-size: 11px;
     }
 
     .nav-custom-box{
@@ -286,6 +317,7 @@
         margin: 5px;
         color: #fff !important;
         padding: 12px 0;
+        font-size: 11px;
     }
 
     .nav-link.nav-custom-box:hover{
@@ -331,11 +363,13 @@
         .nav-link.active.nav-custom-box{
             margin: 10px;
             padding: 12px 0;
+            font-size: 15px;
         }
 
         .nav-custom-box{
             margin: 10px;
             padding: 12px 0;
+            font-size: 15px;
         }
 
         .box-portofolio{
